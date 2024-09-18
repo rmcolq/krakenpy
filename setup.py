@@ -21,7 +21,7 @@ setup(name='kraken_utils',
       author_email='rachel.colquhoun@ed.ac.uk',
       entry_points="""
       [console_scripts]
-      {program} = pangolin_data.command:main
+      {program} = kraken_utils.command:main
       """.format(program = _program),
       include_package_data=True,
       keywords=[],
