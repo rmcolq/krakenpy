@@ -17,34 +17,77 @@ def trim_read_id(read_id):
 
     return read_id
 
-
-def parse_kraken_assignment_line(line):
+class KrakenAssignmentEntry:
     """
-    Parses the read_id and taxon_id from a line in the kraken assignment file.
+    A class representing a line in a kraken assignment file.
 
-    Parameters:
-        line (str): A line from kraken assignment file.
-
-    Returns:
-        taxon_id (str): The NCBI taxon identifier.
-        read_id (str): trimmed read identifier.
+    Attributes:
+        classified (str): C if read classified, U if unclassified
+        read_id (str): The read name
+        taxon_id (str): The NCBI taxon identifier
+        length (int): Length of read in bp
+        kmer_string (str): space separated string representing the taxon_ids matched along the read
     """
-    line_vals = line.strip().split("\t")
-    if len(line_vals) < 5:
-        return -1, ""
-    if "taxid" in line_vals[2]:
-        temp = line_vals[2].split("taxid ")[-1]
-        taxon_id = temp[:-1]
-    else:
-        taxon_id = line_vals[2]
+    def __init__(self, line=None):
+        """
+        Initializes an KrakenAssignmentEntry object.
 
-    read_id = trim_read_id(line_vals[1])
+        Parameters:
+            row (str): A row from a kraken file
+        """
+        self.classified = "U"
+        self.read_id = ""
+        self.taxon_id = "0"
+        self.length = 0
+        self.kmer_string = ""
+        if line is not None:
+            self.add_line(line)
 
-    if taxon_id == "A":
-        taxon_id = "81077"
-    else:
-        taxon_id = taxon_id
-    return taxon_id, read_id
+    def add_line(self, line):
+        """
+        Parses the line in the kraken assignment file.
+
+        Parameters:
+            line (str): A line from kraken assignment file.
+
+        """
+        num_fields = len(line.split("\t"))
+        if num_fields != 5:
+            sys.stderr.write(
+                f"Kraken assignment line {line} badly formatted - must have 5 fields"
+            )
+            sys.exit(11)
+        self.classified, self.read_id, self.taxon_id, length, self.kmer_string = line.strip().split("\t")
+        self.length = int(length)
+
+        if "taxid" in self.taxon_id:
+            temp = self.taxon_id.split("taxid ")[-1]
+            self.taxon_id = temp[:-1]
+
+        self.read_id = trim_read_id(self.read_id)
+
+        if self.taxon_id == "A":
+            self.taxon_id = "81077"
+
+    def declassify(self):
+        """
+            Changes the classified status of KrakenAssignmentEntry to unclassified
+        """
+        self.classified = "U"
+        self.taxon_id = "0"
+
+    def get_line(self):
+        """
+            Get string representation of KrakenAssignmentEntry
+        """
+        fields = [self.classified, self.read_id, self.taxon_id, str(self.length), self.kmer_string]
+        return "\t".join(fields)
+
+    def print(self):
+        """
+        Print the attributes of KrakenAssignmentEntry as a string
+        """
+        print(f"{self.get_line()}")
 
 
 class KrakenAssignments:
@@ -52,15 +95,20 @@ class KrakenAssignments:
     A class representing a kraken assignment file.
 
     Attributes:
-        file (str): Name of file to parse.
+        file_name (str): Name of file to parse.
+        load (bool): If set loads the contents of the file into memory
     """
-    def __init__(self, assignment_file):
+    def __init__(self, assignment_file, load=False):
         """
         Initializes an KrakenAssignments object.
         """
-        self.file = assignment_file
+        self.entries = defaultdict(KrakenAssignmentEntry)
+        self.file_name = assignment_file
 
-    def parse_kraken_assignment_file(self, taxon_id_map, parents=None):
+        if load:
+            self.load_file()
+
+    def get_read_map(self, taxon_id_map, parents=None):
         """
         Parses the kraken assignment file and collects the read_ids associated with each of the
         required taxon ids.
@@ -74,9 +122,10 @@ class KrakenAssignments:
                              read_id was classified as the taxon_id.
         """
         read_map = defaultdict(set)
-        with open(self.file, "r") as kfile:
+        with open(self.file_name, "r") as kfile:
             for line in kfile:
-                taxon_id, read_id = parse_kraken_assignment_line(line)
+                assignment = KrakenAssignment(line)
+                taxon_id, read_id = assignment.taxon_id, assignment.read_id
                 if taxon_id in taxon_id_map:
                     if read_id in read_map and taxon_id != read_map[read_id]:
                         del read_map[read_id]
@@ -94,4 +143,58 @@ class KrakenAssignments:
                             else:
                                 read_map[read_id].add(current)
         return read_map
+
+    def load_file(self, taxon_ids=None):
+        """
+        Loads all entries in the kraken assignment file. If this is a paired file and there is a clash, result is unclassified
+
+        Parameters:
+            taxon_ids (iterable): A subset of taxon_ids to retain assignment lines from.
+        """
+        with open(self.file_name, "r") as kfile:
+            for line in kfile:
+                assignment = KrakenAssignmentEntry(line)
+                if (taxon_ids and assignment.taxon_id in taxon_ids) or not taxon_ids:
+                    if assignment.read_id in self.entries and assignment.taxon_id != self.entries[assignment.read_id].taxon_id:
+                        self.entries[assignment.read_id].declassify()
+                    else:
+                        self.entries[assignment.read_id] = assignment
+
+    def update(self, update_file, changes=None):
+        """
+        Updates read assignments using new file with preference
+
+        Parameters:
+            update_file (path): A new assignment file.
+        """
+        if not changes:
+            changes = defaultdict(lambda : defaultdict(int))
+
+        new_assignments = KrakenAssignments(update_file, load=True)
+        if len(self.entries) == 0:
+            self.entries = new_assignments.entries
+            return
+
+        for entry in new_assignments.entries:
+            if entry.classified == "U":
+                if entry.read_id not in self.entries:
+                    self.entries[read_id] = entry
+                    changes["0"][entry.taxon_id] += 1
+
+            elif (entry.read_id in self.entries and
+                  entry.taxon_id != self.entries[entry.read_id].taxon_id):
+                old_taxon_id = self.entries[entry.read_id].taxon_id
+                new_taxon_id = entry.taxon_id
+                self.entries[entry.read_id] = entry
+                changes[old_taxon_id][new_taxon_id] += 1
+
+        return changes
+
+    def save(self):
+        """
+            Save the KrakenAssignments object in kraken assignment format
+        """
+        with open(self.file_name, "w") as out:
+            for entry in self.entries:
+                out.write(f"{entry.get_line()}\n")
 

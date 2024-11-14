@@ -106,6 +106,7 @@ class KrakenReport:
         unclassified (int): Number of unclassified reads.
         classified (int): Number of classified reads.
         domains (int): A dict with keys for names of domains and values for associated taxon id.
+        file_name (Path): File path for report
     """
     def __init__(self, file_name=None):
         """
@@ -119,8 +120,9 @@ class KrakenReport:
         self.unclassified = 0
         self.classified = 0
         self.domains = defaultdict(int)
+        self.file_name = file_name
         if file_name:
-            self.load_df(file_name)
+            self.load_file(file_name)
             self.unclassified = self.entries["0"].count
             self.classified = self.entries["1"].count
             self.total = self.classified + self.unclassified
@@ -174,7 +176,7 @@ class KrakenReport:
             if self.entries[entry_id].sibling_rank == 0:
                 print(entry_id)
 
-    def check_report(self, file_name):
+    def check_report(self):
         """
         Check every line in the kraken report has the appropriate number of tab separated fields
 
@@ -185,7 +187,7 @@ class KrakenReport:
             report_has_header (bool): True if report includes the header line
             num_fields (int) number of fields in a line [6,8]
         """
-        with open(file_name, 'r') as handle:
+        with open(self.file_name, 'r') as handle:
             line = handle.readline()
             num_fields = len(line.split("\t"))
             if num_fields not in [6,8]:
@@ -198,7 +200,7 @@ class KrakenReport:
             else:
                 return False, num_fields
 
-    def load_df(self, file_name):
+    def load_file(self, file_name):
         """
         Check every line in the kraken report has the appropriate number of tab separated fields
 
@@ -211,7 +213,7 @@ class KrakenReport:
         """
         csvfile = open(file_name, newline='')
         df = {}
-        report_has_header, num_fields = self.check_report((file_name))
+        report_has_header, num_fields = self.check_report()
         if report_has_header:
             df = csv.DictReader(csvfile, delimiter="\t")
         elif num_fields == 6:
@@ -393,3 +395,16 @@ class KrakenReport:
                     f"ERROR: found {self.entries[host_id].count} reads corresponding to host {self.entries[host_id].name} with taxon_id {host_id}, max allowed is {max_host_count}\n"
                     )
                 sys.exit(2)
+
+    def save(self):
+        """
+            Save the KrakenReport object in kraken report format
+        """
+        with open(self.file_name, "w") as out:
+            fieldnames = ["% of Seqs", "Clades", "Taxonomies", "Rank", "Taxonomy ID", "Scientific Name"]
+            header = '\t'.join(fieldnames)
+            out.write(f"{header}\n")
+            for entry in self.entries:
+                fields = [self.get_percentage(entry.taxon_id), entry.count, entry.ucount, entry.rank, entry.taxon_id, entry.name]
+                line = '\t'.join(fields)
+                out.write(f"{line}\n")

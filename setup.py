@@ -11,7 +11,8 @@ setup(name='kraken_utils',
       scripts=[
             'kraken_utils/taxonomy.py',
             'kraken_utils/assignment.py',
-            'kraken_utils/report.py'
+            'kraken_utils/report.py',
+            'kraken_utils/merge.py'
                 ],
       package_data={},
       install_requires=[],
