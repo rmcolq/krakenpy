@@ -3,6 +3,15 @@ from collections import defaultdict
 
 
 def trim_read_id(read_id):
+    """
+    Parses the read_id to remove forward/reverse identifier.
+
+    Parameters:
+        read_id (str): A read name.
+
+    Returns:
+        read_id (str): Trimmed read name without forward/reverse identifiers.
+    """
     if read_id.endswith("/1") or read_id.endswith("/2"):
         read_id = read_id[:-2]
 
@@ -10,6 +19,16 @@ def trim_read_id(read_id):
 
 
 def parse_kraken_assignment_line(line):
+    """
+    Parses the read_id and taxon_id from a line in the kraken assignment file.
+
+    Parameters:
+        line (str): A line from kraken assignment file.
+
+    Returns:
+        taxon_id (str): The NCBI taxon identifier.
+        read_id (str): trimmed read identifier.
+    """
     line_vals = line.strip().split("\t")
     if len(line_vals) < 5:
         return -1, ""
@@ -36,6 +55,9 @@ class KrakenAssignments:
         file (str): Name of file to parse.
     """
     def __init__(self, assignment_file):
+        """
+        Initializes an KrakenAssignments object.
+        """
         self.file = assignment_file
 
     def parse_kraken_assignment_file(self, taxon_id_map, parents=None):
@@ -56,7 +78,10 @@ class KrakenAssignments:
             for line in kfile:
                 taxon_id, read_id = parse_kraken_assignment_line(line)
                 if taxon_id in taxon_id_map:
-                    read_map[read_id] = {taxon_id} #.update(taxon_id_map[taxon_id])
+                    if read_id in read_map and taxon_id != read_map[read_id]:
+                        del read_map[read_id]
+                    else:
+                        read_map[read_id].add(taxon_id)
                 elif parents:
                     # handle case where taxon_id has changed
                     current = taxon_id
@@ -64,6 +89,9 @@ class KrakenAssignments:
                         current = parents[current]
                         if current in taxon_id_map:
                             print(f"Add {taxon_id} to {current} list")
-                            read_map[read_id] = current #.update(taxon_id_map[current])
+                            if read_id in read_map and current != read_map[read_id]:
+                                del read_map[read_id]
+                            else:
+                                read_map[read_id].add(current)
         return read_map
 
