@@ -314,25 +314,32 @@ class KrakenReport:
                 entry.print()
         return subset
 
-    def get_percentage(self, taxon_id, domain=None):
+    def get_percentage(self, taxon_id, denominator="classified"):
         """
         For a taxon_id, what percentage of the dataset counts (or the domain counts) is it?
 
         Parameters:
             taxon_id (str): a taxon ID
-            domain (str): Optional name of a domain
+            denominator (str): Optional name of a domain or ["classified", "total"]
         Returns:
             float: Percentage of the dataset corresponding to counts of this taxon and descendants
         """
-        if domain and self.entries[taxon_id].domain != domain:
+        if denominator == "classified":
+            total = self.classified
+        elif denominator == "total":
+            total = self.total
+        elif denominator in self.domains:
+            total = self.entries[self.domains[denominator]].count
+        else:
+            print(f"Not a valid denominator {denominator}")
+
+        if denominator not in ["classified", "total"] and self.entries[taxon_id].domain != denominator:
             return 0.0
 
-        denominator = self.classified
-        if domain:
-            denominator = self.entries[self.domains[domain]].count
-
         count = self.entries[taxon_id].count
-        return float(count) / denominator
+        percentage = float(count)/float(total)*100
+        #print(f"{count}/{total} = {percentage:.2f}")
+        return percentage
 
     def to_source_target_df(self, max_rank=None, domain=None):
         """
@@ -379,7 +386,7 @@ class KrakenReport:
                 index += 1
             source_id = entry.hierarchy[-index]
             records.append({"source": self.entries[source_id].name, "target": entry.name, "value": entry.count,
-                            "percentage": self.get_percentage(entry_id, domain=domain)})
+                            "percentage": self.get_percentage(entry_id, denominator=domain)})
 
         with open("source_target.csv", 'w', newline='') as csvfile:
             fieldnames = ["source", "target", "value", "percentage"]
@@ -428,6 +435,7 @@ class KrakenReport:
         Parameters:
             new_entry (KrakenEntry): A new kraken entry object.
         """
+        #print(f"updating {new_entry.taxon_id}")
         if new_entry.taxon_id in self.entries:
             self.entries[new_entry.taxon_id].update(new_entry)
         else:
@@ -448,11 +456,17 @@ class KrakenReport:
         """
         i = 0
         assert(taxon_id_1 in self.entries and taxon_id_2  in self.entries)
+        if taxon_id_1 == "0":
+            #print(f"MRCA of old {taxon_id_1} and new {taxon_id_2} is {taxon_id_1}")
+            return taxon_id_1
 
         entry1 = self.entries[taxon_id_1]
         entry2 = self.entries[taxon_id_2]
         while i < len(entry1.hierarchy) and i < len(entry2.hierarchy) and entry1.hierarchy[i]==entry2.hierarchy[i]:
+            if i == len(entry1.hierarchy)-1 or i == len(entry2.hierarchy)-1:
+                break
             i+=1
+        #print(f"MRCA of old {taxon_id_1} and new {taxon_id_2} is {entry1.hierarchy[i]}")
         return entry1.hierarchy[i]
 
     def update_counts(self, changes):
@@ -464,20 +478,27 @@ class KrakenReport:
         """
         for old_taxon_id in changes:
             for new_taxon_id in changes[old_taxon_id]:
+                print(f"Moving {changes[old_taxon_id][new_taxon_id]} counts from {old_taxon_id} to {new_taxon_id}")
                 self.entries[old_taxon_id].ucount -= changes[old_taxon_id][new_taxon_id]
+                self.entries[old_taxon_id].count -= changes[old_taxon_id][new_taxon_id]
                 assert(self.entries[old_taxon_id].ucount >= 0)
-                mrca = get_mrca(old_taxon_id, new_taxon_id)
-                for taxon_id in reversed(self.entries[old_taxon_id]):
-                    if taxon_id != mrca:
-                        self.entries[taxon_id].count -= changes[old_taxon_id][new_taxon_id]
-                        assert (self.entries[taxon_id].count >= 0)
-                    else:
-                        break
+
+                mrca = self.get_mrca(old_taxon_id, new_taxon_id)
+
+                if old_taxon_id != "0":
+                    for taxon_id in reversed(self.entries[old_taxon_id].hierarchy):
+                        if taxon_id != mrca:
+                            self.entries[taxon_id].count -= changes[old_taxon_id][new_taxon_id]
+                            assert (self.entries[taxon_id].count >= 0)
+                        elif taxon_id == mrca:
+                            break
+
                 self.entries[new_taxon_id].ucount += changes[old_taxon_id][new_taxon_id]
-                for taxon_id in reversed(self.entries[new_taxon_id]):
+                self.entries[new_taxon_id].count += changes[old_taxon_id][new_taxon_id]
+                for taxon_id in reversed(self.entries[new_taxon_id].hierarchy):
                     if taxon_id != mrca:
                         self.entries[taxon_id].count += changes[old_taxon_id][new_taxon_id]
-                    else:
+                    elif taxon_id == mrca:
                         break
 
     def clean(self):
@@ -485,16 +506,16 @@ class KrakenReport:
         Removes entries which have 0 counts and references to them.
         """
         set_zeroes = set()
-        for taxon_id in entries:
-            if entries[taxon_id].count == 0:
+        for taxon_id in self.entries:
+            if self.entries[taxon_id].count == 0:
                 set_zeroes.add(taxon_id)
         for taxon_id in set_zeroes:
-            entry = entries[taxon_id]
-            entries[entry.parent].children.remove(taxon_id)
+            entry = self.entries[taxon_id]
+            self.entries[entry.parent].children.remove(taxon_id)
             for child in entry.children:
-                if child in entries:
+                if child in self.entries:
                     assert(child in set_zeroes)
-            del entries[taxon_id]
+            del self.entries[taxon_id]
 
     def update(self, update_file, changes):
         """
@@ -513,6 +534,7 @@ class KrakenReport:
             self.classified = self.entries["1"].count
             self.total = self.classified + self.unclassified
         else:
+            print(f"New report has {len(new_report.entries)} items and existing report has {len(self.entries)} items")
             for taxon_id, new_entry in new_report.entries.items():
                 self.update_entry(new_entry)
             self.update_counts(changes)
@@ -532,7 +554,8 @@ class KrakenReport:
             fieldnames = ["% of Seqs", "Clades", "Taxonomies", "Rank", "Taxonomy ID", "Scientific Name"]
             header = '\t'.join(fieldnames)
             out.write(f"{header}\n")
-            for entry in self.entries:
-                fields = [self.get_percentage(entry.taxon_id), entry.count, entry.ucount, entry.rank, entry.taxon_id, entry.name]
-                line = '\t'.join(fields)
+            for taxon_id, entry in self.entries.items():
+                name_buff = "  "*entry.depth
+                percentage = self.get_percentage(taxon_id, "total")
+                line = f"{percentage:6.2f}\t{entry.count}\t{entry.ucount}\t{entry.rank}\t{entry.taxon_id}\t{name_buff}{entry.name}"
                 out.write(f"{line}\n")

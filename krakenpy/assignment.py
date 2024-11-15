@@ -195,6 +195,6 @@ class KrakenAssignments:
             Save the KrakenAssignments object in kraken assignment format
         """
         with open(self.file_name, "w") as out:
-            for entry in self.entries:
+            for taxon_id, entry in self.entries.items():
                 out.write(f"{entry.get_line()}\n")
 

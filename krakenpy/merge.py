@@ -27,7 +27,7 @@ def check_pair(kraken_assignment_file, kraken_report_file):
     counts = defaultdict(int)
     for read_id,entry in kassignments.entries.items():
         counts[entry.taxon_id] += 1
-    print(counts)
+    #print(counts)
 
     for taxon_id in kreport.entries:
         if counts[taxon_id] != kreport.entries[taxon_id].ucount:
@@ -54,6 +54,8 @@ def merge(kraken_assignment_files, kraken_report_files, out_prefix):
 
         changes = merged_assignments.update(assignment_file)
         merged_reports.update(report_file, changes)
+        merged_assignments.save()
+        merged_reports.save(f"{out_prefix}.kraken_report.txt")
 
     print(f"Save results to {out_prefix}.kraken_assignments.tsv and {out_prefix}.kraken_report.txt")
     merged_assignments.save()

@@ -1,0 +1,2 @@
+% of Seqs	Clades	Taxonomies	Rank	Taxonomy ID	Scientific Name
+100.00	2500	2500	U	0	unclassified

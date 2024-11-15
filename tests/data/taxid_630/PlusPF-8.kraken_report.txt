@@ -1,0 +1,41 @@
+% of Seqs	Clades	Taxonomies	Rank	Taxonomy ID	Scientific Name
+ 79.88	1997	1997	U	0	unclassified
+ 20.12	503	3	R	1	root
+ 20.00	500	4	R1	131567	  cellular organisms
+ 19.52	488	21	D	2	    Bacteria
+ 18.68	467	4	P	1224	      Pseudomonadota
+ 18.52	463	21	C	1236	        Gammaproteobacteria
+ 17.68	442	96	O	91347	          Enterobacterales
+ 13.84	346	22	F	1903411	            Yersiniaceae
+ 12.96	324	255	G	629	              Yersinia
+  2.76	69	69	S	630	                Yersinia enterocolitica
+  0.32	8	0	D	2759	    Eukaryota
+  0.32	8	2	D1	33154	      Opisthokonta
+  0.24	6	0	K	33208	        Metazoa
+  0.24	6	0	K1	6072	          Eumetazoa
+  0.24	6	0	K2	33213	            Bilateria
+  0.24	6	0	K3	33511	              Deuterostomia
+  0.24	6	0	P	7711	                Chordata
+  0.24	6	0	P1	89593	                  Craniata
+  0.24	6	0	P2	7742	                    Vertebrata
+  0.24	6	0	P3	7776	                      Gnathostomata
+  0.24	6	0	P4	117570	                        Teleostomi
+  0.24	6	0	P5	117571	                          Euteleostomi
+  0.24	6	0	P6	8287	                            Sarcopterygii
+  0.24	6	0	P7	1338369	                              Dipnotetrapodomorpha
+  0.24	6	0	P8	32523	                                Tetrapoda
+  0.24	6	0	P9	32524	                                  Amniota
+  0.24	6	0	C	40674	                                    Mammalia
+  0.24	6	0	C1	32525	                                      Theria
+  0.24	6	0	C2	9347	                                        Eutheria
+  0.24	6	0	C3	1437010	                                          Boreoeutheria
+  0.24	6	0	C4	314146	                                            Euarchontoglires
+  0.24	6	0	O	9443	                                              Primates
+  0.24	6	0	O1	376913	                                                Haplorrhini
+  0.24	6	0	O2	314293	                                                  Simiiformes
+  0.24	6	0	O3	9526	                                                    Catarrhini
+  0.24	6	0	O4	314295	                                                      Hominoidea
+  0.24	6	0	F	9604	                                                        Hominidae
+  0.24	6	0	F1	207598	                                                          Homininae
+  0.24	6	0	G	9605	                                                            Homo
+  0.24	6	6	S	9606	                                                              Homo sapiens
