@@ -175,17 +175,17 @@ class KrakenAssignments:
             self.entries = new_assignments.entries
             return
 
-        for entry in new_assignments.entries:
+        for read_id, entry in new_assignments.entries.items():
             if entry.classified == "U":
-                if entry.read_id not in self.entries:
+                if read_id not in self.entries:
                     self.entries[read_id] = entry
                     changes["0"][entry.taxon_id] += 1
 
-            elif (entry.read_id in self.entries and
-                  entry.taxon_id != self.entries[entry.read_id].taxon_id):
-                old_taxon_id = self.entries[entry.read_id].taxon_id
+            elif (read_id in self.entries and
+                  entry.taxon_id != self.entries[read_id].taxon_id):
+                old_taxon_id = self.entries[read_id].taxon_id
                 new_taxon_id = entry.taxon_id
-                self.entries[entry.read_id] = entry
+                self.entries[read_id] = entry
                 changes[old_taxon_id][new_taxon_id] += 1
 
         return changes

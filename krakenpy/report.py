@@ -95,6 +95,31 @@ class KrakenEntry:
     def set_sibling_rank(self, rank):
         self.sibling_rank = rank
 
+    def update(self, new_entry):
+        """
+        Checks if the information in an existing (this) entry matches the new entry.
+        Does not change the counts or ucounts.
+        Allows name, rank and children to be updated.
+
+        Args:
+            new_entry (KrakenEntry): A KrakenEntry object.
+        """
+        if self.name != new_entry.name:
+            print(f"Updated name {self.name} to {new_entry.name}")
+            self.name = new_entry.name
+        if self.rank != new_entry.rank:
+            print(f"Updated rank {self.rank} to {new_entry.rank}")
+            self.rank = new_entry.rank
+        assert self.depth == new_entry.depth
+
+        #self.count += new_entry.count
+        #self.ucount += new_entry.ucount
+
+        assert self.domain == new_entry.domain
+        assert self.parent == new_entry.parent
+        self.children.update(new_entry.children)
+
+        assert self.hierarchy == new_entry.hierarchy
 
 class KrakenReport:
     """
@@ -192,7 +217,7 @@ class KrakenReport:
             num_fields = len(line.split("\t"))
             if num_fields not in [6,8]:
                 sys.stderr.write(
-                    f"Kraken report file {file_name} badly formatted - must have 6 or 8 columns"
+                    f"Kraken report file {self.file_name} badly formatted - must have 6 or 8 columns"
                     )
                 sys.exit(9)
             if line.startswith("%"):
@@ -388,7 +413,6 @@ class KrakenReport:
         Parameters:
             host_dict (dict): A dictionary with key a taxon_id, value a max number of reads allowed.
         """
-
         for host_id, max_host_count in host_dict.items():
             if host_id in self.entries and self.entries[host_id].count > max_host_count:
                 sys.stderr.write(
@@ -396,11 +420,115 @@ class KrakenReport:
                     )
                 sys.exit(2)
 
-    def save(self):
+    def update_entry(self, new_entry):
+        """
+        Adds a KrakenEntry to the entries dictionary, checking if it already exists that the contents match.
+        Note that the result DOES NOT UPDATE/TRANSFER COUNTS
+
+        Parameters:
+            new_entry (KrakenEntry): A new kraken entry object.
+        """
+        if new_entry.taxon_id in self.entries:
+            self.entries[new_entry.taxon_id].update(new_entry)
+        else:
+            self.entries[new_entry.taxon_id] = new_entry
+            self.entries[new_entry.taxon_id].ucount = 0
+            self.entries[new_entry.taxon_id].count = 0
+
+    def get_mrca(self, taxon_id_1, taxon_id_2):
+        """
+        Find the mrca taxon_id from the hierarchy lists between 2 taxon_ids in the entries dictionary.
+
+        Parameters:
+            taxon_id_1 (str): First taxon_id in entries.
+            taxon_id_2 (str): Second taxon_id in entries.
+
+        Returns:
+            mrca_taxon_id
+        """
+        i = 0
+        assert(taxon_id_1 in self.entries and taxon_id_2  in self.entries)
+
+        entry1 = self.entries[taxon_id_1]
+        entry2 = self.entries[taxon_id_2]
+        while i < len(entry1.hierarchy) and i < len(entry2.hierarchy) and entry1.hierarchy[i]==entry2.hierarchy[i]:
+            i+=1
+        return entry1.hierarchy[i]
+
+    def update_counts(self, changes):
+        """
+        Uses a dictionary of changes to update the counts and ucounts
+
+        Parameters:
+            changes (dict): A dictionary mapping old_taxon_id, new_taxon_id to number of counts transferred from old to new.
+        """
+        for old_taxon_id in changes:
+            for new_taxon_id in changes[old_taxon_id]:
+                self.entries[old_taxon_id].ucount -= changes[old_taxon_id][new_taxon_id]
+                assert(self.entries[old_taxon_id].ucount >= 0)
+                mrca = get_mrca(old_taxon_id, new_taxon_id)
+                for taxon_id in reversed(self.entries[old_taxon_id]):
+                    if taxon_id != mrca:
+                        self.entries[taxon_id].count -= changes[old_taxon_id][new_taxon_id]
+                        assert (self.entries[taxon_id].count >= 0)
+                    else:
+                        break
+                self.entries[new_taxon_id].ucount += changes[old_taxon_id][new_taxon_id]
+                for taxon_id in reversed(self.entries[new_taxon_id]):
+                    if taxon_id != mrca:
+                        self.entries[taxon_id].count += changes[old_taxon_id][new_taxon_id]
+                    else:
+                        break
+
+    def clean(self):
+        """
+        Removes entries which have 0 counts and references to them.
+        """
+        set_zeroes = set()
+        for taxon_id in entries:
+            if entries[taxon_id].count == 0:
+                set_zeroes.add(taxon_id)
+        for taxon_id in set_zeroes:
+            entry = entries[taxon_id]
+            entries[entry.parent].children.remove(taxon_id)
+            for child in entry.children:
+                if child in entries:
+                    assert(child in set_zeroes)
+            del entries[taxon_id]
+
+    def update(self, update_file, changes):
+        """
+        This process updates the existing KrakenReport with entries from the new KrakenReport.
+        If the existing one is empty, entries are just copied over. Otherwise...
+        new (zero count) KrakenEntry objects are added into the existing entries
+        structure (and common KrakenEntry objects are checked for compatibility with name, rank
+        and children updated where required). Counts are changed based on a prescribed dictionary
+        of `changes`. Any zero count entries are removed and sibling ranks reevaluated.
+        Total, unclassified and classified are updated.
+        """
+        new_report = KrakenReport(update_file)
+        if len(self.entries) == 0:
+            self.entries = new_report.entries
+            self.unclassified = self.entries["0"].count
+            self.classified = self.entries["1"].count
+            self.total = self.classified + self.unclassified
+        else:
+            for taxon_id, new_entry in new_report.entries.items():
+                self.update_entry(new_entry)
+            self.update_counts(changes)
+            self.clean()
+            self.set_sibling_ranks()
+            self.unclassified = self.entries["0"].count
+            self.classified = self.entries["1"].count
+            assert(self.total == self.classified + self.unclassified)
+
+    def save(self, file_name = None):
         """
             Save the KrakenReport object in kraken report format
         """
-        with open(self.file_name, "w") as out:
+        if not file_name:
+            file_name = self.file_name
+        with open(file_name, "w") as out:
             fieldnames = ["% of Seqs", "Clades", "Taxonomies", "Rank", "Taxonomy ID", "Scientific Name"]
             header = '\t'.join(fieldnames)
             out.write(f"{header}\n")
