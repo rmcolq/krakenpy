@@ -1,1 +1,1 @@
-# pykraken
+# krakenpy
