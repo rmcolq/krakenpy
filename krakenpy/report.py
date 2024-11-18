@@ -93,6 +93,7 @@ class KrakenEntry:
         self.hierarchy = self.hierarchy[:self.depth]
 
     def add_parent(self, parent):
+        assert self.parent == None or parent == self.parent
         self.parent = parent
 
     def add_child(self, child):

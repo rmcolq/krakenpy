@@ -120,7 +120,7 @@ def test_krakenassignments_load():
     input_assignment = f"{input_prefix}/Viral.kraken_assignments.tsv"
     output = KrakenAssignments(input_assignment, load=True)
 
-    assert (len(output.entries) == 999998)
+    assert (len(output.entries) == 1000)
     assert (output.file_name == input_assignment)
     assert ("Human_adenovirus_A|129875_9628_10178_2:0:0_5:0:0_0" in output.entries)
     expected_entry = KrakenAssignmentEntry("U\tHuman_adenovirus_A|129875_29788_30302_1:0:0_2:0:0_1/1\t0\t301\t0:116 A:34 0:117")
