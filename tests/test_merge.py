@@ -80,13 +80,13 @@ def test_second_more_precise_inverted():
     input_report1 = f"{input_prefix}/PlusPF-8.kraken_report.txt"
     input_report2 = f"{input_prefix}/Viral.kraken_report.txt"
 
-    expected_report = f"{input_prefix}/Viral.kraken_report.txt"
-    expected_assignment = f"{input_prefix}/Viral.kraken_assignments.tsv"
-
     output_prefix = f"{input_prefix}/merged_inverted"
     out_assignment = f"{output_prefix}.kraken_assignments.tsv"
     out_report = f"{output_prefix}.kraken_report.txt"
     merge.merge([input_assignment2, input_assignment1], [input_report2, input_report1], output_prefix)
+
+    expected_report = f"{input_prefix}/expected.kraken_report.txt"
+    expected_assignment = f"{input_prefix}/expected.kraken_assignments.tsv"
 
     #assert (filecmp.cmp(out_assignment, expected_assignment, shallow=False))
     assert (filecmp.cmp(out_report, expected_report, shallow=False))

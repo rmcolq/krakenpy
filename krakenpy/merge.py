@@ -39,6 +39,7 @@ def check_pair(kraken_assignment_file, kraken_report_file):
         print(
             f"B: Taxon id {taxon_id} has {kreport.entries[taxon_id].ucount} counts in report and {counts[taxon_id]} counts in assignment file")
 
+    return kassignments, kreport
 
 def merge(kraken_assignment_files, kraken_report_files, out_prefix):
     print("Initialize merged KrakenAssignments and KrakenReport")
@@ -50,10 +51,10 @@ def merge(kraken_assignment_files, kraken_report_files, out_prefix):
     pairs = zip(kraken_assignment_files, kraken_report_files)
     for assignment_file, report_file in pairs:
         print(f"Update with pair {assignment_file} and {report_file}")
-        check_pair(assignment_file, report_file)
+        new_assignments, new_report = check_pair(assignment_file, report_file)
 
-        changes = merged_assignments.update(assignment_file)
-        merged_reports.update(report_file, changes)
+        changes = merged_assignments.update(new_assignments)
+        merged_reports.update(new_report, changes)
         merged_assignments.save()
         merged_reports.save(f"{out_prefix}.kraken_report.txt")
 

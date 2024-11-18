@@ -160,17 +160,16 @@ class KrakenAssignments:
                     else:
                         self.entries[assignment.read_id] = assignment
 
-    def update(self, update_file, changes=None):
+    def update(self, new_assignments, changes=None):
         """
         Updates read assignments using new file with preference
 
         Parameters:
-            update_file (path): A new assignment file.
+            new_assignments (KrakenAssignments): A new loaded KrakenAssignments object.
         """
         if not changes:
             changes = defaultdict(lambda : defaultdict(int))
 
-        new_assignments = KrakenAssignments(update_file, load=True)
         if len(self.entries) == 0:
             self.entries = new_assignments.entries
             return

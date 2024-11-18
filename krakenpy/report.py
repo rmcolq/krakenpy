@@ -149,7 +149,7 @@ class KrakenReport:
         if file_name:
             self.load_file(file_name)
             self.unclassified = self.entries["0"].count
-            self.classified = self.entries["1"].count
+            self.classified = self.entries["1"].count if "1" in self.entries else 0
             self.total = self.classified + self.unclassified
 
     def print(self):
@@ -517,7 +517,7 @@ class KrakenReport:
                     assert(child in set_zeroes)
             del self.entries[taxon_id]
 
-    def update(self, update_file, changes):
+    def update(self, new_report, changes):
         """
         This process updates the existing KrakenReport with entries from the new KrakenReport.
         If the existing one is empty, entries are just copied over. Otherwise...
@@ -526,13 +526,17 @@ class KrakenReport:
         and children updated where required). Counts are changed based on a prescribed dictionary
         of `changes`. Any zero count entries are removed and sibling ranks reevaluated.
         Total, unclassified and classified are updated.
+
+        Parameters:
+            new_report (KrakenReport): A new loaded kraken report.
         """
-        new_report = KrakenReport(update_file)
+        print(f"New report has {new_report.entries.keys()} keys")
         if len(self.entries) == 0:
             self.entries = new_report.entries
             self.unclassified = self.entries["0"].count
-            self.classified = self.entries["1"].count
+            self.classified = self.entries["1"].count if "1" in self.entries else 0
             self.total = self.classified + self.unclassified
+            print(f"Merged report has {self.entries.keys()} keys")
         else:
             print(f"New report has {len(new_report.entries)} items and existing report has {len(self.entries)} items")
             for taxon_id, new_entry in new_report.entries.items():
@@ -541,7 +545,7 @@ class KrakenReport:
             self.clean()
             self.set_sibling_ranks()
             self.unclassified = self.entries["0"].count
-            self.classified = self.entries["1"].count
+            self.classified = self.entries["1"].count if "1" in self.entries else 0
             assert(self.total == self.classified + self.unclassified)
 
     def save(self, file_name = None):
