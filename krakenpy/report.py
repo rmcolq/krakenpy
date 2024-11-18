@@ -43,6 +43,12 @@ class KrakenEntry:
         if row is not None:
             self.add_row(row)
 
+    def __eq__(self, other):
+        if isinstance(other, self.__class__):
+            return self.__dict__ == other.__dict__
+        else:
+            return False
+
     def print(self):
         """
         Print the attributes of KrakenEntry as a string
@@ -151,6 +157,12 @@ class KrakenReport:
             self.unclassified = self.entries["0"].count
             self.classified = self.entries["1"].count if "1" in self.entries else 0
             self.total = self.classified + self.unclassified
+
+    def __eq__(self, other):
+        if isinstance(other, self.__class__):
+            return self.__dict__ == other.__dict__
+        else:
+            return False
 
     def print(self):
         """

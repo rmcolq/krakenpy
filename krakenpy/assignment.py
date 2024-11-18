@@ -42,6 +42,11 @@ class KrakenAssignmentEntry:
         self.kmer_string = ""
         if line is not None:
             self.add_line(line)
+    def __eq__(self, other):
+        if isinstance(other, self.__class__):
+            return self.__dict__ == other.__dict__
+        else:
+            return False
 
     def add_line(self, line):
         """
@@ -60,9 +65,9 @@ class KrakenAssignmentEntry:
         self.classified, self.read_id, self.taxon_id, length, self.kmer_string = line.strip().split("\t")
         self.length = int(length)
 
-        if "taxid" in self.taxon_id:
-            temp = self.taxon_id.split("taxid ")[-1]
-            self.taxon_id = temp[:-1]
+        #if "taxid" in self.taxon_id:
+        #    temp = self.taxon_id.split("taxid ")[-1]
+        #    self.taxon_id = temp[:-1] // can't remember where this came from so leave it out
 
         self.read_id = trim_read_id(self.read_id)
 
@@ -107,6 +112,12 @@ class KrakenAssignments:
 
         if load:
             self.load_file()
+
+    def __eq__(self, other):
+        if isinstance(other, self.__class__):
+            return self.__dict__ == other.__dict__
+        else:
+            return False
 
     def get_read_map(self, taxon_id_map, parents=None):
         """
@@ -175,13 +186,13 @@ class KrakenAssignments:
             return
 
         for read_id, entry in new_assignments.entries.items():
-            if entry.classified == "U":
-                if read_id not in self.entries:
-                    self.entries[read_id] = entry
-                    changes["0"][entry.taxon_id] += 1
+            if read_id not in self.entries:
+                self.entries[read_id] = entry
+                changes["0"][entry.taxon_id] += 1
 
-            elif (read_id in self.entries and
-                  entry.taxon_id != self.entries[read_id].taxon_id):
+            elif (read_id in self.entries
+                  and entry.classified == "C"
+                  and entry.taxon_id != self.entries[read_id].taxon_id):
                 old_taxon_id = self.entries[read_id].taxon_id
                 new_taxon_id = entry.taxon_id
                 self.entries[read_id] = entry
