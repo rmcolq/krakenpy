@@ -213,6 +213,7 @@ class KrakenReport:
         for entry_id in self.entries:
             if self.entries[entry_id].sibling_rank == 0:
                 print(entry_id)
+                assert(entry_id == "0")
 
     def check_report(self):
         """
