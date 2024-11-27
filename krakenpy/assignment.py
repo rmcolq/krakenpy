@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import sys
 from collections import defaultdict
 
@@ -135,7 +137,7 @@ class KrakenAssignments:
         read_map = defaultdict(set)
         with open(self.file_name, "r") as kfile:
             for line in kfile:
-                assignment = KrakenAssignment(line)
+                assignment = KrakenAssignmentEntry(line)
                 taxon_id, read_id = assignment.taxon_id, assignment.read_id
                 if taxon_id in taxon_id_map:
                     if read_id in read_map and taxon_id != read_map[read_id]:

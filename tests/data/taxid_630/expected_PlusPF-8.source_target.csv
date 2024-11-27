@@ -1,0 +1,17 @@
+source,target,value,percentage
+root,Bacteria,488,0.0
+Bacteria,Pseudomonadota,467,0.0
+Pseudomonadota,Gammaproteobacteria,463,0.0
+Gammaproteobacteria,Enterobacterales,442,0.0
+Enterobacterales,Yersiniaceae,346,0.0
+Yersiniaceae,Yersinia,324,0.0
+Yersinia,Yersinia enterocolitica,69,0.0
+root,Eukaryota,8,0.0
+Eukaryota,Opisthokonta,8,0.0
+Opisthokonta,Metazoa,6,0.0
+Metazoa,Chordata,6,0.0
+Chordata,Mammalia,6,0.0
+Mammalia,Primates,6,0.0
+Primates,Hominidae,6,0.0
+Hominidae,Homo,6,0.0
+Homo,Homo sapiens,6,0.0

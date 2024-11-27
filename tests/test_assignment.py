@@ -67,15 +67,27 @@ def test_krakenassignmententry_equals():
     entry2 = KrakenAssignmentEntry(line)
     assert (entry1 == entry1)
     assert (entry2 == entry2)
-    assert (entry1 != entry2)
-    assert (entry2 != entry1)
+    assert not (entry1 == entry2)
+    assert not (entry2 == entry1)
 
     line = ("U\tad88b02c-8dc5-c9cd-4e62-33270ccb9b2f/1\t0\t654\t0:619")
     entry3 = KrakenAssignmentEntry(line)
     assert (entry3 == entry3)
-    assert (entry3 != entry1)
-    assert (entry3 != entry2)
-    assert (entry2 != entry3)
+    assert not (entry3 == entry1)
+    assert not (entry3 == entry2)
+    assert not (entry2 == entry3)
+
+    entry4 = "U\tad88b02c-8dc5-c9cd-4e62-33270ccb9b2f/1\t0\t654\t0:619"
+    assert not (entry1 == entry4)
+    assert not (entry2 == entry4)
+    assert not (entry3 == entry4)
+
+def test_krakenassignmententry_print():
+    """Test print."""
+    line = ("C\tartificial_read\tA\t653\t81077:619")
+    entry1 = KrakenAssignmentEntry(line)
+    entry1.print()
+
 def test_krakenassignmententry_declassify():
     """Test printing."""
     line = ("C\tcadc9752-bcc4-af2c-be48-d30a9f06e364\t2748958\t6306\t0:31 2748958:2 0:45 1003835:3 0:82 1003835:2 0:35")
@@ -89,10 +101,22 @@ def test_krakenassignmententry_declassify():
 
 def test_krakenassignmententry_line():
     """Test printing."""
-    line = ("C\tcadc9752-bcc4-af2c-be48-d30a9f06e364\t2748958\t6306\t0:31 2748958:2 0:45 1003835:3 0:82 1003835:2 0:35")
+    line = "C\tcadc9752-bcc4-af2c-be48-d30a9f06e364\t2748958\t6306\t0:31 2748958:2 0:45 1003835:3 0:82 1003835:2 0:35"
     output = KrakenAssignmentEntry(line)
     output_line = output.get_line()
     assert (output_line == line)
+
+    output = KrakenAssignmentEntry()
+    output.add_line(line)
+    output_line = output.get_line()
+    assert (output_line == line)
+
+def test_krakenassignmententry_bad_line():
+    """Test printing."""
+    line = "C\tcadc9752-bcc4-af2c-be48-d30a9f06e364\t2748958  6306\t0:31 2748958:2 0:45 1003835:3 0:82 1003835:2 0:35"
+    with pytest.raises(SystemExit) as e:
+        output = KrakenAssignmentEntry(line)
+    assert e.value.code == 11
 
 def test_krakenassignments():
     """Test KrakenAssignments."""
@@ -137,6 +161,31 @@ def test_krakenassignments_load():
         assert (f"Human_adenovirus_A|129875_{i}" in output.entries)
         assert (output.entries[f"Human_adenovirus_A|129875_{i}"].classified == classifieds[i])
         assert (output.entries[f"Human_adenovirus_A|129875_{i}"].taxon_id == taxon_ids[i])
+
+def test_krakenassignments_equals():
+    """Test equality."""
+    input_prefix = "tests/data/taxid_630"
+    input_assignment = f"{input_prefix}/Viral.kraken_assignments.tsv"
+    entry1 = KrakenAssignments(input_assignment)
+    entry2 = KrakenAssignments(input_assignment, load=True)
+
+    input_prefix = "tests/data/taxid_630"
+    input_assignment = f"{input_prefix}/PlusPF-8.kraken_assignments.tsv"
+    entry3 = KrakenAssignments(input_assignment, load=True)
+
+    entry4 = KrakenAssignmentEntry()
+
+    assert (entry1 == entry1)
+    assert (entry2 == entry2)
+    assert (entry3 == entry3)
+    assert not (entry1 == entry2)
+    assert not (entry2 == entry1)
+    assert not (entry1 == entry3)
+    assert not (entry3 == entry1)
+    assert not (entry1 == entry4)
+    assert not (entry4 == entry1)
+    assert not (entry2 == entry3)
+    assert not (entry3 == entry2)
 
 def test_krakenassignments_update():
     """Test KrakenAssignments load function."""

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from collections import defaultdict
 import sys
 
@@ -9,7 +11,8 @@ def merge_all_assignments(list_assignment_files, output_file):
     changes = defaultdict(lambda: defaultdict(int))
 
     for assignment_file in list_assignment_files:
-        changes = kraken_assignments.update(assignment_file, changes)
+        new_assignments = KrakenAssignments(assignment_file, load=True)
+        changes = kraken_assignments.update(new_assignments, changes)
 
     kraken_assignments.save()
     return changes
@@ -32,13 +35,13 @@ def check_pair(kraken_assignment_file, kraken_report_file):
     for taxon_id in kreport.entries:
         if counts[taxon_id] != kreport.entries[taxon_id].ucount:
             print(f"A: Taxon id {taxon_id} has {kreport.entries[taxon_id].ucount} counts in report and {counts[taxon_id]} counts in assignment file")
-
+            assert (counts[taxon_id] == kreport.entries[taxon_id].ucount)
         if taxon_id in counts:
             del counts[taxon_id]
     for taxon_id in counts:
         print(
             f"B: Taxon id {taxon_id} has {kreport.entries[taxon_id].ucount} counts in report and {counts[taxon_id]} counts in assignment file")
-
+    assert (len(counts) == 0)
     return kassignments, kreport
 
 def merge(kraken_assignment_files, kraken_report_files, out_prefix):

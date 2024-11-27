@@ -1,0 +1,14 @@
+% of Seqs    Clades    Taxonomies    Rank    Taxonomy ID    Scientific Name
+ 77.50    775    775    U    0    unclassified
+ 22.50    225    0    R    1    root
+ 22.50    225    0    D    10239      Viruses
+ 22.50    225    0    D1    2732004        Varidnaviria
+ 22.50    225    1    K    2732005          Bamfordvirae
+ 22.40    224    0    P    2732008            Preplasmiviricota
+ 22.40    224    0    C    2732529              Tectiliviricetes
+ 22.40    224    0    O    2732559                Rowavirales
+ 22.40    224    0    F    10508                  Adenoviridae
+ 22.40    224    26    G    10509                    Mastadenovirus
+ 19.30    193    193    S    129875                      Human mastadenovirus A
+  0.50    5    0    S    2170002                      Simian mastadenovirus I
+  0.50    5    5    S1    1923976                        Simian mastadenovirus WIV19

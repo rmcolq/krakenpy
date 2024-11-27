@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from collections import defaultdict
 import csv
 import sys
@@ -215,7 +217,7 @@ class KrakenReport:
                 print(entry_id)
                 assert(entry_id == "0")
 
-    def check_report(self):
+    def check_report(self, file_name):
         """
         Check every line in the kraken report has the appropriate number of tab separated fields
 
@@ -226,12 +228,12 @@ class KrakenReport:
             report_has_header (bool): True if report includes the header line
             num_fields (int) number of fields in a line [6,8]
         """
-        with open(self.file_name, 'r') as handle:
+        with open(file_name, 'r') as handle:
             line = handle.readline()
             num_fields = len(line.split("\t"))
             if num_fields not in [6,8]:
                 sys.stderr.write(
-                    f"Kraken report file {self.file_name} badly formatted - must have 6 or 8 columns"
+                    f"Kraken report file {file_name} badly formatted - must have 6 or 8 columns"
                     )
                 sys.exit(9)
             if line.startswith("%"):
@@ -252,7 +254,7 @@ class KrakenReport:
         """
         csvfile = open(file_name, newline='')
         df = {}
-        report_has_header, num_fields = self.check_report()
+        report_has_header, num_fields = self.check_report(file_name)
         if report_has_header:
             df = csv.DictReader(csvfile, delimiter="\t")
         elif num_fields == 6:
@@ -270,9 +272,10 @@ class KrakenReport:
                 entry = KrakenEntry(row=row, domain=domain, hierarchy=hierarchy)
 
             except:
-                print(f"Found badly formatted row:\n{row}")
-                print(f"Quitting load of {file_name}")
-                break
+                sys.stderr.write(
+                    f"Found badly formatted row:\n{row}\n. Quitting load of {file_name}."
+                )
+                sys.exit(9)
 
             self.entries[entry.taxon_id] = entry
             hierarchy = entry.hierarchy.copy()
@@ -294,7 +297,7 @@ class KrakenReport:
         domains = []
         for entry_id, entry in self.entries.items():
             if entry.rank == "D":
-                domains.append(entry)
+                domains.append(entry_id)
                 entry.print()
         return domains
 
@@ -307,8 +310,8 @@ class KrakenReport:
         """
         tips = []
         for entry_id, entry in self.entries.items():
-            if len(entry.children) == 0:
-                tips.append(entry)
+            if len(entry.children) == 0 and entry_id != "0":
+                tips.append(entry_id)
                 entry.print()
         return tips
 
@@ -324,7 +327,7 @@ class KrakenReport:
         subset = []
         for entry_id, entry in self.entries.items():
             if entry.rank == rank:
-                subset.append(entry)
+                subset.append(entry_id)
                 entry.print()
         return subset
 
@@ -355,7 +358,7 @@ class KrakenReport:
         #print(f"{count}/{total} = {percentage:.2f}")
         return percentage
 
-    def to_source_target_df(self, max_rank=None, domain=None):
+    def to_source_target_df(self, out_file="source_target.csv", max_rank=None, domain=None):
         """
         Convert this KrakenReport to a CSV with "source", "target", "value", "percentage" columns. If max_rank given,
         the result is filtered to including only this number of top-ranking children for each parent. If domain is
@@ -402,7 +405,7 @@ class KrakenReport:
             records.append({"source": self.entries[source_id].name, "target": entry.name, "value": entry.count,
                             "percentage": self.get_percentage(entry_id, denominator=domain)})
 
-        with open("source_target.csv", 'w', newline='') as csvfile:
+        with open(f"{out_file}", 'w', newline='') as csvfile:
             fieldnames = ["source", "target", "value", "percentage"]
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
