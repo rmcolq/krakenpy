@@ -1,5 +1,6 @@
 import pytest
 from krakenpy.assignment import *
+from krakenpy.taxonomy import *
 import filecmp
 import os
 
@@ -269,3 +270,39 @@ def test_update_and_save3():
     assert (filecmp.cmp(out_assignment, expected, shallow=False))
     os.unlink(out_assignment)
 
+def test_krakenassignments_get_read_map():
+    """Test KrakenAssignments get_read_map function."""
+    input_prefix = "tests/data/taxid_630"
+    input_assignment = f"{input_prefix}/PlusPF-8.kraken_assignments.tsv"
+    output = KrakenAssignments(input_assignment, load=True)
+    taxon_ids = ["9605"]
+    read_map = output.get_read_map(taxon_ids)
+    assert (len(read_map) == 0)
+
+    loaded_taxonomy = Taxonomy("/Users/rmcolq/Work/git/scylla/store_dir/taxonomy_dir", taxon_ids)
+    read_map = output.get_read_map(taxon_ids, loaded_taxonomy.parents)
+    print(read_map)
+    assert (len(read_map) == 6)
+
+    taxon_ids = ["9606"]
+    read_map = output.get_read_map(taxon_ids)
+    assert (len(read_map) == 6)
+
+    input_prefix = "tests/data/paired"
+    input_assignment = f"{input_prefix}/small.kraken_assignments.edited.tsv"
+    output = KrakenAssignments(input_assignment, load=True)
+    taxon_ids = ["129875", "1", "10528", "81077"]
+    read_map = output.get_read_map(taxon_ids, loaded_taxonomy.parents)
+    print(read_map)
+    expected_read_map = {'Human_adenovirus_A|129875_1': '81077', 'Human_adenovirus_A|129875_2': '129875',
+                         'Human_adenovirus_A|129875_3': '1', 'Human_adenovirus_A|129875_4': '1',
+                         'Human_adenovirus_A|129875_5': '1', 'Human_adenovirus_A|129875_7': '1',
+                         'Human_adenovirus_A|129875_9': '1', 'Human_adenovirus_A|129875_10': '129875',
+                         'Human_adenovirus_A|129875_11': '129875'}
+    assert (read_map == expected_read_map)
+    taxon_ids = ["129875", "2", "81077"]
+    read_map = output.get_read_map(taxon_ids, loaded_taxonomy.parents)
+    print(read_map)
+    expected_read_map = {'Human_adenovirus_A|129875_1': '81077', 'Human_adenovirus_A|129875_2': '129875',
+                         'Human_adenovirus_A|129875_10': '129875', 'Human_adenovirus_A|129875_11': '129875'}
+    assert (read_map == expected_read_map)

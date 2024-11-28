@@ -30,7 +30,7 @@ def check_pair(kraken_assignment_file, kraken_report_file):
     counts = defaultdict(int)
     for read_id,entry in kassignments.entries.items():
         counts[entry.taxon_id] += 1
-    #print(counts)
+    print(counts)
 
     for taxon_id in kreport.entries:
         if counts[taxon_id] != kreport.entries[taxon_id].ucount:
@@ -38,6 +38,7 @@ def check_pair(kraken_assignment_file, kraken_report_file):
             assert (counts[taxon_id] == kreport.entries[taxon_id].ucount)
         if taxon_id in counts:
             del counts[taxon_id]
+    print(counts)
     for taxon_id in counts:
         print(
             f"B: Taxon id {taxon_id} has {kreport.entries[taxon_id].ucount} counts in report and {counts[taxon_id]} counts in assignment file")

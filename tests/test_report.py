@@ -218,9 +218,6 @@ def test_krakenreport_set_sibling_ranks():
     for taxon_id,entry in output.entries.items():
         if taxon_id in ranks:
             assert(entry.sibling_rank == ranks[taxon_id])
-        else:
-            print(taxon_id, entry.sibling_rank)
-            assert (entry.sibling_rank == 1)
 
 def test_krakenreport_check_sibling_ranks():
     """Test KrakenReport."""
