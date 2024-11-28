@@ -2,6 +2,7 @@ import pytest
 from krakenpy.report import *
 import filecmp
 import os
+import pandas as pd
 
 def test_krakenentry():
     """Test KrakenEntry."""
@@ -210,19 +211,20 @@ def test_krakenreport_add_parent_child():
 def test_krakenreport_set_sibling_ranks():
     """Test KrakenReport."""
     input_prefix = "tests/data/taxid_630"
-    input_report = f"{input_prefix}/Viral.kraken_report.txt"
+    input_report = f"{input_prefix}/PlusPF-8.kraken_report.extra.txt"
     output = KrakenReport(input_report)
     output.set_sibling_ranks()
 
-    ranks = {"2":1,"2759":2,"91347":1,"629":2, "0":0}
+    ranks = {"2":1,"2759":1,"91347":1,"629":1, "0":0, "1":0, "131567":1, "1649845":2}
     for taxon_id,entry in output.entries.items():
         if taxon_id in ranks:
+            print(taxon_id, entry.sibling_rank, ranks[taxon_id])
             assert(entry.sibling_rank == ranks[taxon_id])
 
 def test_krakenreport_check_sibling_ranks():
     """Test KrakenReport."""
     input_prefix = "tests/data/taxid_630"
-    input_report = f"{input_prefix}/Viral.kraken_report.txt"
+    input_report = f"{input_prefix}/PlusPF-8.kraken_report.txt"
     output = KrakenReport(input_report)
     output.set_sibling_ranks()
     output.check_sibling_ranks()
@@ -273,7 +275,7 @@ def test_krakenreport_check_host():
 def test_krakenreport_to_source_target_df():
     """Test KrakenReport."""
     input_prefix = "tests/data/taxid_630"
-    input_report = f"{input_prefix}/PlusPF-8.kraken_report.txt"
+    input_report = f"{input_prefix}/PlusPF-8.kraken_report.extra.txt"
     report = KrakenReport(input_report)
 
     out_csv = f"{input_prefix}/PlusPF-8.source_target.csv"
@@ -282,3 +284,85 @@ def test_krakenreport_to_source_target_df():
     expected_csv = f"{input_prefix}/expected_PlusPF-8.source_target.csv"
     assert (filecmp.cmp(out_csv, expected_csv, shallow=False))
     os.unlink(out_csv)
+
+def test_krakenreport_to_source_target_df_max_rank():
+    """Test KrakenReport."""
+    input_prefix = "tests/data/taxid_630"
+    input_report = f"{input_prefix}/PlusPF-8.kraken_report.extra.txt"
+    report = KrakenReport(input_report)
+
+    out_csv = f"{input_prefix}/PlusPF-8.source_target.max_rank.csv"
+    report.to_source_target_df(out_csv, max_rank=1)
+
+    expected_csv = f"{input_prefix}/expected_PlusPF-8.source_target.max_rank.csv"
+    assert (filecmp.cmp(out_csv, expected_csv, shallow=False))
+    os.unlink(out_csv)
+
+def test_krakenreport_to_source_target_df_domain():
+    """Test KrakenReport."""
+    input_prefix = "tests/data/taxid_630"
+    input_report = f"{input_prefix}/PlusPF-8.kraken_report.extra.txt"
+    report = KrakenReport(input_report)
+
+    out_csv = f"{input_prefix}/PlusPF-8.source_target.domain.csv"
+    report.to_source_target_df(out_csv, domain="Eukaryota")
+
+    expected_csv = f"{input_prefix}/expected_PlusPF-8.source_target.domain.csv"
+    assert (filecmp.cmp(out_csv, expected_csv, shallow=False))
+    os.unlink(out_csv)
+def test_krakenreport_get_percentage():
+    """Test KrakenReport."""
+    input_prefix = "tests/data/taxid_630"
+    input_report = f"{input_prefix}/PlusPF-8.kraken_report.txt"
+    output = KrakenReport(input_report)
+    percentage = output.get_percentage("9606", "total")
+    assert(percentage == float(6)/2500*100)
+    percentage = output.get_percentage("9606", "classified")
+    assert (percentage == float(6)/503*100)
+    percentage = output.get_percentage("9606", "Eukaryota")
+    assert (percentage == float(6)/8*100)
+    percentage = output.get_percentage("9606", "Opisthokonta")
+    assert (percentage == 0.0)
+
+def test_krakenreport_to_df():
+    """Test KrakenReport."""
+    input_prefix = "tests/data/taxid_1003835"
+    input_report = f"{input_prefix}/PlusPF-8.kraken_report.txt"
+    report = KrakenReport(input_report)
+
+    output = report.to_df()
+    print(output)
+    expected = pd.DataFrame({"sample_id": [136, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22]}, index=["0","1","10239","2559587","2732396", "2497569", "2497571", "2497576", "1980410", "1980418", "2733256", "2748958"])
+    assert (list(output.index) == list(expected.index))
+    assert (list(output.sample_id) == list(expected.sample_id))
+
+
+    output = report.to_df(ranks = ["F", "G"])
+    print(output)
+    expected = pd.DataFrame({"sample_id": [22, 22]}, index=["1980418", "2733256"])
+    assert (list(output.index) == list(expected.index))
+    assert (list(output.sample_id) == list(expected.sample_id))
+
+def test_krakenreport_clean():
+    """Test KrakenReport."""
+    input_prefix = "tests/data/taxid_1003835"
+    input_report = f"{input_prefix}/PlusPF-8.kraken_report.txt"
+    report = KrakenReport(input_report)
+    report.entries["1980418"].count = 0
+    with pytest.raises(AssertionError):
+        report.clean()
+
+    report = KrakenReport(input_report)
+    report.entries["1980418"].count = 0
+    report.entries["2733256"].count = 0
+    report.entries["2748958"].count = 0
+    report.clean()
+
+    expected_report = f"{input_prefix}/PlusPF-8.kraken_report.clean.txt"
+    expected = KrakenReport(expected_report)
+
+    assert (report.entries.keys() == expected.entries.keys())
+    assert (report.unclassified == expected.unclassified)
+    assert (report.classified == expected.classified)
+    assert (report.total == expected.total)
+    assert (report.entries == expected.entries)
