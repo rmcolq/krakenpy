@@ -1,0 +1,2100 @@
+1	|	all	|		|	synonym	|
+1	|	root	|		|	scientific name	|
+2	|	Bacteria	|	Bacteria <bacteria>	|	scientific name	|
+2	|	bacteria	|		|	blast name	|
+2	|	"Bacteria" Cavalier-Smith 1987	|		|	authority	|
+2	|	Bacteria (ex Cavalier-Smith 1987)	|		|	synonym	|
+2	|	Bacteria Woese et al. 2024	|		|	synonym	|
+2	|	"Bacteriobiota" Luketa 2012	|		|	authority	|
+2	|	Bacteriobiota	|		|	synonym	|
+2	|	eubacteria	|		|	genbank common name	|
+2	|	Monera	|	Monera <bacteria>	|	in-part	|
+2	|	Procaryotae	|	Procaryotae <bacteria>	|	in-part	|
+2	|	Prokaryotae	|	Prokaryotae <bacteria>	|	in-part	|
+2	|	Prokaryota	|	Prokaryota <bacteria>	|	in-part	|
+2	|	prokaryote	|	prokaryote <bacteria>	|	in-part	|
+2	|	prokaryotes	|	prokaryotes <bacteria>	|	in-part	|
+6	|	Azorhizobium Dreyfus et al. 1988 emend. Lang et al. 2013	|		|	authority	|
+6	|	Azorhizobium	|		|	scientific name	|
+7	|	ATCC 43989	|	ATCC 43989 <type strain>	|	type material	|
+7	|	Azorhizobium caulinodans Dreyfus et al. 1988	|		|	authority	|
+129875	|	HAdV-A	|		|	acronym	|
+129875	|	Human adenovirus A	|		|	equivalent name	|
+129875	|	Human mastadenovirus A	|		|	scientific name	|
+1129875	|	Rotavirus A RVA/pig-wt/JPN/pig9_42d/2002/G5P[13]/[22]	|		|	equivalent name	|
+1129875	|	Rotavirus A RVA/pig-wt/JPN/pig9-42d/2002/G5P[13]	|		|	scientific name	|
+2129875	|	Cecidomyiidae sp. BIOUG20148-G08	|		|	scientific name	|
+3076525	|	HKAS 129875	|	HKAS 129875 <holotype>	|	type material	|
+3076525	|	HKAS-129875	|	HKAS-129875 <holotype>	|	type material	|
+3076525	|	HKAS:129875	|	HKAS:129875 <holotype>	|	type material	|
+3076525	|	HKAS129875	|	HKAS129875 <holotype>	|	type material	|
+3129875	|	Chronakynd virus	|		|	scientific name	|
+10528	|	Adenovirus type 18	|		|	equivalent name	|
+10528	|	Human adenovirus 18	|		|	scientific name	|
+10528	|	Human adenovirus type 18	|		|	equivalent name	|
+10528	|	Mastadenovirus 18	|		|	equivalent name	|
+110528	|	Tamiosoma	|		|	scientific name	|
+210528	|	alpha proteobacterium Mzj3	|		|	scientific name	|
+284760	|	Platychrysis sp. MBIC10528	|		|	scientific name	|
+310528	|	Bacillus sp. Cafi8	|		|	scientific name	|
+398067	|	Ustanciosporium cf. taubertianum HAJB10528	|		|	scientific name	|
+410528	|	anaerobic bacterium S13	|		|	scientific name	|
+510528	|	Influenza B virus (B/Chanchamayo/OBT4981/2007)	|		|	scientific name	|
+710528	|	Influenza A virus (A/Catalonia/S2118/2009(H1N1))	|		|	scientific name	|
+910528	|	Echinops sphaerocephalus subsp. sphaerocephalus	|		|	scientific name	|
+1010528	|	eukaryote SCGC AAA074-G23	|		|	scientific name	|
+1110528	|	Solea senegalensis betanodavirus	|		|	scientific name	|
+1210528	|	Colletotrichum sp. GM010	|		|	scientific name	|
+1277439	|	Fusarium sp. 10528	|		|	scientific name	|
+1310528	|	Influenza A virus (A/chicken/West Java/Ngr-30/2007(H5N1))	|		|	scientific name	|
+1510528	|	Azospirillum sp. LPMM-2	|		|	scientific name	|
+1610528	|	JCM 30382	|	JCM 30382 <type material>	|	type material	|
+1610528	|	KEMB 3-892	|	KEMB 3-892 <type material>	|	type material	|
+1610528	|	KEMB:3-892	|	KEMB:3-892 <type material>	|	type material	|
+1610528	|	"Loktanella aquimaris" Kim et al. 2019	|		|	authority	|
+1610528	|	Loktanella aquimaris	|		|	scientific name	|
+1610528	|	Loktanella sp. C5	|		|	includes	|
+1610528	|	strain C5	|	strain C5 <type material>	|	type material	|
+1710528	|	Tachinus angustatus Horn, 1877	|		|	authority	|
+1710528	|	Tachinus angustatus	|		|	scientific name	|
+1810528	|	Colletotrichum sp. strain12 CCS	|		|	scientific name	|
+1910528	|	Influenza B virus (B/New York/38/2016)	|		|	scientific name	|
+2010528	|	Burkholderia sp. N4b35_3	|		|	scientific name	|
+2034224	|	ZMA Por 10528	|	ZMA Por 10528 <holotype>	|	type material	|
+2210528	|	Tanypodinae sp. BIOUG20457-H08	|		|	scientific name	|
+2310528	|	Fanniidae sp. BIOUG22936-H02	|		|	scientific name	|
+2410528	|	Phaenopsectra sp. BIOUG25561-E03	|		|	scientific name	|
+2510528	|	Leptochilus cf. axillaris Zhang et al. 7047	|		|	scientific name	|
+2710528	|	unclassified Oxyinae	|		|	scientific name	|
+2810528	|	Microbacterium phage Skylord	|		|	scientific name	|
+2819667	|	VNMN 010528	|	VNMN 010528 <paratype>	|	type material	|
+2819667	|	VNMN-010528	|	VNMN-010528 <paratype>	|	type material	|
+2819667	|	VNMN:010528	|	VNMN:010528 <paratype>	|	type material	|
+2819667	|	VNMN010528	|	VNMN010528 <paratype>	|	type material	|
+2820118	|	UES 10528	|	UES 10528 <holotype>	|	type material	|
+2910528	|	Barytelphusa sp. FBRC ZSI DNA1058 UN12064	|		|	scientific name	|
+3110528	|	Lentinus sp. MA-2023a	|		|	scientific name	|
+3123732	|	Nostoc sp. P10528	|		|	scientific name	|
+81077	|	artificial sequences	|		|	scientific name	|
+281077	|	Briza media L., 1753	|		|	authority	|
+281077	|	Briza media	|		|	scientific name	|
+381077	|	Forcipomyia bipunctata (Linnaeus, 1767)	|		|	authority	|
+381077	|	Forcipomyia bipunctata	|		|	scientific name	|
+481077	|	Crocus kotschyanus subsp. suwarowianus B.Mathew	|		|	authority	|
+481077	|	Crocus kotschyanus subsp. suwarowianus	|		|	scientific name	|
+481077	|	Crocus suwarowianus K.Koch	|		|	authority	|
+481077	|	Crocus suwarowianus	|		|	synonym	|
+581077	|	Asterocarpa	|		|	scientific name	|
+681077	|	Influenza A virus (A/turkey/Virginia/505477-17/2007(H5N1))	|		|	scientific name	|
+881077	|	Streptococcus pyogenes MGAS9961	|		|	scientific name	|
+981077	|	Streptomyces sp. 0909CI34F_2	|		|	scientific name	|
+1081077	|	Peronosclerospora sp. ST-2011	|		|	scientific name	|
+1281077	|	Escherichia coli HVH 144 (4-4451937)	|		|	scientific name	|
+1381077	|	Nannaethiops unitaeniatus Guenther, 1872	|		|	authority	|
+1381077	|	Nannaethiops unitaeniatus	|		|	scientific name	|
+1481077	|	Sphingomonas sp. Ume44	|		|	scientific name	|
+1581077	|	Staphylococcus sp. HMSC10B09	|		|	scientific name	|
+1681077	|	Pseudoalteromonas sp. 808B1	|		|	scientific name	|
+1781077	|	Ammodytidae sp. ASIZP0078805	|		|	scientific name	|
+1881077	|	Heterodera sp. FOFIFA-MG-15-1	|		|	scientific name	|
+1981069	|	BCRC 81077	|	BCRC 81077 <type strain>	|	type material	|
+1981077	|	Selenomonas sp. B-8	|		|	scientific name	|
+2181077	|	Periscepsia sp. BIOUG20910-G02	|		|	scientific name	|
+2281077	|	Megaselia sp. BIOUG22734-G09	|		|	scientific name	|
+2381077	|	Phora sp. BIOUG22673-D03	|		|	scientific name	|
+2481077	|	Meriones sp. n. MAO-2018	|		|	scientific name	|
+2581077	|	Chrysoexorista sp. ASCRT077-10	|		|	scientific name	|
+2681077	|	Tallula watsoni Barnes & McDunnough, 1917	|		|	authority	|
+2681077	|	Tallula watsoni	|		|	scientific name	|
+2781077	|	Dryas octopetala x Dryas alaskensis	|		|	scientific name	|
+2881077	|	Euphylidorea aperta	|		|	scientific name	|
+2881077	|	Euphylidorea aperta (Verrall, 1887)	|		|	authority	|
+2881077	|	Limnophila aperta	|		|	synonym	|
+2981077	|	Limnospira platensis PMC 1294.21	|		|	equivalent name	|
+2981077	|	Limnospira sp. PMC 1294.21	|		|	scientific name	|
+3081077	|	Antedon sclateri Bell, 1905	|		|	authority	|
+3081077	|	Antedon sclateri	|		|	synonym	|
+3081077	|	Glyptometra sclateri (Bell, 1905)	|		|	authority	|
+3081077	|	Glyptometra sclateri	|		|	scientific name	|
+3081077	|	Perissometra sparksi John, 1937	|		|	authority	|
+3081077	|	Perissometra sparksi	|		|	synonym	|
+2014	|	IMET 9605	|	IMET 9605 <type strain>	|	type material	|
+2246	|	ATCC 29605	|	ATCC 29605 <type strain>	|	type material	|
+9605	|	Homo Linnaeus, 1758	|		|	authority	|
+9605	|	Homo	|		|	scientific name	|
+9605	|	humans	|		|	common name	|
+29605	|	Blechnum L., 1753	|		|	authority	|
+29605	|	Blechnum	|		|	scientific name	|
+39605	|	Tachycnemis	|		|	scientific name	|
+49324	|	JCM 9605	|	JCM 9605 <type material>	|	type material	|
+49605	|	Labrador-tea	|		|	common name	|
+49605	|	Ledum groenlandicum	|		|	synonym	|
+49605	|	Rhododendron groenlandicum Kron & Judd, 1990	|		|	authority	|
+49605	|	Rhododendron groenlandicum	|		|	scientific name	|
+59605	|	marine psychrophile IC164	|		|	scientific name	|
+69605	|	Bacteriophage FS-alpha	|		|	equivalent name	|
+69605	|	Bacteriophage FSalpha	|		|	equivalent name	|
+69605	|	Enterobacteria phage FSalpha	|		|	scientific name	|
+79605	|	Boeremia exigua var. exigua	|		|	scientific name	|
+79605	|	Phoma exigua var. exigua	|		|	synonym	|
+89605	|	proliferative kidney organism isolate PKXEU 54	|		|	scientific name	|
+109605	|	Cardamine gambelii S.Watson, 1876	|		|	authority	|
+109605	|	Cardamine gambelii	|		|	synonym	|
+109605	|	Nasturtium gambelii	|		|	scientific name	|
+109605	|	Nasturtium gambelii (S.Watson) O.E.Schulz, 1933	|		|	authority	|
+109605	|	Rorippa gambelii (S.Watson) Rollins & Al-Shehbaz, 1988	|		|	synonym	|
+110662	|	Parasynechococcus africanus CC9605	|		|	equivalent name	|
+110662	|	Synechococcus sp. CC9605	|		|	scientific name	|
+129605	|	uncultured bacterium SB7	|		|	scientific name	|
+139605	|	Prosapia bicincta	|		|	scientific name	|
+149605	|	Borrelia sp. SM-1	|		|	synonym	|
+149605	|	Borreliella sp. SM-1	|		|	scientific name	|
+159605	|	Achaetomium globosum J.N. Rai & J.P. Tewari, 1964	|		|	authority	|
+159605	|	Achaetomium globosum	|		|	scientific name	|
+159605	|	CBS 332.67	|	CBS 332.67 <isotype>	|	type material	|
+169605	|	Tagetes campanulata Griseb., 1874	|		|	authority	|
+169605	|	Tagetes campanulata	|		|	scientific name	|
+179605	|	alpha proteobacterium S-Su(1)-8E	|		|	scientific name	|
+189605	|	Entyloma madiae Cif., 1924	|		|	authority	|
+189605	|	Entyloma madiae	|		|	scientific name	|
+199338	|	CBS 9605	|	CBS 9605 <type material>	|	type material	|
+199605	|	Omphalogramma vincaeflora	|		|	synonym	|
+199605	|	Omphalogramma vinciflora	|		|	synonym	|
+199605	|	Omphalogramma vinciflorum (Franch.) Franch., 1898	|		|	authority	|
+199605	|	Omphalogramma vinciflorum	|		|	scientific name	|
+209605	|	Clusia cupulata (Maguire) Maguire, 1978	|		|	authority	|
+209605	|	Clusia cupulata	|		|	scientific name	|
+209605	|	Clusia salvinii var. cupulata Maguire, 1978	|		|	authority	|
+209605	|	Clusia salvinii var. cupulata	|		|	synonym	|
+219605	|	Euphrasia transmorrisonensis Hayata, 1915	|		|	authority	|
+219605	|	Euphrasia transmorrisonensis	|		|	scientific name	|
+229605	|	Sphingomonas sp. T2-24	|		|	scientific name	|
+239605	|	Dryopteris unidentata var. paleacea (Hillebr.) Herat ex Fraser-Jenk., 1994	|		|	authority	|
+239605	|	Dryopteris unidentata var. paleacea	|		|	scientific name	|
+249605	|	Streptomyces sp. 384B07	|		|	scientific name	|
+269605	|	Edosmia neurophylla Maxim., 1873	|		|	authority	|
+269605	|	Edosmia neurophylla	|		|	synonym	|
+269605	|	Perideridia neurophylla (Maxim.) T.I.Chuang & Constance	|		|	synonym	|
+269605	|	Pterygopleurum neurophyllum (Maxim.) Kitag., 1937	|		|	authority	|
+269605	|	Pterygopleurum neurophyllum	|		|	scientific name	|
+279605	|	Dolichoris boschmai	|		|	scientific name	|
+289605	|	Globisporangium pleroticum	|		|	scientific name	|
+289605	|	Globisporangium pleroticum (Takesi Ito) Uzuhashi, Tojo & Kakish., 2010	|		|	authority	|
+289605	|	Pythium pleroticum	|		|	synonym	|
+289605	|	Pythium pleroticum Takesi Ito, 1944	|		|	authority	|
+299605	|	Smilax tsinchengshanensis F.T.Wang, 1934	|		|	authority	|
+299605	|	Smilax tsinchengshanensis	|		|	scientific name	|
+309605	|	Meridialaris diguillina	|		|	scientific name	|
+309800	|	Haloferax volcanii ATCC 29605	|		|	synonym	|
+319605	|	Kirganelia pervilleana Baill., 1861	|		|	authority	|
+319605	|	Kirganelia pervilleana	|		|	scientific name	|
+319605	|	Phyllanthus pervilleanus (Baill.) Mull.Arg., 1863	|		|	authority	|
+319605	|	Phyllanthus pervilleanus	|		|	synonym	|
+329605	|	Influenza A virus (A/chicken/Henan/26/00(H9N2))	|		|	scientific name	|
+339605	|	Cystophora sp. CNUK PF137	|		|	scientific name	|
+349605	|	Plagiochila drepanophylla Sande Lac.	|		|	authority	|
+349605	|	Plagiochila drepanophylla	|		|	scientific name	|
+355557	|	Agaricus sp. GAL9605	|		|	scientific name	|
+359605	|	Mesembryanthemum sinuosum L.Bolus, 1925	|		|	authority	|
+359605	|	Mesembryanthemum sinuosum	|		|	scientific name	|
+359605	|	Phyllobolus sinuosus (L.Bolus) Gerbaulet	|		|	authority	|
+359605	|	Phyllobolus sinuosus	|		|	synonym	|
+360241	|	DSM 19605	|	DSM 19605 <type strain>	|	type material	|
+369605	|	Pachyramphus minor	|		|	scientific name	|
+369605	|	Querula minor Lesson, 1831	|		|	authority	|
+369605	|	Querula minor	|		|	synonym	|
+379605	|	Cloning vector pIV10	|		|	scientific name	|
+389605	|	Cephaloleia sp. McKenna-091	|		|	scientific name	|
+399605	|	Pseudomonas sp. JNW8	|		|	scientific name	|
+409605	|	Pentameris tysonii Galley & H.P.Linder, 2010	|		|	authority	|
+409605	|	Pentameris tysonii	|		|	scientific name	|
+409605	|	Pentaschistis tysonii Stapf	|		|	authority	|
+409605	|	Pentaschistis tysonii	|		|	synonym	|
+419605	|	Thauera sp. 'CJAOPY3 (T-II)'	|		|	scientific name	|
+429605	|	Azospirillum sp. Is-B008	|		|	scientific name	|
+439605	|	Pleurotoma garnonsii Reeve, 1843	|		|	authority	|
+439605	|	Pleurotoma garnonsii	|		|	synonym	|
+439605	|	Turris garnonsii	|		|	scientific name	|
+449605	|	Achaearanea trapezoidalis	|		|	scientific name	|
+449605	|	Achaearanea trapezoidalis (Taczanowski, 1873)	|		|	authority	|
+449605	|	Argyrodes trapezoidalis	|		|	synonym	|
+449605	|	Argyrodes trapezoidalis Taczanowski, 1873	|		|	authority	|
+459605	|	Pseudomonas sp. MY1418	|		|	scientific name	|
+469605	|	Fusobacterium gonidiaformans 3-1-5R	|		|	scientific name	|
+469605	|	Fusobacterium sp. 3_1_5R	|		|	synonym	|
+479605	|	Pseudococculinidae sp. PanglaoA	|		|	scientific name	|
+489605	|	Streptococcus sp. W58	|		|	scientific name	|
+499605	|	Influenza B virus (B/Milan/05/2006)	|		|	scientific name	|
+509605	|	Adenomera griseigularis Henle, 1981	|		|	authority	|
+509605	|	Adenomera griseigularis	|		|	synonym	|
+509605	|	Leptodactylus griseigularis (Henle, 1981)	|		|	authority	|
+509605	|	Leptodactylus griseigularis	|		|	scientific name	|
+519605	|	Pseudomonas sp. G19-01	|		|	scientific name	|
+529605	|	Oldenlandia corymbosa var. corymbosa	|		|	scientific name	|
+539605	|	Mycobacterium sp. VC-YC6668	|		|	scientific name	|
+549605	|	Pseudovibrio sp. Mm37	|		|	scientific name	|
+559605	|	Pseudomonas sp. ITRI73	|		|	scientific name	|
+568208	|	IMET 9605	|	IMET 9605 <type strain>	|	type material	|
+569605	|	'Capsicum annuum' leaf phytoplasma	|		|	scientific name	|
+579605	|	Ruegeria sp. S3940	|		|	scientific name	|
+589605	|	Bradyrhizobium sp. STM3341	|		|	equivalent name	|
+589605	|	Bradyrhizobium sp. STM 3341	|		|	scientific name	|
+629605	|	Pseudomonas sp. A5AG8	|		|	scientific name	|
+639605	|	Calcigorgia sp. SCF-2009	|		|	scientific name	|
+649605	|	Stiliger	|		|	scientific name	|
+659605	|	Influenza A virus (A/Toronto/0462/2009(H1N1))	|		|	scientific name	|
+669930	|	Coleofasciculus chthonoplastes CCY9605	|		|	scientific name	|
+669930	|	Microcoleus chthonoplastes CCY9605	|		|	synonym	|
+679605	|	Nodulisporium sp. JW60-1	|		|	scientific name	|
+689605	|	Cottus sp. 'Nippenose Valley'	|		|	scientific name	|
+689605	|	Pennsylvania grotto sculpin	|		|	genbank common name	|
+699605	|	Enulius sp. JJW-2009a	|		|	scientific name	|
+709605	|	bacterium A3S_VP8_C5	|		|	scientific name	|
+749605	|	Flaviramulus sp. KLE1226	|		|	scientific name	|
+816314	|	Aulopiformes sp. BOLD:AAH9605	|		|	scientific name	|
+819605	|	Diptera sp. BOLD:AAG1697	|		|	scientific name	|
+829605	|	Hymenoptera sp. BOLD:AAL1820	|		|	scientific name	|
+837310	|	Lepidoptera sp. BOLD:AAB9605	|		|	scientific name	|
+839379	|	Lepidoptera sp. BOLD:AAC9605	|		|	scientific name	|
+839605	|	Lepidoptera sp. BOLD:AAD0586	|		|	scientific name	|
+849605	|	Lepidoptera sp. BOLD:AAI9378	|		|	scientific name	|
+853401	|	Perciformes sp. BOLD:AAE9605	|		|	scientific name	|
+859605	|	Rhodopseudomonas sp. JA251	|		|	scientific name	|
+869605	|	Zhihengliuella sp. RS236(2010)	|		|	scientific name	|
+879605	|	Aeromonas sp. Y113	|		|	scientific name	|
+889605	|	Pseudoalteromonas sp. 21F07-Zb4-6	|		|	scientific name	|
+899605	|	Lepidoptera sp. BOLD:AAK8236	|		|	scientific name	|
+909605	|	Influenza A virus (A/equine/Spain/1/2009(H3N8))	|		|	scientific name	|
+919605	|	Hymenoptera sp. BOLD:AAM6441	|		|	scientific name	|
+929605	|	Phallomedusidae	|		|	scientific name	|
+939605	|	delta proteobacterium SCGC AAA240-G18	|		|	scientific name	|
+969315	|	Lepidoptera sp. BOLD:AAO9605	|		|	scientific name	|
+969605	|	Coleoptera sp. BOLD:AAN4916	|		|	scientific name	|
+973171	|	Araneae sp. BOLD:AAL9605	|		|	scientific name	|
+977011	|	Trichoptera sp. BOLD:AAB9605	|		|	scientific name	|
+977725	|	Vetigastropoda sp. BOLD:AAN9605	|		|	scientific name	|
+979605	|	Mortierella sp. III1Z	|		|	scientific name	|
+999605	|	Inversodicraea cf. bosii Ghouge et al GAR-01	|		|	scientific name	|
+999605	|	Ledermanniella cf. bosii GAR-021018-01	|		|	equivalent name	|
+1019605	|	Diptera sp. BOLD:AAI3614	|		|	scientific name	|
+1029605	|	Curvibacter sp. IMCC12707	|		|	scientific name	|
+1049605	|	Influenza A virus (A/California/VRDL364/2009(mixed))	|		|	scientific name	|
+1057189	|	Haplotaxida sp. BOLD:AAT9605	|		|	scientific name	|
+1069605	|	Steatocranus sp. 'Maluku'	|		|	scientific name	|
+1079605	|	bacterium EA10-S-11	|		|	scientific name	|
+1099605	|	Promicrogaster sp. Whitfield11	|		|	scientific name	|
+1099605	|	Promicrogaster Whitfield11	|		|	synonym	|
+1139605	|	Palpusia plumipesDHJ01	|		|	synonym	|
+1139605	|	Palpusia sp. plumipesDHJ01	|		|	scientific name	|
+1149605	|	Influenza A virus (A/duck/Shantou/6212/2006(H6N6))	|		|	scientific name	|
+1159605	|	Enterobacter sp. SSASP5	|		|	scientific name	|
+1169605	|	Klebsiella sp. BAB1329	|		|	scientific name	|
+1173024	|	Fischerella sp. PCC 9605	|		|	scientific name	|
+1179605	|	Bacillus sp. enrichment culture clone A2i	|		|	scientific name	|
+1189605	|	Ascocentrum himalaicum (Deb, Sengupta & Malick) Christenson	|		|	authority	|
+1189605	|	Ascocentrum himalaicum	|		|	synonym	|
+1189605	|	Holcoglossum himalaicum (Deb, Sengupta & Malick) Aver.	|		|	authority	|
+1189605	|	Holcoglossum himalaicum	|		|	synonym	|
+1189605	|	Pendulorchis himalaica (Deb, Sengupta & Malick) Z.J.Liu, K.Wei Liu & X.J.Xiao, 2013	|		|	authority	|
+1189605	|	Pendulorchis himalaica	|		|	scientific name	|
+1189605	|	Saccolabium himalaicum Deb, Sengupta & Malick, 1968	|		|	authority	|
+1189605	|	Saccolabium himalaicum	|		|	synonym	|
+1199605	|	Microbacterium sp. LDB-B189	|		|	scientific name	|
+1209605	|	Xanthoparmelia sp. MAF-Lich 17190	|		|	scientific name	|
+1219605	|	Finegoldia sp. MVA6	|		|	scientific name	|
+1221300	|	Acinetobacter johnsonii TG19605	|		|	scientific name	|
+1229605	|	Influenza A virus (A/mallard/Sweden/99885/2009(H11N2))	|		|	scientific name	|
+1239605	|	Notiospathius sp. DORYC193-11	|		|	scientific name	|
+1249605	|	Portieria cf. hornemannii V1C FL-2012	|		|	scientific name	|
+1249605	|	Portieria hornemannii V1C	|		|	synonym	|
+1259605	|	Pseudomonas sp. MDT3-38	|		|	scientific name	|
+1269605	|	Cotesia jft93	|		|	synonym	|
+1269605	|	Cotesia sp. jft93	|		|	scientific name	|
+1279605	|	Influenza A virus (A/Japan/108/2007(H3N2))	|		|	scientific name	|
+1289605	|	Agathidinae sp. BOLD:AAU9889	|		|	scientific name	|
+1309605	|	Taraxacum phaleratum G.E.Haglund, 1960	|		|	authority	|
+1309605	|	Taraxacum phaleratum	|		|	scientific name	|
+1319605	|	Diaptominae sp. HE-640	|		|	scientific name	|
+1329605	|	Ischyrolepis wittebergensis Esterh., 1985	|		|	authority	|
+1329605	|	Ischyrolepis wittebergensis	|		|	synonym	|
+1329605	|	Restio wittebergensis (Esterh.) H.P.Linder & C.R.Hardy, 2010	|		|	authority	|
+1329605	|	Restio wittebergensis	|		|	scientific name	|
+1349605	|	Aquabacterium sp. A7-Y	|		|	scientific name	|
+1359605	|	Devosia sp. Ri1Pt_3787	|		|	scientific name	|
+1369605	|	Psarophorca Common, 2000	|		|	authority	|
+1369605	|	Psarophorca	|		|	scientific name	|
+1379605	|	Pleophylla sp. BNHM834780	|		|	scientific name	|
+1389605	|	Dothideomycetes sp. 5 KO-2013	|		|	scientific name	|
+1399605	|	Euscorpius sp. E27	|		|	scientific name	|
+1409605	|	Staphylococcus aureus UCIM6075	|		|	scientific name	|
+1419605	|	Escherichia sp. XJ133-134-NF	|		|	scientific name	|
+1424605	|	MNHN A-9605	|	MNHN A-9605 <syntype>	|	type material	|
+1429605	|	Mormidea v-luteum (Lichtenstein, 1796)	|		|	authority	|
+1429605	|	Mormidea v-luteum	|		|	scientific name	|
+1439605	|	Nostoc sp. 'Peltigera sp. N26 cyanobiont'	|		|	scientific name	|
+1459605	|	Streptomyces sp. 3349O2	|		|	scientific name	|
+1469605	|	Corynebacterium ilicis Mandel et al. 1961 (Approved Lists 1980)	|		|	authority	|
+1469605	|	Corynebacterium ilicis	|		|	synonym	|
+1469605	|	Curtobacterium flaccumfaciens pv. ilicis (Mandel et al. 1961) Young et al. 2004	|		|	authority	|
+1469605	|	Curtobacterium flaccumfaciens pv. ilicis	|		|	scientific name	|
+1469605	|	ICMP 2608	|	ICMP 2608 <type strain>	|	type material	|
+1469605	|	ICPB CI144	|	ICPB CI144 <type strain>	|	type material	|
+1469605	|	ICPB-CI144	|	ICPB-CI144 <type strain>	|	type material	|
+1469605	|	ICPB:CI144	|	ICPB:CI144 <type strain>	|	type material	|
+1469605	|	ICPBCI144	|	ICPBCI144 <type strain>	|	type material	|
+1469605	|	JCM 12267	|	JCM 12267 <not considered type>	|	type material	|
+1469605	|	JCM-12267	|	JCM-12267 <not considered type>	|	type material	|
+1469605	|	JCM:12267	|	JCM:12267 <not considered type>	|	type material	|
+1469605	|	JCM12267	|	JCM12267 <not considered type>	|	type material	|
+1479605	|	Influenza A virus (A/Pavia/07/2014(H3N2))	|		|	scientific name	|
+1489605	|	Rhodococcus sp. GN41	|		|	scientific name	|
+1499605	|	Protanthea	|		|	scientific name	|
+1509605	|	bacterium IMCC11307	|		|	scientific name	|
+1529605	|	Cladosporium cladosporioides virus 1	|		|	scientific name	|
+1539605	|	Gnathamitermes sp. 7GP3	|		|	scientific name	|
+1569605	|	Rhodobacteraceae bacterium DG1570	|		|	scientific name	|
+1579605	|	Influenza A virus (A/JiangxiDonghu/1450/2012(H3N2))	|		|	scientific name	|
+1589605	|	Sordariomycetes sp. P10573EM1CC723	|		|	scientific name	|
+1599605	|	Influenza A virus (A/Singapore/45/2001(H3N2))	|		|	scientific name	|
+1609605	|	Influenza A virus (A/chicken/Dongguan/3315/2013(H9N2))	|		|	scientific name	|
+1619605	|	Cortinarius tillamookensis Ammirati, Liimat. & Niskanen, 2014	|		|	authority	|
+1619605	|	Cortinarius tillamookensis	|		|	scientific name	|
+1619605	|	MICH 139446	|	MICH 139446 <holotype>	|	type material	|
+1622825	|	Hymenoptera sp. BOLD:ABX9605	|		|	scientific name	|
+1629605	|	Tetraselmis sp. DS3	|		|	scientific name	|
+1639605	|	Salinivibrio sp. Bac58	|		|	scientific name	|
+1649605	|	Klebsiella sp. SCT-5	|		|	scientific name	|
+1659605	|	Pseudomonas sp. SVBP3	|		|	scientific name	|
+1668006	|	Hymenoptera sp. BOLD:ACB9605	|		|	scientific name	|
+1669605	|	Platygastridae sp. BOLD:ACD1340	|		|	scientific name	|
+1670832	|	KCTC 39605	|	KCTC 39605 <type strain>	|	type material	|
+1679605	|	Enterococcus sp. VRE261bB15_13_3E	|		|	scientific name	|
+1689605	|	Gordonia sp. SMX-W2-CSD16	|		|	scientific name	|
+1699605	|	Sapovirus GI NARA_0416_2014_JP	|		|	scientific name	|
+1709605	|	Baeocera youngi (Cornell, 1967)	|		|	authority	|
+1709605	|	Baeocera youngi	|		|	scientific name	|
+1719605	|	Peperomia tlapacoyensis C.DC.	|		|	authority	|
+1719605	|	Peperomia tlapacoyensis	|		|	scientific name	|
+1725940	|	Cecidomyiidae sp. BOLD:ACA9605	|		|	scientific name	|
+1729605	|	Aerococcus sp. C26	|		|	scientific name	|
+1739605	|	Plectolyngbya sp. UIC 10033	|		|	scientific name	|
+1746968	|	Microbacterium sp. HBUM179605	|		|	scientific name	|
+1749605	|	Cecidomyiidae sp. BOLD:ACI7582	|		|	scientific name	|
+1759605	|	Chlamydomonadales sp. LBA 48	|		|	scientific name	|
+1769605	|	Influenza A virus (A/Corsica/3500-18/2015(H3N2))	|		|	scientific name	|
+1772510	|	Cecidomyiidae sp. BOLD:ACD9605	|		|	scientific name	|
+1775900	|	strain TRM 49605	|	strain TRM 49605 <type strain>	|	type material	|
+1775900	|	Streptomyces sp. TRM49605	|		|	includes	|
+1779605	|	Stentor sp. cPFEU3	|		|	scientific name	|
+1779605	|	Stentor sp. gPFEU3	|		|	equivalent name	|
+1789605	|	Gloridonus (Laterana) xyston	|		|	synonym	|
+1789605	|	Gloridonus xyston Hamilton, 2014	|		|	authority	|
+1789605	|	Gloridonus xyston	|		|	scientific name	|
+1799605	|	Odontosoria sp. BC-2016	|		|	scientific name	|
+1806061	|	UTA R-39605	|	UTA R-39605 <holotype>	|	type material	|
+1809605	|	Steatocoptis bioscai	|		|	scientific name	|
+1809605	|	Steatocoptis bioscai Torre & Bartsch, 2008	|		|	authority	|
+1829605	|	Phoridae sp. BOLD:ACA8594	|		|	scientific name	|
+1831735	|	Ctenopelmatinae sp. BOLD:ACE9605	|		|	scientific name	|
+1839605	|	Xylophagidae sp. BOLD:AAL7769	|		|	scientific name	|
+1849605	|	Flavobacterium sp. 4cultural_100	|		|	scientific name	|
+1852833	|	s__Atribacter sp002069605	|		|	synonym	|
+1859605	|	Ancyluris tedea (Cramer, 1777)	|		|	authority	|
+1859605	|	Ancyluris tedea	|		|	scientific name	|
+1859605	|	Papilio tedea Cramer, 1777	|		|	authority	|
+1859605	|	Papilio tedea	|		|	synonym	|
+1869605	|	Coleophora afrohispana Baldizzone, 1982	|		|	authority	|
+1869605	|	Coleophora afrohispana	|		|	scientific name	|
+1879605	|	Helicopsyche sp. SCCWRP0078007	|		|	scientific name	|
+1889605	|	Camellia quinqueloculosa	|		|	scientific name	|
+1889605	|	Camellia quinqueloculosa S.L.Mo & Y.C.Zhong, 1985	|		|	authority	|
+1899605	|	Aphididae sp. sc_08200	|		|	scientific name	|
+1909605	|	Pseudomonas sp. BEG268	|		|	scientific name	|
+1929605	|	Arhopalus sp. TX14_37.01	|		|	scientific name	|
+1947189	|	s__Prevotella sp002439605	|		|	synonym	|
+1949605	|	Hymenoptera sp. UAM Ento 145766	|		|	scientific name	|
+1959605	|	Aleiodes sp. BF000034	|		|	scientific name	|
+1969605	|	Roseobacter sp. SB2	|		|	scientific name	|
+1979605	|	Begonia pseudodaedalea P.D.McMillan & Rekha Morris, 2010	|		|	authority	|
+1979605	|	Begonia pseudodaedalea	|		|	scientific name	|
+1989605	|	Paratrechina sp. BIOUG04756-B05	|		|	scientific name	|
+1999605	|	Tomosvaryella sp. BIOUG05385-G08	|		|	scientific name	|
+2009605	|	Apoidea sp. 0521D202	|		|	scientific name	|
+2019605	|	Influenza A virus (A/Michigan/54/2017(H3N2))	|		|	scientific name	|
+2029605	|	Laubierpholoe sp. C BCG-2017	|		|	scientific name	|
+2039605	|	FLAS-F-18570	|	FLAS-F-18570 <holotype>	|	type material	|
+2039605	|	Inocybe subradiata Murrill, 1945	|		|	authority	|
+2039605	|	Inocybe subradiata	|		|	scientific name	|
+2039605	|	WTU F-063009	|	WTU F-063009 <isotype>	|	type material	|
+2059605	|	Influenza A virus (A/chicken/Langkat/93-09/2009(H5N1))	|		|	scientific name	|
+2069605	|	Mopalia egretta Berry, 1919	|		|	authority	|
+2069605	|	Mopalia egretta	|		|	scientific name	|
+2079605	|	Blacklegged tick rhabdovirus-1	|		|	equivalent name	|
+2079605	|	Blacklegged tick rhabdovirus 1	|		|	scientific name	|
+2089605	|	Pteromalidae sp. BIOUG23101-C06	|		|	scientific name	|
+2099605	|	Haemoproteus sp. IDPAL01	|		|	scientific name	|
+2109605	|	Apoidea sp. MMH17.42 ZSM	|		|	scientific name	|
+2119605	|	Cecidomyiidae sp. BIOUG27148-F08	|		|	scientific name	|
+2129605	|	Cecidomyiidae sp. BIOUG19705-C07	|		|	scientific name	|
+2149605	|	Dinotrema sp. BARS_2015_41_217	|		|	scientific name	|
+2159605	|	Rhagidiidae sp. BIOUG27153-E04	|		|	scientific name	|
+2169605	|	Inonotus sp.	|		|	scientific name	|
+2179605	|	Campiglossa sp. BIOUG19548-C08	|		|	scientific name	|
+2199605	|	Parametriocnemus sp. BIOUG20957-G12	|		|	scientific name	|
+2209605	|	Orthocladiinae sp. BIOUG22378-B11	|		|	scientific name	|
+2229605	|	Galatheidae sp. KSA_1483	|		|	scientific name	|
+2239605	|	Ascidae sp. BIOUG16989-G08	|		|	scientific name	|
+2249605	|	Herminia trilinealis Bremer, 1864	|		|	authority	|
+2249605	|	Herminia trilinealis	|		|	synonym	|
+2249605	|	Paracolax trilinealis (Bremer, 1864)	|		|	authority	|
+2249605	|	Paracolax trilinealis	|		|	scientific name	|
+2269605	|	Boletina sp. BIOUG26804-D06	|		|	scientific name	|
+2279605	|	Megaselia sp. BIOUG20692-E05	|		|	scientific name	|
+2289605	|	Orthotylus sp. BIOUG26595-G09	|		|	scientific name	|
+2299605	|	Orthocladiinae sp. BIOUG24520-H01	|		|	scientific name	|
+2309605	|	Dolichopus sp. BIOUG31801-F04	|		|	scientific name	|
+2319605	|	Tortricinae sp. DL14M1-0027	|		|	scientific name	|
+2329605	|	Ichneumoninae sp. BBHYF275-10	|		|	scientific name	|
+2349605	|	Cecidomyiidae sp. BIOUG21445-D10	|		|	scientific name	|
+2359605	|	Camptoprosopella sp. BIOUG32143-C05	|		|	scientific name	|
+2369605	|	Cecidomyiidae sp. BIOUG23216-F05	|		|	scientific name	|
+2379605	|	Megaselia sp. BIOUG26437-C05	|		|	scientific name	|
+2389605	|	Cecidomyiidae sp. BIOUG32604-D12	|		|	scientific name	|
+2399605	|	Corynoptera sp. BIOUG28501-B01	|		|	scientific name	|
+2409605	|	Orthocladiinae sp. BIOUG25744-E04	|		|	scientific name	|
+2419605	|	Acinetobacter sp. WCHAc060007	|		|	scientific name	|
+2429605	|	Eulophidae sp. BIOUG08114-A02	|		|	scientific name	|
+2439605	|	Oribatulidae sp. BIOUG26323-E11	|		|	scientific name	|
+2449605	|	Anystidae sp. BIOUG07428-G12	|		|	scientific name	|
+2459605	|	Scrobipalpa sp. BIOUG31772-E12	|		|	scientific name	|
+2469605	|	Encyrtidae sp. BIOUG21598-G12	|		|	scientific name	|
+2489605	|	Gastroplakaeis delicatulus Aurivillius, 1911	|		|	authority	|
+2489605	|	Gastroplakaeis delicatulus	|		|	scientific name	|
+2499605	|	Heroarterivirinae	|		|	scientific name	|
+2509605	|	Desemzia sp.	|		|	scientific name	|
+2519605	|	Ceraphronidae sp. BIOUG19667-A08	|		|	scientific name	|
+2529605	|	Enterococcus sp. 646080B	|		|	scientific name	|
+2539605	|	Pseudolycoriella sp. BIOUG20997-C04	|		|	scientific name	|
+2549605	|	Curculionidae sp. CURCU214-10	|		|	scientific name	|
+2559605	|	Streptomyces sp. 4R-3d	|		|	scientific name	|
+2569605	|	Microgovia sp. MCZ-46908	|		|	scientific name	|
+2569605	|	Neogoveidae gen. 1 LRB-2018 sp. MCZ 46908	|		|	includes	|
+2571173	|	CGMCC 3.19605	|	CGMCC 3.19605 <culture from holotype>	|	type material	|
+2579605	|	Myiopharus sp. 16 BOLD-2019	|		|	scientific name	|
+2589605	|	Paguristes sp. MB-A066629	|		|	scientific name	|
+2599605	|	Luzonichthys kiomeamea	|		|	scientific name	|
+2599605	|	Luzonichthys kiomeamea Shepherd, Pinheiro, Phelps, Perez-Matus & Rocha, 2019	|		|	authority	|
+2609605	|	Nostoc sp. 'Peltigera britannica P1324' cyanobiont	|		|	scientific name	|
+2619605	|	unclassified Gymnobothrus	|		|	scientific name	|
+2629605	|	unclassified Clitoria	|		|	scientific name	|
+2639605	|	unclassified Zebronia	|		|	scientific name	|
+2649605	|	unclassified Polytomella	|		|	scientific name	|
+2659605	|	Lonchaeidae sp. BOLD:AAP2537	|		|	scientific name	|
+2679605	|	Phytoseiidae sp. BOLD:ADI4824	|		|	scientific name	|
+2699605	|	Ouratea caudata Engl., 1876	|		|	authority	|
+2699605	|	Ouratea caudata	|		|	scientific name	|
+2709605	|	Ambrosiophilus osumiensis (Murayama, 1934)	|		|	authority	|
+2709605	|	Ambrosiophilus osumiensis	|		|	scientific name	|
+2719605	|	Pseudomonas phage jett	|		|	scientific name	|
+2729605	|	Entorrhiza fuirenae R.G. Shivas, Vanky, Piatek & K. Riess, 2019	|		|	authority	|
+2729605	|	Entorrhiza fuirenae	|		|	scientific name	|
+2729605	|	Entorrhiza sp. HUV 21857	|		|	includes	|
+2729605	|	HUV 21857	|	HUV 21857 <holotype>	|	type material	|
+2739605	|	Harringia	|		|	scientific name	|
+2749605	|	Alphacoronavirus BtCoV/Rhinolophus/UP6043/LP/RSA/2015	|		|	scientific name	|
+2759605	|	Osmylus sp. 'Plethosmylus' HX-2020	|		|	scientific name	|
+2761806	|	KACC 49605	|	KACC 49605 <reference material>	|	type material	|
+2761806	|	KACC-49605	|	KACC-49605 <reference material>	|	type material	|
+2761806	|	KACC:49605	|	KACC:49605 <reference material>	|	type material	|
+2761806	|	KACC49605	|	KACC49605 <reference material>	|	type material	|
+2761898	|	Aegilips sp. USNM ENT 01339605	|		|	scientific name	|
+2769605	|	Ptychosyrinx sp. MNHN-IM-2013-57596	|		|	scientific name	|
+2779605	|	Enterobacter cloacae complex sp. I1	|		|	scientific name	|
+2789605	|	Ohio negev-like virus 2	|		|	scientific name	|
+2795637	|	SIO:BIC:A9605	|	SIO:BIC:A9605 <holotype>	|	type material	|
+2799605	|	Acinetobacter sp. KAM406	|		|	scientific name	|
+2819605	|	Thryonomys sp. ANG0318	|		|	scientific name	|
+2829605	|	Leptobacterium sp. SCSIO 12616	|		|	scientific name	|
+2839605	|	Acupicta bubases (Hewitson, 1875)	|		|	authority	|
+2839605	|	Acupicta bubases	|		|	scientific name	|
+2839605	|	Hypochrysops bubases	|		|	synonym	|
+2849605	|	Sporosarcina sp. G11-34	|		|	scientific name	|
+2859605	|	Laonice sp. NHM 131	|		|	scientific name	|
+2869605	|	Acanthocoris sp. CCDB-34073-B09	|		|	scientific name	|
+2879605	|	CMNH ZG09762	|	CMNH ZG09762 <holotype>	|	type material	|
+2879605	|	CMNH-ZG09762	|	CMNH-ZG09762 <holotype>	|	type material	|
+2879605	|	CMNH:ZG 09762	|	CMNH:ZG 09762 <holotype>	|	type material	|
+2879605	|	CMNH:ZG09762	|	CMNH:ZG09762 <holotype>	|	type material	|
+2879605	|	CMNHZG09762	|	CMNHZG09762 <holotype>	|	type material	|
+2879605	|	Edwardsianthus smaragdus Izumi & Fujii, 2021	|		|	authority	|
+2879605	|	Edwardsianthus smaragdus	|		|	scientific name	|
+2879605	|	Edwardsianthus sp. 3 TI-2021	|		|	includes	|
+2889605	|	Euura toeniata group sp. ZMUO 031636	|		|	scientific name	|
+2890342	|	Conodon sp. BOLD:AAE9605	|		|	scientific name	|
+2899605	|	Carditida	|		|	scientific name	|
+2909605	|	Botryosphaeria sp. YW-2022a	|		|	scientific name	|
+2919605	|	Acanthamoeba sp. SK_2022a	|		|	scientific name	|
+2939605	|	Gyrodactylus sp. CIFRI.P1	|		|	scientific name	|
+2949605	|	Puccinia sp. MP-2022f	|		|	scientific name	|
+2969605	|	Pseudomonas phage vB_PaeM_FBPa21	|		|	scientific name	|
+2979605	|	Betta splendens papillomavirus 1	|		|	scientific name	|
+2989605	|	Doto japonica Odhner, 1936	|		|	authority	|
+2989605	|	Doto japonica	|		|	scientific name	|
+3019605	|	Aecidium dubiosum	|		|	scientific name	|
+3019605	|	Aecidium dubiosum Syd. & P. Syd., 1901	|		|	authority	|
+3027547	|	Variolipallium sp. MNHN IM 2013-69605	|		|	scientific name	|
+3027547	|	Velutinidae sp. gen. A GF-2022 MNHN IM 2013-69605	|		|	includes	|
+3028225	|	LIL 159605	|	LIL 159605 <holotype>	|	type material	|
+3028225	|	LIL-159605	|	LIL-159605 <holotype>	|	type material	|
+3028225	|	LIL:159605	|	LIL:159605 <holotype>	|	type material	|
+3028225	|	LIL159605	|	LIL159605 <holotype>	|	type material	|
+3029605	|	Russula aff. fragrantissima	|		|	scientific name	|
+3039605	|	Daphne axilliflora (Keissler) Pobed., 1950	|		|	authority	|
+3039605	|	Daphne axilliflora	|		|	scientific name	|
+3039605	|	Daphne caucasica subsp. axilliflora (Keissl.) Halda, 2001	|		|	authority	|
+3039605	|	Daphne caucasica subsp. axilliflora	|		|	synonym	|
+3039605	|	Daphne caucasica var. axilliflora Keissl., 1895	|		|	authority	|
+3039605	|	Daphne caucasica var. axilliflora	|		|	synonym	|
+3049605	|	Pultenaea retusa	|		|	scientific name	|
+3049605	|	Pultenaea retusa Sm., 1806	|		|	authority	|
+3059605	|	Trechus bipartitus Raffray, 1880	|		|	authority	|
+3059605	|	Trechus bipartitus	|		|	scientific name	|
+3069605	|	unclassified Candidatus Synoicihabitans	|		|	scientific name	|
+3069605	|	unclassified Synoicihabitans	|		|	equivalent name	|
+3079605	|	Escherichia phage vB-Eco-KMB25	|		|	scientific name	|
+3080530	|	MZUSP 129605	|	MZUSP 129605 <holotype>	|	type material	|
+3080530	|	MZUSP-129605	|	MZUSP-129605 <holotype>	|	type material	|
+3080530	|	MZUSP:129605	|	MZUSP:129605 <holotype>	|	type material	|
+3080530	|	MZUSP129605	|	MZUSP129605 <holotype>	|	type material	|
+3089605	|	Anthonotha leptorrhachis (Harms) J.Leonard, 1955	|		|	authority	|
+3089605	|	Anthonotha leptorrhachis	|		|	synonym	|
+3089605	|	Englerodendron leptorrhachis (Harms) Estrella & Ojeda, 2019	|		|	authority	|
+3089605	|	Englerodendron leptorrhachis	|		|	scientific name	|
+3089605	|	Isomacrolobium leptorrhachis (Harms) Aubrev. & Pellegr., 1958	|		|	authority	|
+3089605	|	Isomacrolobium leptorrhachis	|		|	synonym	|
+3089605	|	Macrolobium leptorrhachis Harms, 1902	|		|	authority	|
+3089605	|	Macrolobium leptorrhachis	|		|	synonym	|
+3119605	|	Apis mellifera associated triatovirus 1	|		|	scientific name	|
+3129605	|	Chrocasuss virus	|		|	scientific name	|
+3139605	|	Werneria digitata	|		|	scientific name	|
+3139605	|	Werneria digitata Wedd., 1856	|		|	authority	|
+3139605	|	Xenophyllum digitatum	|		|	synonym	|
+3229605	|	Vibrio sp. 10N.222.48.A4	|		|	scientific name	|
+3249605	|	Amphibolips fusus Kinsey, 1937	|		|	authority	|
+3249605	|	Amphibolips fusus	|		|	scientific name	|
+3346882	|	Streptomyces sp. NPDC059605	|		|	scientific name	|
+470	|	ATCC 19606	|	ATCC 19606 <type strain>	|	type material	|
+1909	|	NCIMB 9606	|	NCIMB 9606 <type strain>	|	type material	|
+9606	|	Homo sapiens Linnaeus, 1758	|		|	authority	|
+9606	|	Homo sapiens	|		|	scientific name	|
+9606	|	human	|		|	genbank common name	|
+29606	|	Blechnopsis orientalis (L.) C.Presl, 1851	|		|	authority	|
+29606	|	Blechnopsis orientalis	|		|	scientific name	|
+29606	|	Blechnum orientale L.	|		|	authority	|
+29606	|	Blechnum orientale	|		|	synonym	|
+39606	|	Eucnemis seychellensis	|		|	synonym	|
+39606	|	Eucnemis seychellensis Tschudi, 1838	|		|	authority	|
+39606	|	Tachycnemis seychellensis	|		|	scientific name	|
+49606	|	honeysuckles	|		|	genbank common name	|
+49606	|	Lonicera L., 1753	|		|	authority	|
+49606	|	Lonicera	|		|	scientific name	|
+59606	|	marine psychrophile IC148	|		|	scientific name	|
+79606	|	bush-honeysuckle	|		|	common name	|
+79606	|	Diervilla lonicera Mill., 1768	|		|	authority	|
+79606	|	Diervilla lonicera	|		|	scientific name	|
+89606	|	proliferative kidney organism isolate PKXEU 53	|		|	scientific name	|
+99606	|	Macrodera longicollis	|		|	scientific name	|
+101178	|	Mesocestoides sp. LC9606	|		|	scientific name	|
+109606	|	Rorippa curvipes Greene, 1896	|		|	authority	|
+109606	|	Rorippa curvipes	|		|	scientific name	|
+119606	|	glaucous-winged gull	|		|	genbank common name	|
+119606	|	Larus glaucescens Naumann, 1840	|		|	authority	|
+119606	|	Larus glaucescens	|		|	scientific name	|
+129606	|	uncultured bacterium UB1	|		|	scientific name	|
+139606	|	Clastopteridae	|		|	scientific name	|
+149606	|	Borrelia sp. SI-1	|		|	synonym	|
+149606	|	Borreliella sp. SI-1	|		|	scientific name	|
+159606	|	Achaetomium umbonatum K. Rodriguez, Stchigel & Guarro, 2004	|		|	authority	|
+159606	|	Achaetomium umbonatum	|		|	scientific name	|
+159606	|	CBS 102436	|	CBS 102436 <type material>	|	type material	|
+159606	|	FMR 6778	|	FMR 6778 <type material>	|	type material	|
+159606	|	IMI 381871	|	IMI 381871 <type material>	|	type material	|
+169606	|	Tagetes lucida Cav., 1795	|		|	authority	|
+169606	|	Tagetes lucida	|		|	scientific name	|
+179606	|	beta proteobacterium D-St(0)-8B	|		|	scientific name	|
+189606	|	Entyloma matricariae Rostr., 1884	|		|	authority	|
+189606	|	Entyloma matricariae	|		|	scientific name	|
+199339	|	CBS 9606	|	CBS 9606 <type material>	|	type material	|
+199606	|	Bryocarpum Hook. f.& Thomson, 1857	|		|	authority	|
+199606	|	Bryocarpum	|		|	scientific name	|
+209606	|	Clusia odorata	|		|	scientific name	|
+209606	|	Clusia odorata Seem., 1853	|		|	authority	|
+219606	|	Acetabularia ryukyuensis Okamura & Yamada	|		|	authority	|
+219606	|	Acetabularia ryukyuensis	|		|	scientific name	|
+229606	|	Sphingomonas sp. T5-15	|		|	scientific name	|
+239606	|	Dryopteris uniformis (Makino) Makino, 1909	|		|	authority	|
+239606	|	Dryopteris uniformis	|		|	scientific name	|
+239606	|	Nephrodium lacerum var. uniforme Makino, 1909	|		|	authority	|
+239606	|	Nephrodium lacerum var. uniforme	|		|	synonym	|
+249606	|	Streptomyces sp. 384B08	|		|	scientific name	|
+279606	|	Dolichoris umbilicata	|		|	scientific name	|
+279606	|	Dolichoris umbilicata Wiebes, 1979	|		|	authority	|
+289606	|	Elongisporangium anandrum (Drechsler) Uzuhasi, Tojo & Kakish	|		|	authority	|
+289606	|	Elongisporangium anandrum	|		|	scientific name	|
+289606	|	Pythium anandrum Drechsler, 1930	|		|	authority	|
+289606	|	Pythium anandrum	|		|	synonym	|
+289606	|	Pythium sp. GD40G	|		|	includes	|
+299606	|	Heterosmilax Kunth, 1816	|		|	authority	|
+299606	|	Heterosmilax	|		|	scientific name	|
+309606	|	unclassified Ephemeroptera	|		|	scientific name	|
+319606	|	Chorisandra pinnata	|		|	synonym	|
+319606	|	Chorisandra pinnata Wight, 1853	|		|	authority	|
+319606	|	Cicca pinnata	|		|	scientific name	|
+319606	|	Cicca pinnata (Wight) R.W.Bouman, 2022	|		|	authority	|
+319606	|	Phyllanthus pinnatus	|		|	synonym	|
+319606	|	Phyllanthus pinnatus (Wight) G.L.Webster, 1957	|		|	authority	|
+329606	|	Influenza A virus (A/chicken/Henan/43/02(H9N2))	|		|	scientific name	|
+339606	|	Durvillaea willana	|		|	scientific name	|
+349606	|	Jungermannia duricaulis Hook. f. & Taylor, 1844	|		|	authority	|
+349606	|	Jungermannia duricaulis	|		|	synonym	|
+349606	|	Plagiochila duricaulis (Hook.f. & Taylor) Gottsche, Lindenb. & Nees	|		|	authority	|
+349606	|	Plagiochila duricaulis	|		|	scientific name	|
+359606	|	Mesembryanthemum sp. CK-2005	|		|	scientific name	|
+359606	|	Phyllobolus sp. CK-2005	|		|	synonym	|
+369606	|	Muscicapa rufa Boddaert, 1783	|		|	authority	|
+369606	|	Muscicapa rufa	|		|	synonym	|
+369606	|	Pachyramphus rufus	|		|	scientific name	|
+379606	|	Cloning vector pHC79	|		|	scientific name	|
+389606	|	Cephaloleia sp. McKenna-113	|		|	scientific name	|
+394155	|	CAS 159606	|	CAS 159606 <holotype>	|	type material	|
+399606	|	Pseudomonas sp. PNP1	|		|	scientific name	|
+409606	|	Pentameris veneta (H.P.Linder) Galley & H.P.Linder, 2010	|		|	authority	|
+409606	|	Pentameris veneta	|		|	scientific name	|
+409606	|	Pentaschistis veneta H.P.Linder, 1990	|		|	authority	|
+409606	|	Pentaschistis veneta	|		|	synonym	|
+429606	|	Azospirillum sp. Is-B220	|		|	scientific name	|
+439606	|	Pleurotoma grandis Gray, 1833	|		|	authority	|
+439606	|	Pleurotoma grandis	|		|	synonym	|
+439606	|	Turris grandis (Gray, 1833) Gray, 1833	|		|	authority	|
+439606	|	Turris grandis (Gray, 1833)	|		|	scientific name	|
+449606	|	Ameridion petrum (Levi, 1959)	|		|	authority	|
+449606	|	Ameridion petrum	|		|	scientific name	|
+449606	|	Theridion petrum	|		|	synonym	|
+469606	|	Fusobacterium nucleatum subsp. vincentii 4_1_13	|		|	equivalent name	|
+469606	|	Fusobacterium sp. 4_1_13	|		|	equivalent name	|
+469606	|	Fusobacterium vincentii 4_1_13	|		|	scientific name	|
+472158	|	CIP 109606	|	CIP 109606 <type strain>	|	type material	|
+479606	|	Pseudococculinidae sp. PanglaoB	|		|	scientific name	|
+489606	|	Streptococcus sp. W59	|		|	scientific name	|
+499606	|	Influenza B virus (B/Milan/06/2005)	|		|	scientific name	|
+509606	|	Ischnocnema choristolemma Harvey & Sheehy, 2005	|		|	authority	|
+509606	|	Ischnocnema choristolemma	|		|	synonym	|
+509606	|	Oreobates choristolemma (Harvey and Sheehy, 2005)	|		|	authority	|
+509606	|	Oreobates choristolemma	|		|	scientific name	|
+519606	|	Pseudomonas sp. T14-03	|		|	scientific name	|
+529606	|	Drimys andina (Reiche) R.A.Rodr. & Quezada, 1991	|		|	authority	|
+529606	|	Drimys andina	|		|	scientific name	|
+529606	|	Drimys winteri var. andina Reiche, 1898	|		|	authority	|
+529606	|	Drimys winteri var. andina	|		|	synonym	|
+539606	|	Mycobacterium sp. VC-YC6670	|		|	scientific name	|
+549606	|	Pseudovibrio sp. Pm31	|		|	scientific name	|
+559606	|	Pseudomonas sp. ITRI77	|		|	scientific name	|
+569606	|	'Catalpa bungei' yellows phytoplasma	|		|	scientific name	|
+575584	|	Acinetobacter baumannii ATCC 19606	|		|	synonym	|
+579606	|	Ruegeria sp. S4732	|		|	scientific name	|
+589606	|	Bradyrhizobium sp. STM3344	|		|	equivalent name	|
+589606	|	Bradyrhizobium sp. STM 3344	|		|	scientific name	|
+629606	|	Pseudomonas sp. A5AT1	|		|	scientific name	|
+639606	|	Ellisella sp. SCF-2009	|		|	scientific name	|
+669931	|	Coleofasciculus chthonoplastes CCY9606	|		|	scientific name	|
+669931	|	Microcoleus chthonoplastes CCY9606	|		|	synonym	|
+676421	|	Neanuridae sp. DPCOL89606	|		|	scientific name	|
+679606	|	Nodulisporium sp. JW89-5	|		|	scientific name	|
+683673	|	Ocnerodrilidae sp. DPEW39606	|		|	scientific name	|
+699606	|	Poecilosclerida sp. TLL-2009a	|		|	scientific name	|
+706570	|	ATCC 29606	|	ATCC 29606 <type strain>	|	type material	|
+709606	|	bacterium A3S_VP8_G4	|		|	scientific name	|
+749606	|	Flaviramulus sp. KLE1227	|		|	scientific name	|
+759606	|	Neurospora crassa 1211	|		|	scientific name	|
+819606	|	Diptera sp. BOLD:AAG1699	|		|	scientific name	|
+829606	|	Hymenoptera sp. BOLD:AAL1824	|		|	scientific name	|
+833603	|	Lepidoptera sp. BOLD:AAA9606	|		|	scientific name	|
+839606	|	Lepidoptera sp. BOLD:AAD0597	|		|	scientific name	|
+849606	|	Lepidoptera sp. BOLD:AAI9380	|		|	scientific name	|
+851960	|	Odonata sp. BOLD:AAD9606	|		|	scientific name	|
+859606	|	Rhodopseudomonas sp. JA253	|		|	scientific name	|
+869606	|	Pseudomonas sp. L10(2010)	|		|	scientific name	|
+879606	|	Aeromonas sp. Y324	|		|	scientific name	|
+889606	|	Pseudoalteromonas sp. 21F07-Zb4-8	|		|	scientific name	|
+897637	|	Lepidoptera sp. BOLD:AAF9606	|		|	scientific name	|
+909606	|	Tritetrabdella	|		|	scientific name	|
+919606	|	Hymenoptera sp. BOLD:AAM6442	|		|	scientific name	|
+929606	|	Maningrididae	|		|	scientific name	|
+939606	|	delta proteobacterium SCGC AAA240-I02	|		|	scientific name	|
+961916	|	Lepidoptera sp. BOLD:AAM9606	|		|	scientific name	|
+963683	|	Lepidoptera sp. BOLD:AAN9606	|		|	scientific name	|
+969316	|	Lepidoptera sp. BOLD:AAO9606	|		|	scientific name	|
+969606	|	Coleoptera sp. BOLD:AAN4917	|		|	scientific name	|
+979606	|	Mortierella sp. V3Z	|		|	scientific name	|
+999606	|	Kayea sp. Wood & Teck 5500	|		|	scientific name	|
+1019606	|	Diptera sp. BOLD:AAI4126	|		|	scientific name	|
+1029606	|	Curvibacter sp. IMCC12816	|		|	scientific name	|
+1049606	|	Influenza A virus (A/California/VRDL395/2009(mixed))	|		|	scientific name	|
+1057190	|	Haplotaxida sp. BOLD:AAT9606	|		|	scientific name	|
+1059606	|	Lepidoptera sp. BOLD:AAU2649	|		|	scientific name	|
+1069606	|	Steatocranus sp. 'Nki'	|		|	scientific name	|
+1079606	|	bacterium EA10-S-14	|		|	scientific name	|
+1099606	|	Promicrogaster sp. Whitfield12	|		|	scientific name	|
+1099606	|	Promicrogaster Whitfield12	|		|	synonym	|
+1109606	|	Ebo Keyserling, 1884	|		|	authority	|
+1109606	|	Ebo	|		|	scientific name	|
+1139606	|	Palpusia plumipesDHJ02	|		|	synonym	|
+1139606	|	Palpusia sp. plumipesDHJ02	|		|	scientific name	|
+1149606	|	Influenza A virus (A/duck/Shantou/6270/2006(H6N6))	|		|	scientific name	|
+1159606	|	Proteus sp. BLKB3	|		|	scientific name	|
+1169606	|	Lysinibacillus sp. BAB760	|		|	scientific name	|
+1179606	|	Bacillus sp. enrichment culture clone A2k	|		|	scientific name	|
+1189606	|	Liparis stricklandiana Rchb.f., 1880	|		|	authority	|
+1189606	|	Liparis stricklandiana	|		|	scientific name	|
+1199606	|	Methylobacterium sp. LDB-B190	|		|	scientific name	|
+1209606	|	Xanthoparmelia subchalybaeizans (Hale) G. Amo, A. Crespo, Elix & Lumbsch, 2010	|		|	authority	|
+1209606	|	Xanthoparmelia subchalybaeizans	|		|	scientific name	|
+1219606	|	Finegoldia sp. S3MVA7	|		|	scientific name	|
+1229606	|	Influenza A virus (A/mallard/Sweden/99886/2009(H11N2))	|		|	scientific name	|
+1239606	|	Notiospathius sp. DORYC199-11	|		|	scientific name	|
+1249606	|	Portieria cf. hornemannii V1D FL-2012	|		|	scientific name	|
+1249606	|	Portieria hornemannii V1D	|		|	synonym	|
+1259606	|	Pseudomonas sp. MDT3-5	|		|	scientific name	|
+1269606	|	Cotesia jft94	|		|	synonym	|
+1269606	|	Cotesia sp. jft94	|		|	scientific name	|
+1279606	|	Influenza A virus (A/Japan/110/2007(H3N2))	|		|	scientific name	|
+1289606	|	Aleiodes sp. BOLD:AAG1404	|		|	scientific name	|
+1309606	|	Taraxacum roseum Bornm. ex Hand.-Mazz., 1907	|		|	authority	|
+1309606	|	Taraxacum roseum	|		|	scientific name	|
+1319606	|	Diaptominae sp. HE-640.1	|		|	scientific name	|
+1329606	|	Restio zuluensis H.P.Linder, 1985	|		|	authority	|
+1329606	|	Restio zuluensis	|		|	scientific name	|
+1349606	|	Tellina crucigera Lamarck, 1818	|		|	authority	|
+1349606	|	Tellina crucigera	|		|	synonym	|
+1349606	|	Tellinella crucigera (Lamarck, 1818)	|		|	authority	|
+1349606	|	Tellinella crucigera	|		|	scientific name	|
+1359606	|	Microbacteriaceae bacterium Ri1Pt_3788	|		|	scientific name	|
+1367462	|	JCM 19606	|	JCM 19606 <type strain>	|	type material	|
+1369606	|	Psaroxantha Common, 1994	|		|	authority	|
+1369606	|	Psaroxantha	|		|	scientific name	|
+1379606	|	Pleophylla sp. BNHM834781	|		|	scientific name	|
+1389606	|	Dothideomycetes sp. 6 KO-2013	|		|	scientific name	|
+1399606	|	Euscorpius sp. EC202	|		|	scientific name	|
+1409606	|	Staphylococcus aureus UCIM6077	|		|	scientific name	|
+1419606	|	Escherichia sp. XJ134-1212-NF2	|		|	scientific name	|
+1429606	|	Artemisia sp. TRR-2013	|		|	scientific name	|
+1439606	|	Nostoc sp. 'Peltigera sp. N27 cyanobiont'	|		|	scientific name	|
+1459606	|	Streptomyces sp. 3364O2	|		|	scientific name	|
+1469606	|	Magnolia nilagirica	|		|	scientific name	|
+1469606	|	Magnolia nilagirica (Zenker) Figlar, 2000	|		|	authority	|
+1469606	|	Michelia nilagirica	|		|	synonym	|
+1469606	|	Michelia nilagirica Zenker, 1835	|		|	authority	|
+1479606	|	Felis bengalensis bengalensis Kerr, 1792	|		|	authority	|
+1479606	|	Felis bengalensis bengalensis	|		|	synonym	|
+1479606	|	Prionailurus bengalensis bengalensis	|		|	scientific name	|
+1489606	|	Rhodococcus sp. GN51	|		|	scientific name	|
+1499606	|	Protanthea simplex Carlgren, 1891	|		|	authority	|
+1499606	|	Protanthea simplex	|		|	scientific name	|
+1506565	|	NRM 59606	|	NRM 59606 <paratype>	|	type material	|
+1509606	|	bacterium IMCC11308	|		|	scientific name	|
+1519606	|	Notosolenus urceolatus Larsen & Patterson, 1990	|		|	authority	|
+1519606	|	Notosolenus urceolatus	|		|	scientific name	|
+1529606	|	Cryptosporidium deer genotype	|		|	equivalent name	|
+1529606	|	Cryptosporidium sp. deer genotype	|		|	scientific name	|
+1537382	|	KCTC 39606	|	KCTC 39606 <type strain>	|	type material	|
+1539606	|	Heterotermes sp. BF01	|		|	scientific name	|
+1549606	|	Aleiodes vetinarii Quicke & Butcher, 2012	|		|	authority	|
+1549606	|	Aleiodes vetinarii	|		|	scientific name	|
+1569606	|	Rhodobacteraceae bacterium DG1572	|		|	scientific name	|
+1579606	|	Influenza A virus (A/JiangxiDonghu/1466/2006(H1N1))	|		|	scientific name	|
+1589606	|	Sordariomycetes sp. P10573P30CC738	|		|	scientific name	|
+1599606	|	Influenza A virus (A/Singapore/46/2007(H1N1))	|		|	scientific name	|
+1609606	|	Influenza A virus (A/chicken/Dongguan/3355/2013(H9N2))	|		|	scientific name	|
+1619606	|	Cortinarius timiskamingensis Malloch, Ammirati, Liimat. & Niskanen, 2014	|		|	authority	|
+1619606	|	Cortinarius timiskamingensis	|		|	scientific name	|
+1619606	|	NBM D. Malloch 3-9-81/2	|	NBM D. Malloch 3-9-81/2 <holotype>	|	type material	|
+1629606	|	Expression vector pHyVec14	|		|	scientific name	|
+1639606	|	Salinivibrio sp. Bac60	|		|	scientific name	|
+1649606	|	Lactobacillus sp. X25	|		|	scientific name	|
+1659606	|	Pseudomonas sp. SVBP6	|		|	scientific name	|
+1669606	|	Platygastridae sp. BOLD:ACD1341	|		|	scientific name	|
+1671882	|	UFRJ 9606	|	UFRJ 9606 <holotype>	|	type material	|
+1679606	|	Enterococcus sp. VRE266B15_13_3E	|		|	scientific name	|
+1689606	|	Gordonia sp. SMX-W2-SCD14	|		|	scientific name	|
+1699606	|	Sapovirus GI NARA_0011_2015_JP	|		|	scientific name	|
+1709606	|	Baliosus nervosus (Panzer, 1794)	|		|	authority	|
+1709606	|	Baliosus nervosus	|		|	scientific name	|
+1719606	|	Peperomia wolfgang-krahnii Rauh, 1986	|		|	authority	|
+1719606	|	Peperomia wolfgang-krahnii	|		|	scientific name	|
+1729606	|	Aerococcus sp. F116	|		|	scientific name	|
+1739606	|	Wilmottia sp. UIC 10069	|		|	scientific name	|
+1746626	|	Arthrobacter sp. HBUM179606	|		|	scientific name	|
+1749606	|	Cecidomyiidae sp. BOLD:ACI7583	|		|	scientific name	|
+1759606	|	Chlamydomonadales sp. LBA 49	|		|	scientific name	|
+1769606	|	Influenza A virus (A/Corsica/3501-08/2015(H3N2))	|		|	scientific name	|
+1779606	|	Synhymeniida sp. cPFEU2	|		|	scientific name	|
+1779606	|	Synhymeniida sp. gPFEU2	|		|	equivalent name	|
+1789606	|	Gloridonus	|	Gloridonus <subgenus>	|	scientific name	|
+1799606	|	Opuntia sp. BC-2016	|		|	scientific name	|
+1809606	|	Strophina	|		|	scientific name	|
+1819606	|	Echinosaura brachycephala Koehler, Boehme & Schmitz 2004	|		|	authority	|
+1819606	|	Echinosaura brachycephala Kohler, Bohme & Schmitz, 2004	|		|	authority	|
+1819606	|	Echinosaura brachycephala	|		|	scientific name	|
+1819606	|	MHNG 235977	|	MHNG 235977 <holotype>	|	type material	|
+1829606	|	Phoridae sp. BOLD:ACA9704	|		|	scientific name	|
+1839606	|	Brachystomatidae	|		|	scientific name	|
+1849606	|	Flavobacterium sp. 4cultural_106	|		|	scientific name	|
+1859606	|	Lyropteryx terpsichore	|		|	scientific name	|
+1859606	|	Lyropteryx terpsichore Westwood, 1851	|		|	authority	|
+1869606	|	Coleophora albicella Constant, 1885	|		|	authority	|
+1869606	|	Coleophora albicella	|		|	scientific name	|
+1879606	|	Helicopsyche sp. SCCWRP0078002	|		|	scientific name	|
+1889606	|	Camellia tianeensis	|		|	scientific name	|
+1889606	|	Camellia tianeensis S.Ye Liang & Y.T.Luo, 1995	|		|	authority	|
+1899606	|	Aphididae sp. sc_08229	|		|	scientific name	|
+1909606	|	Pseudomonas sp. BEG274	|		|	scientific name	|
+1920222	|	MAFF 239606	|	MAFF 239606 <culture from holotype>	|	type material	|
+1929606	|	Arhopalus sp. TX14_4.01	|		|	scientific name	|
+1949606	|	Hymenoptera sp. UAM Ento 145779	|		|	scientific name	|
+1959606	|	Aleiodes sp. BF002353	|		|	scientific name	|
+1969606	|	bacterium ectosymbiont of Pseudovorticella sp. guadeloupensis	|		|	scientific name	|
+1979606	|	Begonia puspitae Ardi, 2009	|		|	authority	|
+1979606	|	Begonia puspitae	|		|	scientific name	|
+1989606	|	Paratrechina sp. BIOUG04750-F08	|		|	scientific name	|
+1999606	|	Tomosvaryella sp. BIOUG17828-B08	|		|	scientific name	|
+2009606	|	Apoidea sp. 0521D204	|		|	scientific name	|
+2019606	|	Influenza A virus (A/Michigan/55/2017(H3N2))	|		|	scientific name	|
+2029606	|	Laubierpholoe cf. swedmarki BCG-2017	|		|	scientific name	|
+2039606	|	Adiantopsis alata Prantl, 1883	|		|	authority	|
+2039606	|	Adiantopsis alata	|		|	scientific name	|
+2059606	|	Influenza A virus (A/chicken/Lokseumawe/340-08/2008(H5N1))	|		|	scientific name	|
+2069606	|	Chiton middendorffii Schrenck, 1861	|		|	authority	|
+2069606	|	Chiton middendorffii	|		|	synonym	|
+2069606	|	Mopalia middendorffii	|		|	scientific name	|
+2069606	|	Mopalia middendorffii (von Schrenck, 1861)	|		|	authority	|
+2079606	|	Dog Tick rhabdovirus 1	|		|	equivalent name	|
+2079606	|	Dog Tick rhabdovirus-1	|		|	scientific name	|
+2089606	|	Pteromalidae sp. BIOUG32647-D01	|		|	scientific name	|
+2099606	|	Haemoproteus sp. LAMPUR01	|		|	scientific name	|
+2109606	|	Achromadora sp. Sonebhadra A1	|		|	scientific name	|
+2119606	|	Cecidomyiidae sp. BIOUG26788-D07	|		|	scientific name	|
+2129606	|	Cecidomyiidae sp. BIOUG18982-H04	|		|	scientific name	|
+2149606	|	Dinotrema sp. BIOUG25019-F08	|		|	scientific name	|
+2159606	|	Rhagidiidae sp. BIOUG26716-F05	|		|	scientific name	|
+2179606	|	Campiglossa sp. BIOUG21089-B02	|		|	scientific name	|
+2184181	|	9606	|	9606 <holotype>	|	type material	|
+2184181	|	Chen 9606	|	Chen 9606 <holotype>	|	type material	|
+2199606	|	Parametriocnemus sp. BIOUG21735-B04	|		|	scientific name	|
+2209606	|	Orthocladiinae sp. BIOUG22378-B12	|		|	scientific name	|
+2229606	|	Galatheidae sp. KSA_1484	|		|	scientific name	|
+2239606	|	Ascidae sp. BIOUG24078-C05	|		|	scientific name	|
+2249606	|	Paranomis denticosta Munroe & Mutuura, 1968	|		|	authority	|
+2249606	|	Paranomis denticosta	|		|	scientific name	|
+2269606	|	Boletina sp. BIOUG27069-E01	|		|	scientific name	|
+2279606	|	Megaselia sp. BIOUG26981-F03	|		|	scientific name	|
+2289606	|	Orthotylus sp. BIOUG26595-H01	|		|	scientific name	|
+2299606	|	Orthocladiinae sp. BIOUG24548-D12	|		|	scientific name	|
+2309606	|	Dolichopus sp. BIOUG22938-F04	|		|	scientific name	|
+2319606	|	Typhonia sp. DL14AM1-0026	|		|	scientific name	|
+2329606	|	Ichneumoninae sp. BBHYF278-10	|		|	scientific name	|
+2349606	|	Cecidomyiidae sp. BIOUG21039-H07	|		|	scientific name	|
+2359606	|	Camptoprosopella sp. BIOUG32143-C10	|		|	scientific name	|
+2369606	|	Cecidomyiidae sp. BIOUG23216-F06	|		|	scientific name	|
+2379606	|	Megaselia sp. BIOUG26437-C09	|		|	scientific name	|
+2389606	|	Cecidomyiidae sp. BIOUG23610-F04	|		|	scientific name	|
+2399606	|	Corynoptera sp. BIOUG02711-C07	|		|	scientific name	|
+2409606	|	Orthocladiinae sp. BIOUG07050-H05	|		|	scientific name	|
+2429606	|	Eulophidae sp. BIOUG08312-C09	|		|	scientific name	|
+2439606	|	Oribatulidae sp. BIOUG26737-A08	|		|	scientific name	|
+2449606	|	Anystidae sp. BIOUG30402-C11	|		|	scientific name	|
+2459606	|	Scrobipalpa sp. BIOUG31074-C04	|		|	scientific name	|
+2469606	|	Encyrtidae sp. BIOUG20429-D04	|		|	scientific name	|
+2489606	|	Dasychira ila Swinhoe, 1904	|		|	authority	|
+2489606	|	Dasychira ila	|		|	synonym	|
+2489606	|	Griveaudyria ila	|		|	scientific name	|
+2489606	|	Griveaudyria ila (Swinhoe, 1904)	|		|	authority	|
+2499606	|	Simarterivirinae	|		|	scientific name	|
+2509606	|	Ophelimus eucalypti complex sp. 'Maid'	|		|	scientific name	|
+2519606	|	Ceraphronidae sp. BIOUG19667-A11	|		|	scientific name	|
+2529606	|	Enterococcus sp. 646113M	|		|	scientific name	|
+2539606	|	Pseudolycoriella sp. BIOUG20997-C05	|		|	scientific name	|
+2549606	|	Curculionidae sp. CURCU215-10	|		|	scientific name	|
+2559606	|	Bacillus sp. AZ43	|		|	scientific name	|
+2569606	|	Microgovia sp. MCZ-53017	|		|	scientific name	|
+2569606	|	Neogoveidae gen. 1 LRB-2018 sp. MCZ 53017	|		|	includes	|
+2579606	|	Myiopharus sp. 2 BOLD-2019	|		|	scientific name	|
+2589606	|	Paguristes sp. MB-A066847	|		|	scientific name	|
+2599606	|	Coprococcus sp. MBT L4	|		|	scientific name	|
+2609606	|	Nostoc sp. 'Peltigera britannica P200' cyanobiont	|		|	scientific name	|
+2619606	|	unclassified Skyttea	|		|	scientific name	|
+2629606	|	unclassified Brachylinga	|		|	scientific name	|
+2639606	|	unclassified Molgula	|		|	scientific name	|
+2659606	|	Lonchaeidae sp. BOLD:AAP2539	|		|	scientific name	|
+2679606	|	Pilogalumna sp. BOLD:AAF9096	|		|	scientific name	|
+2699606	|	Ouratea cearensis	|		|	scientific name	|
+2699606	|	Ouratea cearensis (Tiegh.) Sastre & Offroy, 2016	|		|	authority	|
+2699606	|	Trichouratea cearensis	|		|	synonym	|
+2699606	|	Trichouratea cearensis Tiegh., 1902	|		|	authority	|
+2709606	|	Ambrosiophilus subnepotulus (Eggers, 1930)	|		|	authority	|
+2709606	|	Ambrosiophilus subnepotulus	|		|	scientific name	|
+2719606	|	Pseudomonas phage misfit	|		|	scientific name	|
+2729606	|	Entorrhiza aschersoniana (Magnus) Lagerh., 1888	|		|	authority	|
+2729606	|	Entorrhiza aschersoniana	|		|	synonym	|
+2729606	|	Juncorrhiza aschersoniana (Magnus) K. Riess & Piatek, 2019	|		|	authority	|
+2729606	|	Juncorrhiza aschersoniana	|		|	scientific name	|
+2729606	|	Schinzia aschersoniana Magnus, 1888	|		|	authority	|
+2729606	|	Schinzia aschersoniana	|		|	synonym	|
+2736516	|	INPA259606	|	INPA259606 <holotype>	|	type material	|
+2739606	|	Asplanchna eupoda Gosse, 1887	|		|	authority	|
+2739606	|	Asplanchna eupoda	|		|	synonym	|
+2739606	|	Harringia eupoda (Gosse, 1887)	|		|	authority	|
+2739606	|	Harringia eupoda	|		|	scientific name	|
+2749606	|	Calyptranthes cf. cubensis Flickinger 24	|		|	scientific name	|
+2761929	|	Thoreauella sp. USNM ENT 01339606	|		|	scientific name	|
+2769606	|	Gemmula sp. MNHN-IM-2013-55831	|		|	scientific name	|
+2779606	|	Kinosternon vogti Lopez-Luna et al., 2018	|		|	authority	|
+2779606	|	Kinosternon vogti	|		|	scientific name	|
+2779606	|	Vallarta mud turtle	|		|	genbank common name	|
+2789606	|	Ganwon-do Ifla-like virus	|		|	scientific name	|
+2799606	|	Amanita sp. 'adventicometa'	|		|	scientific name	|
+2809606	|	Nodamuvirales sp.	|		|	scientific name	|
+2819606	|	unclassified Zelotomys	|		|	scientific name	|
+2829606	|	Litorimonas SCSIO	|		|	scientific name	|
+2839606	|	Dysmathia	|		|	scientific name	|
+2845822	|	Aquabacterium sp. CECT 9606	|		|	scientific name	|
+2849606	|	Hauffenia kerschneri	|		|	scientific name	|
+2849606	|	Hauffenia kerschneri (Zimmermann, 1930)	|		|	authority	|
+2849606	|	Horatia erythropomatia kerschneri	|		|	synonym	|
+2849606	|	Horatia erythropomatia kerschneri Zimmermann, 1930	|		|	authority	|
+2859606	|	Laonice sp. NHM 2076	|		|	scientific name	|
+2869606	|	unclassified Acanthotyla	|		|	scientific name	|
+2879606	|	CMNH ZG05954	|	CMNH ZG05954 <holotype>	|	type material	|
+2879606	|	CMNH-ZG05954	|	CMNH-ZG05954 <holotype>	|	type material	|
+2879606	|	CMNH:ZG 05954	|	CMNH:ZG 05954 <holotype>	|	type material	|
+2879606	|	CMNH:ZG05954	|	CMNH:ZG05954 <holotype>	|	type material	|
+2879606	|	CMNHZG05954	|	CMNHZG05954 <holotype>	|	type material	|
+2879606	|	Edwardsianthus carbunculus Izumi & Fujii, 2021	|		|	authority	|
+2879606	|	Edwardsianthus carbunculus	|		|	scientific name	|
+2879606	|	Edwardsianthus sp. 4 TI-2021	|		|	includes	|
+2889606	|	Euura toeniata group sp. ZMUO 031681	|		|	scientific name	|
+2899606	|	Adenanthera sp. Carlsen 3258	|		|	scientific name	|
+2909606	|	Diplodia sp. YW-2022a	|		|	scientific name	|
+2919606	|	Howardula sp. 20167 JPD-2022	|		|	scientific name	|
+2939606	|	Amanita sulcatissima Bas, 1978	|		|	authority	|
+2939606	|	Amanita sulcatissima	|		|	scientific name	|
+2949606	|	Puccinia sp. MP-2022g	|		|	scientific name	|
+2969606	|	Pseudomonas phage vB_PaeM_FBPa3	|		|	scientific name	|
+2979606	|	Lactarius psammicola f. glaber Hesler & A.H. Sm., 1979	|		|	authority	|
+2979606	|	Lactarius psammicola f. glaber	|		|	scientific name	|
+2979606	|	MICH 11193	|	MICH 11193 <holotype>	|	type material	|
+2979606	|	MICH-11193	|	MICH-11193 <holotype>	|	type material	|
+2979606	|	MICH:11193	|	MICH:11193 <holotype>	|	type material	|
+2979606	|	MICH11193	|	MICH11193 <holotype>	|	type material	|
+2989606	|	Rostanga bifurcata Rudman & Avern, 1989	|		|	authority	|
+2989606	|	Rostanga bifurcata	|		|	scientific name	|
+3019606	|	Aecidium kraussiae	|		|	scientific name	|
+3019606	|	Aecidium kraussiae Syd. & P. Syd., 1923	|		|	authority	|
+3019606	|	Aecidium kraussiae type	|	Aecidium kraussiae type <type material>	|	type material	|
+3019606	|	CBS 8563 type	|	CBS 8563 type <type material>	|	type material	|
+3029606	|	Russula aff. globispora	|		|	scientific name	|
+3039606	|	Daphne arisanensis Hayata, 1912	|		|	authority	|
+3039606	|	Daphne arisanensis	|		|	scientific name	|
+3049606	|	Rutidosis murchisonii F.Muell., 1858	|		|	authority	|
+3049606	|	Rutidosis murchisonii	|		|	scientific name	|
+3059606	|	Trechus dodola Schmidt & Faille, 2018	|		|	authority	|
+3059606	|	Trechus dodola	|		|	scientific name	|
+3069606	|	Candidatus Synoicihabitans sp.	|		|	scientific name	|
+3069606	|	Synoicihabitans sp.	|		|	equivalent name	|
+3079606	|	Klebsiella phage P01	|		|	scientific name	|
+3089606	|	Amphinomia furcata Merxm. & A.Schreib., 1957	|		|	authority	|
+3089606	|	Amphinomia furcata	|		|	synonym	|
+3089606	|	Leobordea furcata (Merxm. & A.Schreib.) L.A.Silva & J.Freitas, 2014	|		|	authority	|
+3089606	|	Leobordea furcata	|		|	scientific name	|
+3119606	|	Sarcocheilichthys vittatus An, Zhang & Shen, 2020	|		|	authority	|
+3119606	|	Sarcocheilichthys vittatus	|		|	scientific name	|
+3129606	|	Chrocasust virus	|		|	scientific name	|
+3139606	|	Rostrupomyces	|		|	scientific name	|
+3139606	|	Rostrupomyces Vadthanarat & Raspe, 2024	|		|	authority	|
+3229606	|	Vibrio sp. 10N.222.48.A8	|		|	scientific name	|
+3249606	|	Amphibolips malinche Nieves-Aldrey & Pascual, 2012	|		|	authority	|
+3249606	|	Amphibolips malinche	|		|	scientific name	|
+232094	|	Human adenovirus H03-2B-1	|		|	scientific name	|
+1232094	|	Sphingomonadaceae bacterium MS41b	|		|	scientific name	|
+2232094	|	Runchomyia sp. RU1	|		|	scientific name	|
+232100	|	Human adenovirus A02-2B-2	|		|	scientific name	|
+1232100	|	Cortinarius cascadensis Ammirati & A. H. Sm., 1978	|		|	authority	|
+1232100	|	Cortinarius cascadensis	|		|	scientific name	|
+1232100	|	JFA6156	|	JFA6156 <holotype>	|	type material	|
+1232100	|	MICH 10330	|	MICH 10330 <holotype>	|	type material	|
+1232100	|	MICH JFA6156	|	MICH JFA6156 <type material>	|	type material	|
+10528	|	Adenovirus type 18	|		|	equivalent name	|
+10528	|	Human adenovirus 18	|		|	scientific name	|
+10528	|	Human adenovirus type 18	|		|	equivalent name	|
+10528	|	Mastadenovirus 18	|		|	equivalent name	|
+110528	|	Tamiosoma	|		|	scientific name	|
+210528	|	alpha proteobacterium Mzj3	|		|	scientific name	|
+284760	|	Platychrysis sp. MBIC10528	|		|	scientific name	|
+310528	|	Bacillus sp. Cafi8	|		|	scientific name	|
+398067	|	Ustanciosporium cf. taubertianum HAJB10528	|		|	scientific name	|
+410528	|	anaerobic bacterium S13	|		|	scientific name	|
+510528	|	Influenza B virus (B/Chanchamayo/OBT4981/2007)	|		|	scientific name	|
+710528	|	Influenza A virus (A/Catalonia/S2118/2009(H1N1))	|		|	scientific name	|
+910528	|	Echinops sphaerocephalus subsp. sphaerocephalus	|		|	scientific name	|
+1010528	|	eukaryote SCGC AAA074-G23	|		|	scientific name	|
+1110528	|	Solea senegalensis betanodavirus	|		|	scientific name	|
+1210528	|	Colletotrichum sp. GM010	|		|	scientific name	|
+1277439	|	Fusarium sp. 10528	|		|	scientific name	|
+1310528	|	Influenza A virus (A/chicken/West Java/Ngr-30/2007(H5N1))	|		|	scientific name	|
+1510528	|	Azospirillum sp. LPMM-2	|		|	scientific name	|
+1610528	|	JCM 30382	|	JCM 30382 <type material>	|	type material	|
+1610528	|	KEMB 3-892	|	KEMB 3-892 <type material>	|	type material	|
+1610528	|	KEMB:3-892	|	KEMB:3-892 <type material>	|	type material	|
+1610528	|	"Loktanella aquimaris" Kim et al. 2019	|		|	authority	|
+1610528	|	Loktanella aquimaris	|		|	scientific name	|
+1610528	|	Loktanella sp. C5	|		|	includes	|
+1610528	|	strain C5	|	strain C5 <type material>	|	type material	|
+1710528	|	Tachinus angustatus Horn, 1877	|		|	authority	|
+1710528	|	Tachinus angustatus	|		|	scientific name	|
+1810528	|	Colletotrichum sp. strain12 CCS	|		|	scientific name	|
+1910528	|	Influenza B virus (B/New York/38/2016)	|		|	scientific name	|
+2010528	|	Burkholderia sp. N4b35_3	|		|	scientific name	|
+2034224	|	ZMA Por 10528	|	ZMA Por 10528 <holotype>	|	type material	|
+2210528	|	Tanypodinae sp. BIOUG20457-H08	|		|	scientific name	|
+2310528	|	Fanniidae sp. BIOUG22936-H02	|		|	scientific name	|
+2410528	|	Phaenopsectra sp. BIOUG25561-E03	|		|	scientific name	|
+2510528	|	Leptochilus cf. axillaris Zhang et al. 7047	|		|	scientific name	|
+2710528	|	unclassified Oxyinae	|		|	scientific name	|
+2810528	|	Microbacterium phage Skylord	|		|	scientific name	|
+2819667	|	VNMN 010528	|	VNMN 010528 <paratype>	|	type material	|
+2819667	|	VNMN-010528	|	VNMN-010528 <paratype>	|	type material	|
+2819667	|	VNMN:010528	|	VNMN:010528 <paratype>	|	type material	|
+2819667	|	VNMN010528	|	VNMN010528 <paratype>	|	type material	|
+2820118	|	UES 10528	|	UES 10528 <holotype>	|	type material	|
+2910528	|	Barytelphusa sp. FBRC ZSI DNA1058 UN12064	|		|	scientific name	|
+3110528	|	Lentinus sp. MA-2023a	|		|	scientific name	|
+3123732	|	Nostoc sp. P10528	|		|	scientific name	|
+1338	|	CCUG 32759	|	CCUG 32759 <type strain>	|	type material	|
+2759	|	Eucarya	|		|	synonym	|
+2759	|	Eucaryotae	|		|	synonym	|
+2759	|	eucaryotes	|		|	genbank common name	|
+2759	|	Eukarya	|		|	synonym	|
+2759	|	Eukaryotae	|		|	synonym	|
+2759	|	Eukaryota	|		|	scientific name	|
+2759	|	eukaryotes	|	eukaryotes <blast name>	|	blast name	|
+2759	|	eukaryotes	|	eukaryotes <common name>	|	common name	|
+42684	|	IFO 12759	|	IFO 12759 <type strain>	|	type material	|
+42684	|	NBRC 12759	|	NBRC 12759 <type strain>	|	type material	|
+42759	|	Siphonophorae	|		|	scientific name	|
+42759	|	Siphonophora	|	Siphonophora <hydrozoans>	|	synonym	|
+42759	|	siphonophores	|		|	genbank common name	|
+52759	|	Trichocera	|		|	scientific name	|
+62759	|	Agrostis palustris Huds., 1762	|		|	authority	|
+62759	|	Agrostis palustris	|		|	synonym	|
+62759	|	Agrostis stolonifera var. palustris (Huds.) Farw., 1919	|		|	authority	|
+62759	|	Agrostis stolonifera var. palustris	|		|	scientific name	|
+82759	|	Helicobacter sp. 'MZ 640285'	|		|	scientific name	|
+92759	|	CIP 106693	|	CIP 106693 <type strain>	|	type material	|
+92759	|	DSM 12717	|	DSM 12717 <type strain>	|	type material	|
+92759	|	Gluconacetobacter sacchari Franke et al. 1999	|		|	authority	|
+92759	|	Gluconacetobacter sacchari	|		|	scientific name	|
+92759	|	SRI 1794	|	SRI 1794 <type strain>	|	type material	|
+102759	|	Chromolaena sagittata R.M.King & H.Rob., 1970	|		|	authority	|
+102759	|	Chromolaena sagittata	|		|	scientific name	|
+112759	|	uncultured bacterium wC1	|		|	scientific name	|
+122759	|	Hypodontium pomiforme	|		|	scientific name	|
+122759	|	Weissia pomiformis Hook., 1819	|		|	authority	|
+122759	|	Weissia pomiformis	|		|	synonym	|
+132759	|	Influenza A virus (A/Netherlands/411/93 (H3N2))	|		|	scientific name	|
+142759	|	Lycopersicon cheesmaniae L.Riley, 1925	|		|	authority	|
+142759	|	Lycopersicon cheesmaniae	|		|	synonym	|
+142759	|	Solanum cheesmaniae (L.Riley) Fosberg, 1987	|		|	authority	|
+142759	|	Solanum cheesmaniae	|		|	scientific name	|
+152759	|	Tritonia disticha Baker, 1892	|		|	authority	|
+152759	|	Tritonia disticha	|		|	scientific name	|
+162759	|	Distemonanthus benthamianus Baill., 1870	|		|	authority	|
+162759	|	Distemonanthus benthamianus	|		|	scientific name	|
+172759	|	Aegla pewenchae Jara, 1994	|		|	authority	|
+172759	|	Aegla pewenchae	|		|	scientific name	|
+182759	|	Cyclopecten	|		|	scientific name	|
+202759	|	CBS 406.52	|	CBS 406.52 <type material>	|	type material	|
+202759	|	Hyphozyma sanguinea (C. Ramrez) de Hoog & M.T. Sm., 1981	|		|	authority	|
+202759	|	Hyphozyma sanguinea	|		|	synonym	|
+202759	|	Sporothrix sanguinea	|		|	synonym	|
+202759	|	Sporotrichum sanguineum C. Ramirez, 1952 C. Ramirez, 1952	|		|	authority	|
+202759	|	Symbiotaphrina sanguinea (C. Ramirez) Baral & E.Weber, 2017	|		|	authority	|
+202759	|	Symbiotaphrina sanguinea	|		|	scientific name	|
+202759	|	UAMH 6100	|	UAMH 6100 <type material>	|	type material	|
+212759	|	Adonis annua L., 1753	|		|	authority	|
+212759	|	Adonis annua	|		|	scientific name	|
+212759	|	blood-drops	|		|	common name	|
+212759	|	pheasant's-eye	|		|	common name	|
+232759	|	Lepra sp. DL-2017o	|		|	includes	|
+232759	|	Lepra subventosa (Malme) I. Schmitt & Lumbsch, 2017	|		|	authority	|
+232759	|	Lepra subventosa	|		|	scientific name	|
+232759	|	Pertusaria subventosa Malme, 1936	|		|	authority	|
+232759	|	Pertusaria subventosa	|		|	synonym	|
+242759	|	Pseudomonas sp. CA18	|		|	scientific name	|
+252759	|	Orpinomyces sp. KF2	|		|	scientific name	|
+272759	|	Dryopteris subtriangularis (C. Hope) C. Chr., 1906	|		|	authority	|
+272759	|	Dryopteris subtriangularis	|		|	scientific name	|
+272759	|	Nephrodium subtriangulare C. Hope, 1906	|		|	authority	|
+272759	|	Nephrodium subtriangulare	|		|	synonym	|
+282759	|	Achillea pratensis J.Saukel & R.Lange	|		|	authority	|
+282759	|	Achillea pratensis	|		|	scientific name	|
+292759	|	Dictyosperma fibrosum C.H.Wright, 1894	|		|	authority	|
+292759	|	Dictyosperma fibrosum	|		|	synonym	|
+292759	|	Dypsis fibrosa (C.H.Wright) Beentje & J.Dransf., 1995	|		|	authority	|
+292759	|	Dypsis fibrosa	|		|	scientific name	|
+292759	|	Vonitra fibrosa (C.H.Wright) Becc., 1911	|		|	authority	|
+292759	|	Vonitra fibrosa	|		|	synonym	|
+302759	|	Philautus sp. FB-17	|		|	scientific name	|
+312759	|	Carex oligosperma Michx., 1803	|		|	authority	|
+312759	|	Carex oligosperma	|		|	scientific name	|
+322759	|	Alnicola sp. IB19960018	|		|	scientific name	|
+332759	|	Geomonhystera cf. aenariensis Konza IVDD-147	|		|	scientific name	|
+342759	|	Brachythemis contaminata (Fabricius, 1793)	|		|	authority	|
+342759	|	Brachythemis contaminata	|		|	scientific name	|
+342759	|	Libellula contaminata	|		|	synonym	|
+352759	|	Influenza A virus (A/mallard duck/ALB/250/1978(H6N2))	|		|	scientific name	|
+362759	|	Vibrio sp. CCH-68	|		|	scientific name	|
+372759	|	Lecythis pneumatophora S.A.Mori, 1990	|		|	authority	|
+372759	|	Lecythis pneumatophora	|		|	scientific name	|
+382759	|	MCZ 18213	|	MCZ 18213 <holotype>	|	type material	|
+382759	|	Psammophylax multisquamis	|		|	scientific name	|
+382759	|	Trimerorhinus tritaeniatus multisquamis Loveridge, 1932	|		|	authority	|
+382759	|	Trimerorhinus tritaeniatus multisquamis	|		|	synonym	|
+392759	|	Influenza A virus (A/duck/Vietnam/TG36-H2/05(H5N1))	|		|	scientific name	|
+402759	|	Pseudomonas sp. EP12	|		|	scientific name	|
+412759	|	Microcebus sp. Bora	|		|	scientific name	|
+422759	|	Pleosporales sp. LM561	|		|	scientific name	|
+432759	|	Monotomidae sp. UPOL 002163	|		|	scientific name	|
+442759	|	Influenza A virus (A/lake ice/Lake Park/Siberia/15.2/2002(H1))	|		|	scientific name	|
+452759	|	Stenepteryx	|		|	scientific name	|
+462759	|	Anabaena sp. BECID8	|		|	scientific name	|
+472759	|	Nitrosococcus halophilus Nc 4	|		|	scientific name	|
+472759	|	Nitrosococcus halophilus strain Nc 4	|		|	equivalent name	|
+472759	|	Nitrosococcus halophilus str. Nc 4	|		|	equivalent name	|
+482759	|	Saprolegnia sp. WD34A	|		|	scientific name	|
+492759	|	Stenotrophomonas sp. BNV43	|		|	scientific name	|
+502759	|	Hedyosmum scabrum	|		|	scientific name	|
+502759	|	Hedyosmum scabrum Solms, 1869	|		|	authority	|
+522759	|	Influenza A virus (A/swine/Osterhofen/IDT4004/05(H3N2))	|		|	scientific name	|
+532759	|	Flavobacteriaceae bacterium ACEMC 10-10	|		|	scientific name	|
+542759	|	Camellia wenshanensis Hu, 1938	|		|	authority	|
+542759	|	Camellia wenshanensis	|		|	scientific name	|
+552759	|	Adela septentrionella	|		|	scientific name	|
+552759	|	Adela septentrionella Walsingham, 1880	|		|	authority	|
+572759	|	Eupithecia bryanti	|		|	scientific name	|
+572759	|	Eupithecia bryanti Taylor, 1906	|		|	authority	|
+582759	|	Platychrysis sp. GSL011	|		|	scientific name	|
+592759	|	Exacum albens L.f., 1782	|		|	authority	|
+592759	|	Exacum albens	|		|	synonym	|
+592759	|	Sebaea albens (L.f.) Sm., 1816	|		|	authority	|
+592759	|	Sebaea albens	|		|	scientific name	|
+622759	|	Zymomonas mobilis subsp. mobilis NCIB 11163	|		|	synonym	|
+622759	|	Zymomonas mobilis subsp. mobilis NCIMB 11163	|		|	scientific name	|
+622759	|	Zymomonas mobilis subsp. mobilis strain NCIMB 11163	|		|	equivalent name	|
+622759	|	Zymomonas mobilis subsp. mobilis str. NCIMB 11163	|		|	equivalent name	|
+632759	|	Cistus marifolius L., 1753	|		|	authority	|
+632759	|	Cistus marifolius	|		|	synonym	|
+632759	|	Helianthemum marifolium (L.) Mill., 1768	|		|	authority	|
+632759	|	Helianthemum marifolium	|		|	scientific name	|
+642759	|	Arthrobacter sp. Sco-A07	|		|	scientific name	|
+652759	|	Azospirillum sp. TSH2	|		|	scientific name	|
+662759	|	"Candidatus Parvarchaeum acidiphilum" Baker et al. 2010	|		|	authority	|
+662759	|	Candidatus Parvarchaeum acidiphilum	|		|	scientific name	|
+665913	|	DSM 22759	|	DSM 22759 <type strain>	|	type material	|
+672759	|	Baridinae sp. SPN-005	|		|	scientific name	|
+682759	|	Massilia sp. I-Bh15-5	|		|	scientific name	|
+692759	|	Bacillus sp. 2BSG-LB-5	|		|	scientific name	|
+693280	|	Leucoagaricus sp. Vellinga 2759	|		|	includes	|
+702759	|	Micrelenchus sanguineus (Gray, 1843)	|		|	authority	|
+702759	|	Micrelenchus sanguineus (Gray in Dieffenbach, 1843)	|		|	authority	|
+702759	|	Micrelenchus sanguineus	|		|	scientific name	|
+702759	|	Trochus sanguineus Gray, 1843	|		|	authority	|
+702759	|	Trochus sanguineus	|		|	synonym	|
+712759	|	Treponema sp. oral taxon D57	|		|	scientific name	|
+722759	|	Paragorgia kaupeka Sanchez, 2005	|		|	authority	|
+722759	|	Paragorgia kaupeka	|		|	scientific name	|
+742759	|	Trithemis pruinata Karsch, 1899	|		|	authority	|
+742759	|	Trithemis pruinata	|		|	scientific name	|
+762759	|	Geophagus harreri Gosse, 1976	|		|	authority	|
+762759	|	Geophagus harreri	|		|	scientific name	|
+798506	|	DNA:G.J.Leach & I.D.Cowie 2759	|	DNA:G.J.Leach & I.D.Cowie 2759 <holotype>	|	type material	|
+817604	|	Coleoptera sp. BOLD:AAH2759	|		|	scientific name	|
+820031	|	Diptera sp. BOLD:AAG2759	|		|	scientific name	|
+822759	|	Ephemeroptera sp. BOLD:AAG5746	|		|	scientific name	|
+829630	|	Hymenoptera sp. BOLD:AAL2759	|		|	scientific name	|
+832759	|	Lepidoptera sp. BOLD:AAA6769	|		|	scientific name	|
+842759	|	Lepidoptera sp. BOLD:AAE8239	|		|	scientific name	|
+852759	|	Perciformes sp. BOLD:AAA9315	|		|	scientific name	|
+854791	|	Squamata sp. BOLD:AAK2759	|		|	scientific name	|
+862759	|	Enterobacteriaceae bacterium SL1_M8	|		|	scientific name	|
+872759	|	Influenza A virus (A/Colorado/AF2145/2009(H1N1))	|		|	scientific name	|
+882759	|	Antennarius sp. UW 117643	|		|	scientific name	|
+893780	|	Gigartinales sp. BOLD:AAA2759	|		|	scientific name	|
+912759	|	Pseudoalteromonas sp. AmSamHH15	|		|	scientific name	|
+922759	|	Lepidoptera sp. BOLD:AAM8459	|		|	scientific name	|
+942759	|	[Candida] sp. 1 TMS-2011	|		|	scientific name	|
+962038	|	Lepidoptera sp. BOLD:AAN2759	|		|	scientific name	|
+962759	|	Lepidoptera sp. BOLD:AAN6842	|		|	scientific name	|
+972759	|	Araneae sp. BOLD:AAL5989	|		|	scientific name	|
+982759	|	Influenza A virus (A/swine/Ohio/01973/2008(H1N1))	|		|	scientific name	|
+986604	|	Heterospilus sp. BOLD:AAM2759	|		|	scientific name	|
+992759	|	Obetia tenax Friis, 1983	|		|	authority	|
+992759	|	Obetia tenax	|		|	scientific name	|
+996823	|	Leptospira interrogans serovar Copenhageni str. Fiocruz LV2759	|		|	scientific name	|
+998320	|	Notiospathius sp. BOLD:AAM2759	|		|	scientific name	|
+1002759	|	Echinofabricia	|		|	scientific name	|
+1012759	|	bacterium enrichment culture clone ALO1_GLFRUDD03FX1YM	|		|	scientific name	|
+1024227	|	Lepidoptera sp. BOLD:AAP2759	|		|	scientific name	|
+1032759	|	Simplicillium sp. TS38	|		|	scientific name	|
+1042759	|	Influenza A virus (A/duck/Magelang/BBVW-680-41052/2007(H5N1))	|		|	scientific name	|
+1052759	|	Influenza A virus (A/mallard/Illinois/4124/2009(H4N8))	|		|	scientific name	|
+1059807	|	Lepidoptera sp. BOLD:AAV2759	|		|	scientific name	|
+1062759	|	Lepidoptera sp. BOLD:AAU3743	|		|	scientific name	|
+1072759	|	Coleoptera sp. BOLD:AAV6061	|		|	scientific name	|
+1082759	|	Influenza A virus (A/aquatic bird/Korea/W69/2005(H6N5))	|		|	scientific name	|
+1092759	|	Desulfobulbaceae bacterium PR8_A05	|		|	scientific name	|
+1101292	|	Fusarium sp. NRRL 52759	|		|	scientific name	|
+1112759	|	Maihueniopsis archiconoidea F.Ritter, 1980	|		|	authority	|
+1112759	|	Maihueniopsis archiconoidea	|		|	scientific name	|
+1122759	|	bacterium W15M11	|		|	scientific name	|
+1132759	|	Phormidium breve (Kutzing ex Gomont, 1892) Anagnostidis & Komarek, 1988	|		|	authority	|
+1132759	|	Phormidium breve	|		|	scientific name	|
+1142759	|	Noctuidae sp. BOLD:AAA0716	|		|	scientific name	|
+1142759	|	Noctuidae sp. DHJ-2012-1	|		|	synonym	|
+1162759	|	Psammocinia hawere Cook & Bergquist, 1996	|		|	authority	|
+1162759	|	Psammocinia hawere	|		|	scientific name	|
+1172759	|	bacterium enrichment culture clone SaD1	|		|	scientific name	|
+1182759	|	Salmonella enterica subsp. enterica serovar Enteritidis str. 08-0047	|		|	scientific name	|
+1182759	|	Salmonella enterica subsp. enterica serovar Enteritidis strain 08-0047	|		|	equivalent name	|
+1192759	|	Sphingobium xenophagum QYY	|		|	scientific name	|
+1192759	|	Sphingomonas xenophaga QYY	|		|	synonym	|
+1202759	|	Pseudomonas sp. SCN1260	|		|	scientific name	|
+1212759	|	Colletotrichum sp. CBS 129810	|		|	scientific name	|
+1222759	|	bacterium enrichment culture clone L55B-9	|		|	scientific name	|
+1232759	|	Acinetobacter sp. LBBMA LU7A	|		|	scientific name	|
+1242759	|	Protocotylus	|		|	scientific name	|
+1252759	|	Ichneumonidae sp. BOLD:AAH1743	|		|	scientific name	|
+1262759	|	Brachyspira sp. CAG:484	|		|	scientific name	|
+1282759	|	Influenza A virus (A/Ontario/0020413/2012(H3N2))	|		|	scientific name	|
+1292759	|	bacterium 58-L049658-122-015-B08	|		|	scientific name	|
+1302759	|	Maribacter sp. Fs8	|		|	scientific name	|
+1312759	|	Oxalis refracta A.St.-Hil., 1825	|		|	authority	|
+1312759	|	Oxalis refracta	|		|	scientific name	|
+1322759	|	Influenza A virus (A/mallard/Interior Alaska/10BM12582R0/2010(H3N8))	|		|	scientific name	|
+1332759	|	Caloplaca sp. Frolov 52	|		|	scientific name	|
+1342759	|	[Candida] sp. DBVPG 10086	|		|	scientific name	|
+1352759	|	Stenotrophomonas sp. PCSM39	|		|	scientific name	|
+1362759	|	Bacillales bacterium Se3Ps_2673	|		|	scientific name	|
+1363622	|	Xanthobacteraceae bacterium Se3Ps_2759	|		|	scientific name	|
+1372759	|	Enterobacter sp. OOS23	|		|	scientific name	|
+1382759	|	bacterium B37(2013)	|		|	scientific name	|
+1387282	|	CGMCC 1.12759	|	CGMCC 1.12759 <type material>	|	type material	|
+1392759	|	Influenza A virus (A/swine/Illinois/A01398458/2013(H1N2))	|		|	scientific name	|
+1402759	|	Staphylococcus aureus M1269	|		|	scientific name	|
+1410838	|	Staphylococcus aureus H42759	|		|	scientific name	|
+1412759	|	Staphylococcus aureus M16552	|		|	scientific name	|
+1422759	|	Staphylococcus aureus VET0765S	|		|	scientific name	|
+1432759	|	Thamnurgus varipes Eichhoff, 1878	|		|	authority	|
+1432759	|	Thamnurgus varipes	|		|	scientific name	|
+1442759	|	Adina multifolia Havil., 1897	|		|	authority	|
+1442759	|	Adina multifolia	|		|	scientific name	|
+1442759	|	Pertusadina multifolia (Havil.) Ridsdale, 1970	|		|	authority	|
+1442759	|	Pertusadina multifolia	|		|	synonym	|
+1452759	|	Aneurus avenius (Dufour, 1833)	|		|	authority	|
+1452759	|	Aneurus avenius	|		|	scientific name	|
+1462759	|	Halomonhystera cf. continentalis N17_03	|		|	scientific name	|
+1470029	|	Xylaria sp. DAOM 242759	|		|	scientific name	|
+1472759	|	Synechocystis salina CCNP 1104	|		|	scientific name	|
+1482759	|	Vibrio sp. VN-3194	|		|	scientific name	|
+1492759	|	Influenza A virus (A/chicken/Israel/628/2013(H9N2))	|		|	scientific name	|
+1502759	|	Methylobacterium sp. UNCCL125	|		|	scientific name	|
+1512759	|	Streptomyces sp. Doro_Kennebunk_57	|		|	scientific name	|
+1522759	|	Streptomyces sp. ADI95-17	|		|	scientific name	|
+1552759	|	CIP 111318	|	CIP 111318 <type strain>	|	type material	|
+1552759	|	DSM 104744	|	DSM 104744 <type strain>	|	type material	|
+1552759	|	Mycobacterium grossiae Paniz-Mondolfi et al. 2017	|		|	authority	|
+1552759	|	Mycobacterium grossiae	|		|	synonym	|
+1552759	|	Mycobacterium sp. GK	|		|	includes	|
+1552759	|	Mycobacterium sp. PB739	|		|	includes	|
+1552759	|	Mycolicibacterium grossiae (Paniz-Mondolfi et al. 2017) Zhu et al. 2024	|		|	authority	|
+1552759	|	Mycolicibacterium grossiae	|		|	scientific name	|
+1552759	|	strain PB739	|	strain PB739 <type strain>	|	type material	|
+1562759	|	Alcaligenes sp. P6	|		|	scientific name	|
+1566886	|	ATCC BAA-2759	|	ATCC BAA-2759 <type strain>	|	type material	|
+1566886	|	culture-collection:ATCC:BAA:2759	|	culture-collection:ATCC:BAA:2759 <type strain>	|	type material	|
+1572759	|	Aeromonas sp. ASPALL	|		|	scientific name	|
+1582759	|	Pleosporales sp. N-18Sm-2-3-1	|		|	scientific name	|
+1592759	|	Influenza A virus (A/swine/Tianjin/42/2011(H1N1))	|		|	scientific name	|
+1596650	|	Curculionidae sp. NZAC03012759	|		|	equivalent name	|
+1596650	|	Curculionidae sp. NZAC 03012759	|		|	scientific name	|
+1602759	|	Influenza A virus (A/Thailand/KS07116/2007(H1N1))	|		|	scientific name	|
+1612759	|	Influenza A virus (A/chicken/Anhui/A1712/2014(H9N2))	|		|	scientific name	|
+1622759	|	Hymenoptera sp. BOLD:ABA8033	|		|	scientific name	|
+1626448	|	uncultured bacterium BD_contig02759	|		|	scientific name	|
+1632759	|	Caulobacter sp. LR-4	|		|	scientific name	|
+1642759	|	Bacillus sp. 15T12	|		|	scientific name	|
+1652759	|	Pinnularia sp. NE-P10	|		|	scientific name	|
+1672759	|	Staphylococcus sp. DX18	|		|	scientific name	|
+1692759	|	Cecidomyiidae sp. BOLD:AAA1259	|		|	scientific name	|
+1712759	|	Pilaria sp. BOLD:AAY3988	|		|	scientific name	|
+1712759	|	Pilaria sp. BOLDAAY3988	|		|	synonym	|
+1722759	|	Mycetophilidae sp. BOLD:ACD0959	|		|	scientific name	|
+1726088	|	Cecidomyiidae sp. BOLD:ACB2759	|		|	scientific name	|
+1732759	|	Pseudomonas sp. MS8_1B8	|		|	scientific name	|
+1742759	|	Pseudomonas sp. x13	|		|	scientific name	|
+1752759	|	Impatiens microstachys Hook.f., 1910	|		|	authority	|
+1752759	|	Impatiens microstachys	|		|	scientific name	|
+1762759	|	Tenacibaculum sp. AU346_Ted3_MB	|		|	scientific name	|
+1771776	|	Thysanoptera sp. BOLD:ACE2759	|		|	scientific name	|
+1772759	|	Cecidomyiidae sp. BOLD:ACL3961	|		|	scientific name	|
+1779358	|	KCTC 42759	|	KCTC 42759 <type strain>	|	type material	|
+1782759	|	Cecidomyiidae sp. BOLD:ACN1552	|		|	scientific name	|
+1792580	|	Syntomaula sp. AAN2759	|		|	scientific name	|
+1792759	|	Saxifraga hengduanensis H.Chuang, 2001	|		|	authority	|
+1792759	|	Saxifraga hengduanensis	|		|	scientific name	|
+1802759	|	Candidatus Zambryskibacteria bacterium RIFCSPLOWO2_01_FULL_42_41	|		|	scientific name	|
+1822759	|	Chalarus sp. BOLD:AAZ4903	|		|	scientific name	|
+1832759	|	Ichneumonidae sp. BOLD:AAG7709	|		|	scientific name	|
+1842759	|	Leucopogon mitchellii Benth., 1868	|		|	authority	|
+1842759	|	Leucopogon mitchellii	|		|	scientific name	|
+1852759	|	Pheosiopsis olivacea (Matsumura, 1920)	|		|	authority	|
+1852759	|	Pheosiopsis olivacea	|		|	scientific name	|
+1855251	|	MNHN 2759	|	MNHN 2759 <lectotype>	|	type material	|
+1862759	|	Norovirus Hu/GII.14/M14-042/2014/JP	|		|	scientific name	|
+1872759	|	Hippocampus sp. EBS701TX	|		|	scientific name	|
+1882759	|	Pseudomonas sp. PDC86	|		|	scientific name	|
+1892759	|	Anisopodidae sp. BOLD-2016	|		|	scientific name	|
+1893949	|	Microgastrinae sp. CNCH2759	|		|	scientific name	|
+1902759	|	Enterobacter cloacae complex sp. SCP26-29	|		|	scientific name	|
+1912759	|	Equus caballus papillomavirus 8	|		|	scientific name	|
+1922759	|	Beihai zhaovirus-like virus 3	|		|	scientific name	|
+1932759	|	Nostoc sp. 'Pannaria cf. fulvescens3 cyanobiont'	|		|	scientific name	|
+1942759	|	Gateway entry vector pENTR207-CATMA1a44560	|		|	scientific name	|
+1950455	|	Bacteroidales bacterium UBA2759	|		|	scientific name	|
+1952759	|	Porticoccaceae bacterium UBA3445	|		|	scientific name	|
+1962759	|	Leptonia cf. striatula	|		|	scientific name	|
+1972759	|	Dryopteris bojeri (Baker) Kuntze, 1891	|		|	authority	|
+1972759	|	Dryopteris bojeri	|		|	scientific name	|
+1972759	|	Nephrodium bojeri Baker, 1891	|		|	authority	|
+1972759	|	Nephrodium bojeri	|		|	synonym	|
+1982759	|	Wolbachia endosymbiont of Trialeurodes vaporariorum	|		|	scientific name	|
+1985606	|	CBS H-22759	|	CBS H-22759 <holotype>	|	type material	|
+1992759	|	Phoridae sp. BIOUG02205-G04	|		|	scientific name	|
+2002759	|	Musca sp. BIOUG05252-F05	|		|	scientific name	|
+2012759	|	Dehalococcoidia bacterium SCGC AG-205-K05	|		|	scientific name	|
+2022759	|	CBS 319.34	|	CBS 319.34 <culture from holotype>	|	type material	|
+2022759	|	MUCL 8368	|	MUCL 8368 <culture from holotype>	|	type material	|
+2022759	|	Nigrospora musae McLennan & Hoette, 1933	|		|	authority	|
+2022759	|	Nigrospora musae	|		|	scientific name	|
+2032759	|	Hemiandrus nox	|		|	scientific name	|
+2032759	|	Hemiandrus nox Taylor-Smith, Trewick & Morgan-Richards, 2016	|		|	authority	|
+2052759	|	Dioscorea izuensis Akah., 1963	|		|	authority	|
+2052759	|	Dioscorea izuensis	|		|	scientific name	|
+2062759	|	Phylinae sp. BIOUG22118-C06	|		|	scientific name	|
+2072759	|	Plectus exinocaudatus	|		|	scientific name	|
+2072759	|	Plectus exinocaudatus Truskova, 1976	|		|	authority	|
+2078380	|	Dolichoderus thoracicus complex sp. ZB42759	|		|	scientific name	|
+2082759	|	Petillopsis calcar (Dallas, 1852)	|		|	authority	|
+2082759	|	Petillopsis calcar	|		|	scientific name	|
+2092759	|	Valenzuela sp. BIOUG21509-A03	|		|	scientific name	|
+2102759	|	Entomobryinae sp. BIOUG20292-H02	|		|	scientific name	|
+2112759	|	Agromyzidae sp. BIOUG21092-H04	|		|	scientific name	|
+2122759	|	Dasyhelea sp. BIOUG21173-A05	|		|	scientific name	|
+2132759	|	Delia sp. BIOUG21335-H10	|		|	scientific name	|
+2172759	|	Tochuina	|		|	scientific name	|
+2182759	|	Norovirus Hu/GII.Pe/B0034-Bobonong-2013	|		|	scientific name	|
+2202759	|	Massariothea	|		|	scientific name	|
+2202759	|	Massariothea Syd., 1939	|		|	authority	|
+2212759	|	environmental samples	|	environmental samples <mucoromycotan fungi,class Mucoromycetes>	|	scientific name	|
+2222759	|	Formica sp. BIOUG21004-E10	|		|	scientific name	|
+2242759	|	Hypogastruridae sp. BIOUG13674-G11	|		|	scientific name	|
+2252759	|	Chironominae sp. BIOUG20650-C01	|		|	scientific name	|
+2258962	|	KCTC 62759	|	KCTC 62759 <type strain>	|	type material	|
+2262759	|	Dolichopus sp. BIOUG21636-C10	|		|	scientific name	|
+2268022	|	JCM 32759	|	JCM 32759 <type strain>	|	type material	|
+2268022	|	JCM-32759	|	JCM-32759 <type strain>	|	type material	|
+2268022	|	JCM:32759	|	JCM:32759 <type strain>	|	type material	|
+2268022	|	JCM32759	|	JCM32759 <type strain>	|	type material	|
+2292759	|	Vatica stapfiana	|		|	scientific name	|
+2292759	|	Vatica stapfiana Slooten, 1927	|		|	authority	|
+2302759	|	Scymnus sp. SCYM152	|		|	scientific name	|
+2312759	|	Platypalpus sp. BIOUG23689-C10	|		|	scientific name	|
+2322759	|	Balaustium sp. ARCN081-10	|		|	scientific name	|
+2332759	|	Paramyia sp. BBDED630-10	|		|	scientific name	|
+2339181	|	CPC 32759	|	CPC 32759 <culture from holotype>	|	type material	|
+2352759	|	Cecidomyiidae sp. BIOUG20916-D04	|		|	scientific name	|
+2362759	|	Phronia sp. BIOUG26431-A06	|		|	scientific name	|
+2372759	|	Hylemya sp. BIOUG25636-E06	|		|	scientific name	|
+2382759	|	Atrichopogon sp. BIOUG24268-G05	|		|	scientific name	|
+2392759	|	Cecidomyiidae sp. BIOUG24208-F04	|		|	scientific name	|
+2402759	|	Dichopygina sp. BIOUG26539-H07	|		|	scientific name	|
+2412759	|	Polypedilum sp. BIOUG26209-H09	|		|	scientific name	|
+2422759	|	Anagrus sp. BIOUG07390-H04	|		|	scientific name	|
+2432759	|	Gonatocerus sp. BIOUG12797-D08	|		|	scientific name	|
+2442759	|	Platygastrinae sp. BIOUG21150-F06	|		|	scientific name	|
+2452759	|	Bryotropha sp. BIOUG22382-C04	|		|	scientific name	|
+2462759	|	Anaphes sp. BIOUG06285-H04	|		|	scientific name	|
+2472759	|	Lumbricidae sp. BIOUG32102-F07	|		|	scientific name	|
+2482759	|	Clinus delalandii	|		|	synonym	|
+2482759	|	Clinus delalandii Valenciennes, 1836	|		|	authority	|
+2482759	|	Malacoctenus delalandii	|		|	scientific name	|
+2482759	|	Malacoctenus delalandii (Valenciennes, 1836)	|		|	authority	|
+2492759	|	Pneophyllum sp. B_Twist-2019	|		|	scientific name	|
+2502759	|	Cleora hospita Prout, 1916	|		|	authority	|
+2502759	|	Cleora hospita	|		|	scientific name	|
+2512759	|	Carabidae sp. INDOBIOSYS-CCDB30348-B11	|		|	scientific name	|
+2522759	|	Platygastridae sp. BIOUG14920-D06	|		|	scientific name	|
+2532759	|	Chironomidae sp. BIOUG23988-A04	|		|	scientific name	|
+2542759	|	Sciaridae sp. BIOUG21464-G10	|		|	scientific name	|
+2562759	|	Echiura incertae sedis	|		|	scientific name	|
+2572759	|	Nostoc sp. P3054	|		|	scientific name	|
+2582759	|	Pterula caricis-pendulae Corner, 1970	|		|	authority	|
+2582759	|	Pterula caricis-pendulae	|		|	synonym	|
+2582759	|	Pterulicium caricis-pendulae (Corner) Leal-Dutra, 2020	|		|	authority	|
+2582759	|	Pterulicium caricis-pendulae	|		|	scientific name	|
+2592759	|	Leucocoprinus gammaflexivirus C	|		|	scientific name	|
+2602759	|	Acinetobacter phage Abp9	|		|	scientific name	|
+2609252	|	Rathayibacter sp. VKM Ac-2759	|		|	scientific name	|
+2612759	|	Sthenobaea sp. CCDB-32971-F11	|		|	scientific name	|
+2622759	|	unclassified Ceratopsion	|		|	scientific name	|
+2632759	|	unclassified Hypharpax	|		|	scientific name	|
+2642759	|	unclassified Dejeaniops	|		|	scientific name	|
+2652759	|	Millardia sp. AA-2019	|		|	scientific name	|
+2655785	|	Lepidoptera sp. Lep2759	|		|	scientific name	|
+2662759	|	Largidae sp. HMAS051-10	|		|	scientific name	|
+2682759	|	'Prunus dulcis' phytoplasma PAE126	|		|	scientific name	|
+2692759	|	Crossonema civellae	|		|	scientific name	|
+2692759	|	Crossonema civellae (Steiner, 1949)	|		|	authority	|
+2712759	|	Cambeva taroba	|		|	scientific name	|
+2712759	|	Cambeva taroba (Wosiacki & Garavello, 2004)	|		|	authority	|
+2712759	|	Trichomycterus taroba	|		|	synonym	|
+2712759	|	Trichomycterus taroba Wosiacki & Garavello, 2004	|		|	authority	|
+2721524	|	Paragus sp. ZFMK TIS 8002759	|		|	scientific name	|
+2722759	|	Enterobacter sp. Con_4	|		|	scientific name	|
+2732759	|	Striatiguttula	|		|	scientific name	|
+2732759	|	Striatiguttula S.N. Zhang, K.D. Hyde & J.K. Liu, 2019	|		|	authority	|
+2742759	|	Alpheus aff. leptocheles KH-2020	|		|	scientific name	|
+2752759	|	Camellia sp. XX-2020	|		|	scientific name	|
+2762759	|	Pseudonocardia sp. C8	|		|	scientific name	|
+2772759	|	Scarini sp. 107_align	|		|	scientific name	|
+2778934	|	MFLU 19-2759	|	MFLU 19-2759 <holotype>	|	type material	|
+2782759	|	Phrosinidae sp. USNM IZ 1447986	|		|	scientific name	|
+2792759	|	Platyreta sp.	|		|	scientific name	|
+2802759	|	Cortinarius sp. IUMQ3724 Calochroi	|		|	scientific name	|
+2812759	|	Bacillus sp. PDNC022	|		|	scientific name	|
+2822759	|	Taenia sp. Lynx lynx YW-2021	|		|	scientific name	|
+2842759	|	Ineyimevirus	|		|	scientific name	|
+2862759	|	Phanerochaetaceae sp. CCC-2021c	|		|	scientific name	|
+2872759	|	Ehrlichia sp. JZT077	|		|	scientific name	|
+2882759	|	Psilopa nitidifacies (Frey, 1958)	|		|	authority	|
+2882759	|	Psilopa nitidifacies	|		|	scientific name	|
+2892759	|	Ravinia sp. ADA5093	|		|	scientific name	|
+2902759	|	Panisus sp. 1 RGG-2021b	|		|	scientific name	|
+2912759	|	Paragonimus uterobilateralis	|		|	scientific name	|
+2912759	|	Paragonimus uterobilateralis Volker & Vogel, 1965	|		|	authority	|
+2921268	|	Pheidole AAL2759	|		|	includes	|
+2921268	|	Pheidole sp. AAL2759	|		|	scientific name	|
+2922759	|	Edessa loxdalii	|		|	scientific name	|
+2922759	|	Edessa loxdalii Westwood, 1837	|		|	authority	|
+2938748	|	Trimma cf. stobbsi T12759	|		|	scientific name	|
+2942759	|	Neotermes cf. insularis/malandensis	|		|	scientific name	|
+2952759	|	Saguinus sp. SMIRC21	|		|	scientific name	|
+2962759	|	Coptodon sp. Lake Chala	|		|	scientific name	|
+2972759	|	Verrucaria prominula Nyl. ex Mudd, 1861	|		|	authority	|
+2972759	|	Verrucaria prominula	|		|	scientific name	|
+2982759	|	Apium ventricosum H.Boissieu, 1906	|		|	authority	|
+2982759	|	Apium ventricosum	|		|	synonym	|
+2982759	|	Sinocarum ventricosum (H.Boissieu) Pimenov & Kljuykov	|		|	authority	|
+2982759	|	Sinocarum ventricosum	|		|	synonym	|
+2982759	|	Sium ventricosum (H.Boissieu) Li S.Wang & M.F.Watson, 2016	|		|	authority	|
+2982759	|	Sium ventricosum	|		|	scientific name	|
+2992759	|	Microbacterium sp. C7(2022)	|		|	scientific name	|
+2997803	|	Campylobacter sp. CFSAN122759	|		|	scientific name	|
+3002759	|	unclassified Oxenbollia	|		|	scientific name	|
+3021153	|	Lumbrinerides cf. laubieri 07_2759	|		|	scientific name	|
+3022759	|	Cyclopidae sp.	|		|	scientific name	|
+3032759	|	Halicephalobus sp. CFB99	|		|	scientific name	|
+3042759	|	Brachypogon sp. 6ES	|		|	scientific name	|
+3052759	|	DeSV	|		|	acronym	|
+3052759	|	Human tanzavirus	|		|	equivalent name	|
+3052759	|	Tanzavirus daressalaamense	|		|	scientific name	|
+3062759	|	Vector pETNR1A-HaloTag-WFS1 (Y735X)	|		|	scientific name	|
+3068860	|	DSM<TZA>:collector:Sebastian Chuwa:2759	|	DSM<TZA>:collector:Sebastian Chuwa:2759 <isotype>	|	type material	|
+3068860	|	K:collector:Sebastian Chuwa:2759	|	K:collector:Sebastian Chuwa:2759 <holotype>	|	type material	|
+3068860	|	NHT:collector:Sebastian Chuwa:2759	|	NHT:collector:Sebastian Chuwa:2759 <isotype>	|	type material	|
+3092759	|	Eremophila sp. BMR06436	|		|	scientific name	|
+3102759	|	Acarospora succedens H. Magn., 1929	|		|	authority	|
+3102759	|	Acarospora succedens	|		|	scientific name	|
+3116655	|	KIZ 042759	|	KIZ 042759 <type material>	|	type material	|
+3116655	|	KIZ-042759	|	KIZ-042759 <type material>	|	type material	|
+3116655	|	KIZ:042759	|	KIZ:042759 <type material>	|	type material	|
+3116655	|	KIZ042759	|	KIZ042759 <type material>	|	type material	|
+3122759	|	Neurolaena sp.	|		|	scientific name	|
+3132759	|	Eilicrinia trinotata (Metzner, 1845)	|		|	authority	|
+3132759	|	Eilicrinia trinotata	|		|	scientific name	|
+3132759	|	Geometra trinotata Metzner, 1845	|		|	authority	|
+3132759	|	Geometra trinotata	|		|	synonym	|
+3142759	|	Lachnospiraceae bacterium 48-42	|		|	scientific name	|
+3242759	|	Myriopathes cf. ulex	|		|	scientific name	|
+3252759	|	Ceratostomella sp. MR-2024b	|		|	scientific name	|
+377627	|	unclassified Human adenovirus A	|		|	scientific name	|
+1377627	|	Trychnocrana abditiva	|		|	scientific name	|
+2377627	|	Megaselia sp. BIOUG24286-B04	|		|	scientific name	|
+10509	|	Mastadenovirus	|		|	scientific name	|
+110509	|	Rhodochaete	|		|	scientific name	|
+210509	|	alpha proteobacterium so16	|		|	scientific name	|
+310509	|	Chlorella sp. OCHkr4	|		|	scientific name	|
+342667	|	UAMH 10509	|	UAMH 10509 <holotype>	|	type material	|
+410509	|	anaerobic bacterium B164	|		|	scientific name	|
+510509	|	Boudemos flokati (Dahlgren, Glover, Baco & Smith, 2004)	|		|	authority	|
+510509	|	Boudemos flokati	|		|	scientific name	|
+510509	|	Vigtorniella flokati Dahlgren, Glover, Baco & Smith, 2004	|		|	authority	|
+510509	|	Vigtorniella flokati	|		|	synonym	|
+656449	|	Escherichia coli TW10509	|		|	scientific name	|
+710509	|	Influenza A virus (A/Thailand/THB0390/2009(H1N1))	|		|	scientific name	|
+754332	|	Escherichia sp. TW10509	|		|	scientific name	|
+1010509	|	eukaryote SCGC AAA074-E13	|		|	scientific name	|
+1110509	|	Methanosaeta harundinacea 6Ac	|		|	synonym	|
+1110509	|	Methanosaeta sp. 6Ac	|		|	synonym	|
+1110509	|	Methanothrix harundinacea 6Ac	|		|	scientific name	|
+1131668	|	ATCC 10509	|	ATCC 10509 <culture from holotype>	|	type material	|
+1210509	|	Helotiales sp. WMM-2012e	|		|	scientific name	|
+1310509	|	Influenza A virus (A/chicken/Sawahlunto/BPPVRII-273/2007(H5N1))	|		|	scientific name	|
+1349432	|	BR<BRA> 10509	|	BR<BRA> 10509 <type material>	|	type material	|
+1410509	|	Influenza A virus (A/Volgograd/CRIE-71/2013(H1N1))	|		|	scientific name	|
+1510509	|	Acanthamoeba sp. MN-ISP67-T4	|		|	scientific name	|
+1597007	|	Formicidae sp. NZAC03010509	|		|	equivalent name	|
+1597007	|	Formicidae sp. NZAC 03010509	|		|	scientific name	|
+1610509	|	Achromobacter phage 22732H	|		|	equivalent name	|
+1610509	|	Achromobacter phage phiAxp-1	|		|	scientific name	|
+1610509	|	Achromobacter xylosoxidans phage phiAxp-1	|		|	equivalent name	|
+1697348	|	Ohmura10509	|	Ohmura10509 <type material>	|	type material	|
+1710509	|	Mordellistena ornata (Melsheimer, 1845)	|		|	authority	|
+1710509	|	Mordellistena ornata	|		|	scientific name	|
+1810509	|	uncultured Aminivibrio sp.	|		|	scientific name	|
+1910509	|	Influenza B virus (B/New Mexico/12/2016)	|		|	scientific name	|
+2010509	|	Burkholderia sp. N4b25_9	|		|	scientific name	|
+2210509	|	Tanypodinae sp. BIOUG15987-H09	|		|	scientific name	|
+2310509	|	Fanniidae sp. BIOUG22515-B02	|		|	scientific name	|
+2410509	|	Paratendipes sp. BIOUG26575-B10	|		|	scientific name	|
+2510509	|	Mycobacterium phage Daishi	|		|	scientific name	|
+2710509	|	Bacteroides phage SJC12	|		|	scientific name	|
+2810509	|	Gyrocotyle sp. genotype 2 DB-2021	|		|	scientific name	|
+2864054	|	Stx2a-converting phage Stx2_110509	|		|	scientific name	|
+3038622	|	MICH 10509	|	MICH 10509 <holotype>	|	type material	|
+3038622	|	MICH-10509	|	MICH-10509 <holotype>	|	type material	|
+3038622	|	MICH:10509	|	MICH:10509 <holotype>	|	type material	|
+3038622	|	MICH10509	|	MICH10509 <holotype>	|	type material	|
+3110509	|	Pseudomonas phage vB_Pae_HMKU_23	|		|	scientific name	|
+3115972	|	Adomavirus notospermus10509	|		|	scientific name	|
+3123719	|	Nostoc sp. P10509	|		|	scientific name	|
+1338	|	CCUG 32759	|	CCUG 32759 <type strain>	|	type material	|
+2759	|	Eucarya	|		|	synonym	|
+2759	|	Eucaryotae	|		|	synonym	|
+2759	|	eucaryotes	|		|	genbank common name	|
+2759	|	Eukarya	|		|	synonym	|
+2759	|	Eukaryotae	|		|	synonym	|
+2759	|	Eukaryota	|		|	scientific name	|
+2759	|	eukaryotes	|	eukaryotes <blast name>	|	blast name	|
+2759	|	eukaryotes	|	eukaryotes <common name>	|	common name	|
+42684	|	IFO 12759	|	IFO 12759 <type strain>	|	type material	|
+42684	|	NBRC 12759	|	NBRC 12759 <type strain>	|	type material	|
+42759	|	Siphonophorae	|		|	scientific name	|
+42759	|	Siphonophora	|	Siphonophora <hydrozoans>	|	synonym	|
+42759	|	siphonophores	|		|	genbank common name	|
+52759	|	Trichocera	|		|	scientific name	|
+62759	|	Agrostis palustris Huds., 1762	|		|	authority	|
+62759	|	Agrostis palustris	|		|	synonym	|
+62759	|	Agrostis stolonifera var. palustris (Huds.) Farw., 1919	|		|	authority	|
+62759	|	Agrostis stolonifera var. palustris	|		|	scientific name	|
+82759	|	Helicobacter sp. 'MZ 640285'	|		|	scientific name	|
+92759	|	CIP 106693	|	CIP 106693 <type strain>	|	type material	|
+92759	|	DSM 12717	|	DSM 12717 <type strain>	|	type material	|
+92759	|	Gluconacetobacter sacchari Franke et al. 1999	|		|	authority	|
+92759	|	Gluconacetobacter sacchari	|		|	scientific name	|
+92759	|	SRI 1794	|	SRI 1794 <type strain>	|	type material	|
+102759	|	Chromolaena sagittata R.M.King & H.Rob., 1970	|		|	authority	|
+102759	|	Chromolaena sagittata	|		|	scientific name	|
+112759	|	uncultured bacterium wC1	|		|	scientific name	|
+122759	|	Hypodontium pomiforme	|		|	scientific name	|
+122759	|	Weissia pomiformis Hook., 1819	|		|	authority	|
+122759	|	Weissia pomiformis	|		|	synonym	|
+132759	|	Influenza A virus (A/Netherlands/411/93 (H3N2))	|		|	scientific name	|
+142759	|	Lycopersicon cheesmaniae L.Riley, 1925	|		|	authority	|
+142759	|	Lycopersicon cheesmaniae	|		|	synonym	|
+142759	|	Solanum cheesmaniae (L.Riley) Fosberg, 1987	|		|	authority	|
+142759	|	Solanum cheesmaniae	|		|	scientific name	|
+152759	|	Tritonia disticha Baker, 1892	|		|	authority	|
+152759	|	Tritonia disticha	|		|	scientific name	|
+162759	|	Distemonanthus benthamianus Baill., 1870	|		|	authority	|
+162759	|	Distemonanthus benthamianus	|		|	scientific name	|
+172759	|	Aegla pewenchae Jara, 1994	|		|	authority	|
+172759	|	Aegla pewenchae	|		|	scientific name	|
+182759	|	Cyclopecten	|		|	scientific name	|
+202759	|	CBS 406.52	|	CBS 406.52 <type material>	|	type material	|
+202759	|	Hyphozyma sanguinea (C. Ramrez) de Hoog & M.T. Sm., 1981	|		|	authority	|
+202759	|	Hyphozyma sanguinea	|		|	synonym	|
+202759	|	Sporothrix sanguinea	|		|	synonym	|
+202759	|	Sporotrichum sanguineum C. Ramirez, 1952 C. Ramirez, 1952	|		|	authority	|
+202759	|	Symbiotaphrina sanguinea (C. Ramirez) Baral & E.Weber, 2017	|		|	authority	|
+202759	|	Symbiotaphrina sanguinea	|		|	scientific name	|
+202759	|	UAMH 6100	|	UAMH 6100 <type material>	|	type material	|
+212759	|	Adonis annua L., 1753	|		|	authority	|
+212759	|	Adonis annua	|		|	scientific name	|
+212759	|	blood-drops	|		|	common name	|
+212759	|	pheasant's-eye	|		|	common name	|
+232759	|	Lepra sp. DL-2017o	|		|	includes	|
+232759	|	Lepra subventosa (Malme) I. Schmitt & Lumbsch, 2017	|		|	authority	|
+232759	|	Lepra subventosa	|		|	scientific name	|
+232759	|	Pertusaria subventosa Malme, 1936	|		|	authority	|
+232759	|	Pertusaria subventosa	|		|	synonym	|
+242759	|	Pseudomonas sp. CA18	|		|	scientific name	|
+252759	|	Orpinomyces sp. KF2	|		|	scientific name	|
+272759	|	Dryopteris subtriangularis (C. Hope) C. Chr., 1906	|		|	authority	|
+272759	|	Dryopteris subtriangularis	|		|	scientific name	|
+272759	|	Nephrodium subtriangulare C. Hope, 1906	|		|	authority	|
+272759	|	Nephrodium subtriangulare	|		|	synonym	|
+282759	|	Achillea pratensis J.Saukel & R.Lange	|		|	authority	|
+282759	|	Achillea pratensis	|		|	scientific name	|
+292759	|	Dictyosperma fibrosum C.H.Wright, 1894	|		|	authority	|
+292759	|	Dictyosperma fibrosum	|		|	synonym	|
+292759	|	Dypsis fibrosa (C.H.Wright) Beentje & J.Dransf., 1995	|		|	authority	|
+292759	|	Dypsis fibrosa	|		|	scientific name	|
+292759	|	Vonitra fibrosa (C.H.Wright) Becc., 1911	|		|	authority	|
+292759	|	Vonitra fibrosa	|		|	synonym	|
+302759	|	Philautus sp. FB-17	|		|	scientific name	|
+312759	|	Carex oligosperma Michx., 1803	|		|	authority	|
+312759	|	Carex oligosperma	|		|	scientific name	|
+322759	|	Alnicola sp. IB19960018	|		|	scientific name	|
+332759	|	Geomonhystera cf. aenariensis Konza IVDD-147	|		|	scientific name	|
+342759	|	Brachythemis contaminata (Fabricius, 1793)	|		|	authority	|
+342759	|	Brachythemis contaminata	|		|	scientific name	|
+342759	|	Libellula contaminata	|		|	synonym	|
+352759	|	Influenza A virus (A/mallard duck/ALB/250/1978(H6N2))	|		|	scientific name	|
+362759	|	Vibrio sp. CCH-68	|		|	scientific name	|
+372759	|	Lecythis pneumatophora S.A.Mori, 1990	|		|	authority	|
+372759	|	Lecythis pneumatophora	|		|	scientific name	|
+382759	|	MCZ 18213	|	MCZ 18213 <holotype>	|	type material	|
+382759	|	Psammophylax multisquamis	|		|	scientific name	|
+382759	|	Trimerorhinus tritaeniatus multisquamis Loveridge, 1932	|		|	authority	|
+382759	|	Trimerorhinus tritaeniatus multisquamis	|		|	synonym	|
+392759	|	Influenza A virus (A/duck/Vietnam/TG36-H2/05(H5N1))	|		|	scientific name	|
+402759	|	Pseudomonas sp. EP12	|		|	scientific name	|
+412759	|	Microcebus sp. Bora	|		|	scientific name	|
+422759	|	Pleosporales sp. LM561	|		|	scientific name	|
+432759	|	Monotomidae sp. UPOL 002163	|		|	scientific name	|
+442759	|	Influenza A virus (A/lake ice/Lake Park/Siberia/15.2/2002(H1))	|		|	scientific name	|
+452759	|	Stenepteryx	|		|	scientific name	|
+462759	|	Anabaena sp. BECID8	|		|	scientific name	|
+472759	|	Nitrosococcus halophilus Nc 4	|		|	scientific name	|
+472759	|	Nitrosococcus halophilus strain Nc 4	|		|	equivalent name	|
+472759	|	Nitrosococcus halophilus str. Nc 4	|		|	equivalent name	|
+482759	|	Saprolegnia sp. WD34A	|		|	scientific name	|
+492759	|	Stenotrophomonas sp. BNV43	|		|	scientific name	|
+502759	|	Hedyosmum scabrum	|		|	scientific name	|
+502759	|	Hedyosmum scabrum Solms, 1869	|		|	authority	|
+522759	|	Influenza A virus (A/swine/Osterhofen/IDT4004/05(H3N2))	|		|	scientific name	|
+532759	|	Flavobacteriaceae bacterium ACEMC 10-10	|		|	scientific name	|
+542759	|	Camellia wenshanensis Hu, 1938	|		|	authority	|
+542759	|	Camellia wenshanensis	|		|	scientific name	|
+552759	|	Adela septentrionella	|		|	scientific name	|
+552759	|	Adela septentrionella Walsingham, 1880	|		|	authority	|
+572759	|	Eupithecia bryanti	|		|	scientific name	|
+572759	|	Eupithecia bryanti Taylor, 1906	|		|	authority	|
+582759	|	Platychrysis sp. GSL011	|		|	scientific name	|
+592759	|	Exacum albens L.f., 1782	|		|	authority	|
+592759	|	Exacum albens	|		|	synonym	|
+592759	|	Sebaea albens (L.f.) Sm., 1816	|		|	authority	|
+592759	|	Sebaea albens	|		|	scientific name	|
+622759	|	Zymomonas mobilis subsp. mobilis NCIB 11163	|		|	synonym	|
+622759	|	Zymomonas mobilis subsp. mobilis NCIMB 11163	|		|	scientific name	|
+622759	|	Zymomonas mobilis subsp. mobilis strain NCIMB 11163	|		|	equivalent name	|
+622759	|	Zymomonas mobilis subsp. mobilis str. NCIMB 11163	|		|	equivalent name	|
+632759	|	Cistus marifolius L., 1753	|		|	authority	|
+632759	|	Cistus marifolius	|		|	synonym	|
+632759	|	Helianthemum marifolium (L.) Mill., 1768	|		|	authority	|
+632759	|	Helianthemum marifolium	|		|	scientific name	|
+642759	|	Arthrobacter sp. Sco-A07	|		|	scientific name	|
+652759	|	Azospirillum sp. TSH2	|		|	scientific name	|
+662759	|	"Candidatus Parvarchaeum acidiphilum" Baker et al. 2010	|		|	authority	|
+662759	|	Candidatus Parvarchaeum acidiphilum	|		|	scientific name	|
+665913	|	DSM 22759	|	DSM 22759 <type strain>	|	type material	|
+672759	|	Baridinae sp. SPN-005	|		|	scientific name	|
+682759	|	Massilia sp. I-Bh15-5	|		|	scientific name	|
+692759	|	Bacillus sp. 2BSG-LB-5	|		|	scientific name	|
+693280	|	Leucoagaricus sp. Vellinga 2759	|		|	includes	|
+702759	|	Micrelenchus sanguineus (Gray, 1843)	|		|	authority	|
+702759	|	Micrelenchus sanguineus (Gray in Dieffenbach, 1843)	|		|	authority	|
+702759	|	Micrelenchus sanguineus	|		|	scientific name	|
+702759	|	Trochus sanguineus Gray, 1843	|		|	authority	|
+702759	|	Trochus sanguineus	|		|	synonym	|
+712759	|	Treponema sp. oral taxon D57	|		|	scientific name	|
+722759	|	Paragorgia kaupeka Sanchez, 2005	|		|	authority	|
+722759	|	Paragorgia kaupeka	|		|	scientific name	|
+742759	|	Trithemis pruinata Karsch, 1899	|		|	authority	|
+742759	|	Trithemis pruinata	|		|	scientific name	|
+762759	|	Geophagus harreri Gosse, 1976	|		|	authority	|
+762759	|	Geophagus harreri	|		|	scientific name	|
+798506	|	DNA:G.J.Leach & I.D.Cowie 2759	|	DNA:G.J.Leach & I.D.Cowie 2759 <holotype>	|	type material	|
+817604	|	Coleoptera sp. BOLD:AAH2759	|		|	scientific name	|
+820031	|	Diptera sp. BOLD:AAG2759	|		|	scientific name	|
+822759	|	Ephemeroptera sp. BOLD:AAG5746	|		|	scientific name	|
+829630	|	Hymenoptera sp. BOLD:AAL2759	|		|	scientific name	|
+832759	|	Lepidoptera sp. BOLD:AAA6769	|		|	scientific name	|
+842759	|	Lepidoptera sp. BOLD:AAE8239	|		|	scientific name	|
+852759	|	Perciformes sp. BOLD:AAA9315	|		|	scientific name	|
+854791	|	Squamata sp. BOLD:AAK2759	|		|	scientific name	|
+862759	|	Enterobacteriaceae bacterium SL1_M8	|		|	scientific name	|
+872759	|	Influenza A virus (A/Colorado/AF2145/2009(H1N1))	|		|	scientific name	|
+882759	|	Antennarius sp. UW 117643	|		|	scientific name	|
+893780	|	Gigartinales sp. BOLD:AAA2759	|		|	scientific name	|
+912759	|	Pseudoalteromonas sp. AmSamHH15	|		|	scientific name	|
+922759	|	Lepidoptera sp. BOLD:AAM8459	|		|	scientific name	|
+942759	|	[Candida] sp. 1 TMS-2011	|		|	scientific name	|
+962038	|	Lepidoptera sp. BOLD:AAN2759	|		|	scientific name	|
+962759	|	Lepidoptera sp. BOLD:AAN6842	|		|	scientific name	|
+972759	|	Araneae sp. BOLD:AAL5989	|		|	scientific name	|
+982759	|	Influenza A virus (A/swine/Ohio/01973/2008(H1N1))	|		|	scientific name	|
+986604	|	Heterospilus sp. BOLD:AAM2759	|		|	scientific name	|
+992759	|	Obetia tenax Friis, 1983	|		|	authority	|
+992759	|	Obetia tenax	|		|	scientific name	|
+996823	|	Leptospira interrogans serovar Copenhageni str. Fiocruz LV2759	|		|	scientific name	|
+998320	|	Notiospathius sp. BOLD:AAM2759	|		|	scientific name	|
+1002759	|	Echinofabricia	|		|	scientific name	|
+1012759	|	bacterium enrichment culture clone ALO1_GLFRUDD03FX1YM	|		|	scientific name	|
+1024227	|	Lepidoptera sp. BOLD:AAP2759	|		|	scientific name	|
+1032759	|	Simplicillium sp. TS38	|		|	scientific name	|
+1042759	|	Influenza A virus (A/duck/Magelang/BBVW-680-41052/2007(H5N1))	|		|	scientific name	|
+1052759	|	Influenza A virus (A/mallard/Illinois/4124/2009(H4N8))	|		|	scientific name	|
+1059807	|	Lepidoptera sp. BOLD:AAV2759	|		|	scientific name	|
+1062759	|	Lepidoptera sp. BOLD:AAU3743	|		|	scientific name	|
+1072759	|	Coleoptera sp. BOLD:AAV6061	|		|	scientific name	|
+1082759	|	Influenza A virus (A/aquatic bird/Korea/W69/2005(H6N5))	|		|	scientific name	|
+1092759	|	Desulfobulbaceae bacterium PR8_A05	|		|	scientific name	|
+1101292	|	Fusarium sp. NRRL 52759	|		|	scientific name	|
+1112759	|	Maihueniopsis archiconoidea F.Ritter, 1980	|		|	authority	|
+1112759	|	Maihueniopsis archiconoidea	|		|	scientific name	|
+1122759	|	bacterium W15M11	|		|	scientific name	|
+1132759	|	Phormidium breve (Kutzing ex Gomont, 1892) Anagnostidis & Komarek, 1988	|		|	authority	|
+1132759	|	Phormidium breve	|		|	scientific name	|
+1142759	|	Noctuidae sp. BOLD:AAA0716	|		|	scientific name	|
+1142759	|	Noctuidae sp. DHJ-2012-1	|		|	synonym	|
+1162759	|	Psammocinia hawere Cook & Bergquist, 1996	|		|	authority	|
+1162759	|	Psammocinia hawere	|		|	scientific name	|
+1172759	|	bacterium enrichment culture clone SaD1	|		|	scientific name	|
+1182759	|	Salmonella enterica subsp. enterica serovar Enteritidis str. 08-0047	|		|	scientific name	|
+1182759	|	Salmonella enterica subsp. enterica serovar Enteritidis strain 08-0047	|		|	equivalent name	|
+1192759	|	Sphingobium xenophagum QYY	|		|	scientific name	|
+1192759	|	Sphingomonas xenophaga QYY	|		|	synonym	|
+1202759	|	Pseudomonas sp. SCN1260	|		|	scientific name	|
+1212759	|	Colletotrichum sp. CBS 129810	|		|	scientific name	|
+1222759	|	bacterium enrichment culture clone L55B-9	|		|	scientific name	|
+1232759	|	Acinetobacter sp. LBBMA LU7A	|		|	scientific name	|
+1242759	|	Protocotylus	|		|	scientific name	|
+1252759	|	Ichneumonidae sp. BOLD:AAH1743	|		|	scientific name	|
+1262759	|	Brachyspira sp. CAG:484	|		|	scientific name	|
+1282759	|	Influenza A virus (A/Ontario/0020413/2012(H3N2))	|		|	scientific name	|
+1292759	|	bacterium 58-L049658-122-015-B08	|		|	scientific name	|
+1302759	|	Maribacter sp. Fs8	|		|	scientific name	|
+1312759	|	Oxalis refracta A.St.-Hil., 1825	|		|	authority	|
+1312759	|	Oxalis refracta	|		|	scientific name	|
+1322759	|	Influenza A virus (A/mallard/Interior Alaska/10BM12582R0/2010(H3N8))	|		|	scientific name	|
+1332759	|	Caloplaca sp. Frolov 52	|		|	scientific name	|
+1342759	|	[Candida] sp. DBVPG 10086	|		|	scientific name	|
+1352759	|	Stenotrophomonas sp. PCSM39	|		|	scientific name	|
+1362759	|	Bacillales bacterium Se3Ps_2673	|		|	scientific name	|
+1363622	|	Xanthobacteraceae bacterium Se3Ps_2759	|		|	scientific name	|
+1372759	|	Enterobacter sp. OOS23	|		|	scientific name	|
+1382759	|	bacterium B37(2013)	|		|	scientific name	|
+1387282	|	CGMCC 1.12759	|	CGMCC 1.12759 <type material>	|	type material	|
+1392759	|	Influenza A virus (A/swine/Illinois/A01398458/2013(H1N2))	|		|	scientific name	|
+1402759	|	Staphylococcus aureus M1269	|		|	scientific name	|
+1410838	|	Staphylococcus aureus H42759	|		|	scientific name	|
+1412759	|	Staphylococcus aureus M16552	|		|	scientific name	|
+1422759	|	Staphylococcus aureus VET0765S	|		|	scientific name	|
+1432759	|	Thamnurgus varipes Eichhoff, 1878	|		|	authority	|
+1432759	|	Thamnurgus varipes	|		|	scientific name	|
+1442759	|	Adina multifolia Havil., 1897	|		|	authority	|
+1442759	|	Adina multifolia	|		|	scientific name	|
+1442759	|	Pertusadina multifolia (Havil.) Ridsdale, 1970	|		|	authority	|
+1442759	|	Pertusadina multifolia	|		|	synonym	|
+1452759	|	Aneurus avenius (Dufour, 1833)	|		|	authority	|
+1452759	|	Aneurus avenius	|		|	scientific name	|
+1462759	|	Halomonhystera cf. continentalis N17_03	|		|	scientific name	|
+1470029	|	Xylaria sp. DAOM 242759	|		|	scientific name	|
+1472759	|	Synechocystis salina CCNP 1104	|		|	scientific name	|
+1482759	|	Vibrio sp. VN-3194	|		|	scientific name	|
+1492759	|	Influenza A virus (A/chicken/Israel/628/2013(H9N2))	|		|	scientific name	|
+1502759	|	Methylobacterium sp. UNCCL125	|		|	scientific name	|
+1512759	|	Streptomyces sp. Doro_Kennebunk_57	|		|	scientific name	|
+1522759	|	Streptomyces sp. ADI95-17	|		|	scientific name	|
+1552759	|	CIP 111318	|	CIP 111318 <type strain>	|	type material	|
+1552759	|	DSM 104744	|	DSM 104744 <type strain>	|	type material	|
+1552759	|	Mycobacterium grossiae Paniz-Mondolfi et al. 2017	|		|	authority	|
+1552759	|	Mycobacterium grossiae	|		|	synonym	|
+1552759	|	Mycobacterium sp. GK	|		|	includes	|
+1552759	|	Mycobacterium sp. PB739	|		|	includes	|
+1552759	|	Mycolicibacterium grossiae (Paniz-Mondolfi et al. 2017) Zhu et al. 2024	|		|	authority	|
+1552759	|	Mycolicibacterium grossiae	|		|	scientific name	|
+1552759	|	strain PB739	|	strain PB739 <type strain>	|	type material	|
+1562759	|	Alcaligenes sp. P6	|		|	scientific name	|
+1566886	|	ATCC BAA-2759	|	ATCC BAA-2759 <type strain>	|	type material	|
+1566886	|	culture-collection:ATCC:BAA:2759	|	culture-collection:ATCC:BAA:2759 <type strain>	|	type material	|
+1572759	|	Aeromonas sp. ASPALL	|		|	scientific name	|
+1582759	|	Pleosporales sp. N-18Sm-2-3-1	|		|	scientific name	|
+1592759	|	Influenza A virus (A/swine/Tianjin/42/2011(H1N1))	|		|	scientific name	|
+1596650	|	Curculionidae sp. NZAC03012759	|		|	equivalent name	|
+1596650	|	Curculionidae sp. NZAC 03012759	|		|	scientific name	|
+1602759	|	Influenza A virus (A/Thailand/KS07116/2007(H1N1))	|		|	scientific name	|
+1612759	|	Influenza A virus (A/chicken/Anhui/A1712/2014(H9N2))	|		|	scientific name	|
+1622759	|	Hymenoptera sp. BOLD:ABA8033	|		|	scientific name	|
+1626448	|	uncultured bacterium BD_contig02759	|		|	scientific name	|
+1632759	|	Caulobacter sp. LR-4	|		|	scientific name	|
+1642759	|	Bacillus sp. 15T12	|		|	scientific name	|
+1652759	|	Pinnularia sp. NE-P10	|		|	scientific name	|
+1672759	|	Staphylococcus sp. DX18	|		|	scientific name	|
+1692759	|	Cecidomyiidae sp. BOLD:AAA1259	|		|	scientific name	|
+1712759	|	Pilaria sp. BOLD:AAY3988	|		|	scientific name	|
+1712759	|	Pilaria sp. BOLDAAY3988	|		|	synonym	|
+1722759	|	Mycetophilidae sp. BOLD:ACD0959	|		|	scientific name	|
+1726088	|	Cecidomyiidae sp. BOLD:ACB2759	|		|	scientific name	|
+1732759	|	Pseudomonas sp. MS8_1B8	|		|	scientific name	|
+1742759	|	Pseudomonas sp. x13	|		|	scientific name	|
+1752759	|	Impatiens microstachys Hook.f., 1910	|		|	authority	|
+1752759	|	Impatiens microstachys	|		|	scientific name	|
+1762759	|	Tenacibaculum sp. AU346_Ted3_MB	|		|	scientific name	|
+1771776	|	Thysanoptera sp. BOLD:ACE2759	|		|	scientific name	|
+1772759	|	Cecidomyiidae sp. BOLD:ACL3961	|		|	scientific name	|
+1779358	|	KCTC 42759	|	KCTC 42759 <type strain>	|	type material	|
+1782759	|	Cecidomyiidae sp. BOLD:ACN1552	|		|	scientific name	|
+1792580	|	Syntomaula sp. AAN2759	|		|	scientific name	|
+1792759	|	Saxifraga hengduanensis H.Chuang, 2001	|		|	authority	|
+1792759	|	Saxifraga hengduanensis	|		|	scientific name	|
+1802759	|	Candidatus Zambryskibacteria bacterium RIFCSPLOWO2_01_FULL_42_41	|		|	scientific name	|
+1822759	|	Chalarus sp. BOLD:AAZ4903	|		|	scientific name	|
+1832759	|	Ichneumonidae sp. BOLD:AAG7709	|		|	scientific name	|
+1842759	|	Leucopogon mitchellii Benth., 1868	|		|	authority	|
+1842759	|	Leucopogon mitchellii	|		|	scientific name	|
+1852759	|	Pheosiopsis olivacea (Matsumura, 1920)	|		|	authority	|
+1852759	|	Pheosiopsis olivacea	|		|	scientific name	|
+1855251	|	MNHN 2759	|	MNHN 2759 <lectotype>	|	type material	|
+1862759	|	Norovirus Hu/GII.14/M14-042/2014/JP	|		|	scientific name	|
+1872759	|	Hippocampus sp. EBS701TX	|		|	scientific name	|
+1882759	|	Pseudomonas sp. PDC86	|		|	scientific name	|
+1892759	|	Anisopodidae sp. BOLD-2016	|		|	scientific name	|
+1893949	|	Microgastrinae sp. CNCH2759	|		|	scientific name	|
+1902759	|	Enterobacter cloacae complex sp. SCP26-29	|		|	scientific name	|
+1912759	|	Equus caballus papillomavirus 8	|		|	scientific name	|
+1922759	|	Beihai zhaovirus-like virus 3	|		|	scientific name	|
+1932759	|	Nostoc sp. 'Pannaria cf. fulvescens3 cyanobiont'	|		|	scientific name	|
+1942759	|	Gateway entry vector pENTR207-CATMA1a44560	|		|	scientific name	|
+1950455	|	Bacteroidales bacterium UBA2759	|		|	scientific name	|
+1952759	|	Porticoccaceae bacterium UBA3445	|		|	scientific name	|
+1962759	|	Leptonia cf. striatula	|		|	scientific name	|
+1972759	|	Dryopteris bojeri (Baker) Kuntze, 1891	|		|	authority	|
+1972759	|	Dryopteris bojeri	|		|	scientific name	|
+1972759	|	Nephrodium bojeri Baker, 1891	|		|	authority	|
+1972759	|	Nephrodium bojeri	|		|	synonym	|
+1982759	|	Wolbachia endosymbiont of Trialeurodes vaporariorum	|		|	scientific name	|
+1985606	|	CBS H-22759	|	CBS H-22759 <holotype>	|	type material	|
+1992759	|	Phoridae sp. BIOUG02205-G04	|		|	scientific name	|
+2002759	|	Musca sp. BIOUG05252-F05	|		|	scientific name	|
+2012759	|	Dehalococcoidia bacterium SCGC AG-205-K05	|		|	scientific name	|
+2022759	|	CBS 319.34	|	CBS 319.34 <culture from holotype>	|	type material	|
+2022759	|	MUCL 8368	|	MUCL 8368 <culture from holotype>	|	type material	|
+2022759	|	Nigrospora musae McLennan & Hoette, 1933	|		|	authority	|
+2022759	|	Nigrospora musae	|		|	scientific name	|
+2032759	|	Hemiandrus nox	|		|	scientific name	|
+2032759	|	Hemiandrus nox Taylor-Smith, Trewick & Morgan-Richards, 2016	|		|	authority	|
+2052759	|	Dioscorea izuensis Akah., 1963	|		|	authority	|
+2052759	|	Dioscorea izuensis	|		|	scientific name	|
+2062759	|	Phylinae sp. BIOUG22118-C06	|		|	scientific name	|
+2072759	|	Plectus exinocaudatus	|		|	scientific name	|
+2072759	|	Plectus exinocaudatus Truskova, 1976	|		|	authority	|
+2078380	|	Dolichoderus thoracicus complex sp. ZB42759	|		|	scientific name	|
+2082759	|	Petillopsis calcar (Dallas, 1852)	|		|	authority	|
+2082759	|	Petillopsis calcar	|		|	scientific name	|
+2092759	|	Valenzuela sp. BIOUG21509-A03	|		|	scientific name	|
+2102759	|	Entomobryinae sp. BIOUG20292-H02	|		|	scientific name	|
+2112759	|	Agromyzidae sp. BIOUG21092-H04	|		|	scientific name	|
+2122759	|	Dasyhelea sp. BIOUG21173-A05	|		|	scientific name	|
+2132759	|	Delia sp. BIOUG21335-H10	|		|	scientific name	|
+2172759	|	Tochuina	|		|	scientific name	|
+2182759	|	Norovirus Hu/GII.Pe/B0034-Bobonong-2013	|		|	scientific name	|
+2202759	|	Massariothea	|		|	scientific name	|
+2202759	|	Massariothea Syd., 1939	|		|	authority	|
+2212759	|	environmental samples	|	environmental samples <mucoromycotan fungi,class Mucoromycetes>	|	scientific name	|
+2222759	|	Formica sp. BIOUG21004-E10	|		|	scientific name	|
+2242759	|	Hypogastruridae sp. BIOUG13674-G11	|		|	scientific name	|
+2252759	|	Chironominae sp. BIOUG20650-C01	|		|	scientific name	|
+2258962	|	KCTC 62759	|	KCTC 62759 <type strain>	|	type material	|
+2262759	|	Dolichopus sp. BIOUG21636-C10	|		|	scientific name	|
+2268022	|	JCM 32759	|	JCM 32759 <type strain>	|	type material	|
+2268022	|	JCM-32759	|	JCM-32759 <type strain>	|	type material	|
+2268022	|	JCM:32759	|	JCM:32759 <type strain>	|	type material	|
+2268022	|	JCM32759	|	JCM32759 <type strain>	|	type material	|
+2292759	|	Vatica stapfiana	|		|	scientific name	|
+2292759	|	Vatica stapfiana Slooten, 1927	|		|	authority	|
+2302759	|	Scymnus sp. SCYM152	|		|	scientific name	|
+2312759	|	Platypalpus sp. BIOUG23689-C10	|		|	scientific name	|
+2322759	|	Balaustium sp. ARCN081-10	|		|	scientific name	|
+2332759	|	Paramyia sp. BBDED630-10	|		|	scientific name	|
+2339181	|	CPC 32759	|	CPC 32759 <culture from holotype>	|	type material	|
+2352759	|	Cecidomyiidae sp. BIOUG20916-D04	|		|	scientific name	|
+2362759	|	Phronia sp. BIOUG26431-A06	|		|	scientific name	|
+2372759	|	Hylemya sp. BIOUG25636-E06	|		|	scientific name	|
+2382759	|	Atrichopogon sp. BIOUG24268-G05	|		|	scientific name	|
+2392759	|	Cecidomyiidae sp. BIOUG24208-F04	|		|	scientific name	|
+2402759	|	Dichopygina sp. BIOUG26539-H07	|		|	scientific name	|
+2412759	|	Polypedilum sp. BIOUG26209-H09	|		|	scientific name	|
+2422759	|	Anagrus sp. BIOUG07390-H04	|		|	scientific name	|
+2432759	|	Gonatocerus sp. BIOUG12797-D08	|		|	scientific name	|
+2442759	|	Platygastrinae sp. BIOUG21150-F06	|		|	scientific name	|
+2452759	|	Bryotropha sp. BIOUG22382-C04	|		|	scientific name	|
+2462759	|	Anaphes sp. BIOUG06285-H04	|		|	scientific name	|
+2472759	|	Lumbricidae sp. BIOUG32102-F07	|		|	scientific name	|
+2482759	|	Clinus delalandii	|		|	synonym	|
+2482759	|	Clinus delalandii Valenciennes, 1836	|		|	authority	|
+2482759	|	Malacoctenus delalandii	|		|	scientific name	|
+2482759	|	Malacoctenus delalandii (Valenciennes, 1836)	|		|	authority	|
+2492759	|	Pneophyllum sp. B_Twist-2019	|		|	scientific name	|
+2502759	|	Cleora hospita Prout, 1916	|		|	authority	|
+2502759	|	Cleora hospita	|		|	scientific name	|
+2512759	|	Carabidae sp. INDOBIOSYS-CCDB30348-B11	|		|	scientific name	|
+2522759	|	Platygastridae sp. BIOUG14920-D06	|		|	scientific name	|
+2532759	|	Chironomidae sp. BIOUG23988-A04	|		|	scientific name	|
+2542759	|	Sciaridae sp. BIOUG21464-G10	|		|	scientific name	|
+2562759	|	Echiura incertae sedis	|		|	scientific name	|
+2572759	|	Nostoc sp. P3054	|		|	scientific name	|
+2582759	|	Pterula caricis-pendulae Corner, 1970	|		|	authority	|
+2582759	|	Pterula caricis-pendulae	|		|	synonym	|
+2582759	|	Pterulicium caricis-pendulae (Corner) Leal-Dutra, 2020	|		|	authority	|
+2582759	|	Pterulicium caricis-pendulae	|		|	scientific name	|
+2592759	|	Leucocoprinus gammaflexivirus C	|		|	scientific name	|
+2602759	|	Acinetobacter phage Abp9	|		|	scientific name	|
+2609252	|	Rathayibacter sp. VKM Ac-2759	|		|	scientific name	|
+2612759	|	Sthenobaea sp. CCDB-32971-F11	|		|	scientific name	|
+2622759	|	unclassified Ceratopsion	|		|	scientific name	|
+2632759	|	unclassified Hypharpax	|		|	scientific name	|
+2642759	|	unclassified Dejeaniops	|		|	scientific name	|
+2652759	|	Millardia sp. AA-2019	|		|	scientific name	|
+2655785	|	Lepidoptera sp. Lep2759	|		|	scientific name	|
+2662759	|	Largidae sp. HMAS051-10	|		|	scientific name	|
+2682759	|	'Prunus dulcis' phytoplasma PAE126	|		|	scientific name	|
+2692759	|	Crossonema civellae	|		|	scientific name	|
+2692759	|	Crossonema civellae (Steiner, 1949)	|		|	authority	|
+2712759	|	Cambeva taroba	|		|	scientific name	|
+2712759	|	Cambeva taroba (Wosiacki & Garavello, 2004)	|		|	authority	|
+2712759	|	Trichomycterus taroba	|		|	synonym	|
+2712759	|	Trichomycterus taroba Wosiacki & Garavello, 2004	|		|	authority	|
+2721524	|	Paragus sp. ZFMK TIS 8002759	|		|	scientific name	|
+2722759	|	Enterobacter sp. Con_4	|		|	scientific name	|
+2732759	|	Striatiguttula	|		|	scientific name	|
+2732759	|	Striatiguttula S.N. Zhang, K.D. Hyde & J.K. Liu, 2019	|		|	authority	|
+2742759	|	Alpheus aff. leptocheles KH-2020	|		|	scientific name	|
+2752759	|	Camellia sp. XX-2020	|		|	scientific name	|
+2762759	|	Pseudonocardia sp. C8	|		|	scientific name	|
+2772759	|	Scarini sp. 107_align	|		|	scientific name	|
+2778934	|	MFLU 19-2759	|	MFLU 19-2759 <holotype>	|	type material	|
+2782759	|	Phrosinidae sp. USNM IZ 1447986	|		|	scientific name	|
+2792759	|	Platyreta sp.	|		|	scientific name	|
+2802759	|	Cortinarius sp. IUMQ3724 Calochroi	|		|	scientific name	|
+2812759	|	Bacillus sp. PDNC022	|		|	scientific name	|
+2822759	|	Taenia sp. Lynx lynx YW-2021	|		|	scientific name	|
+2842759	|	Ineyimevirus	|		|	scientific name	|
+2862759	|	Phanerochaetaceae sp. CCC-2021c	|		|	scientific name	|
+2872759	|	Ehrlichia sp. JZT077	|		|	scientific name	|
+2882759	|	Psilopa nitidifacies (Frey, 1958)	|		|	authority	|
+2882759	|	Psilopa nitidifacies	|		|	scientific name	|
+2892759	|	Ravinia sp. ADA5093	|		|	scientific name	|
+2902759	|	Panisus sp. 1 RGG-2021b	|		|	scientific name	|
+2912759	|	Paragonimus uterobilateralis	|		|	scientific name	|
+2912759	|	Paragonimus uterobilateralis Volker & Vogel, 1965	|		|	authority	|
+2921268	|	Pheidole AAL2759	|		|	includes	|
+2921268	|	Pheidole sp. AAL2759	|		|	scientific name	|
+2922759	|	Edessa loxdalii	|		|	scientific name	|
+2922759	|	Edessa loxdalii Westwood, 1837	|		|	authority	|
+2938748	|	Trimma cf. stobbsi T12759	|		|	scientific name	|
+2942759	|	Neotermes cf. insularis/malandensis	|		|	scientific name	|
+2952759	|	Saguinus sp. SMIRC21	|		|	scientific name	|
+2962759	|	Coptodon sp. Lake Chala	|		|	scientific name	|
+2972759	|	Verrucaria prominula Nyl. ex Mudd, 1861	|		|	authority	|
+2972759	|	Verrucaria prominula	|		|	scientific name	|
+2982759	|	Apium ventricosum H.Boissieu, 1906	|		|	authority	|
+2982759	|	Apium ventricosum	|		|	synonym	|
+2982759	|	Sinocarum ventricosum (H.Boissieu) Pimenov & Kljuykov	|		|	authority	|
+2982759	|	Sinocarum ventricosum	|		|	synonym	|
+2982759	|	Sium ventricosum (H.Boissieu) Li S.Wang & M.F.Watson, 2016	|		|	authority	|
+2982759	|	Sium ventricosum	|		|	scientific name	|
+2992759	|	Microbacterium sp. C7(2022)	|		|	scientific name	|
+2997803	|	Campylobacter sp. CFSAN122759	|		|	scientific name	|
+3002759	|	unclassified Oxenbollia	|		|	scientific name	|
+3021153	|	Lumbrinerides cf. laubieri 07_2759	|		|	scientific name	|
+3022759	|	Cyclopidae sp.	|		|	scientific name	|
+3032759	|	Halicephalobus sp. CFB99	|		|	scientific name	|
+3042759	|	Brachypogon sp. 6ES	|		|	scientific name	|
+3052759	|	DeSV	|		|	acronym	|
+3052759	|	Human tanzavirus	|		|	equivalent name	|
+3052759	|	Tanzavirus daressalaamense	|		|	scientific name	|
+3062759	|	Vector pETNR1A-HaloTag-WFS1 (Y735X)	|		|	scientific name	|
+3068860	|	DSM<TZA>:collector:Sebastian Chuwa:2759	|	DSM<TZA>:collector:Sebastian Chuwa:2759 <isotype>	|	type material	|
+3068860	|	K:collector:Sebastian Chuwa:2759	|	K:collector:Sebastian Chuwa:2759 <holotype>	|	type material	|
+3068860	|	NHT:collector:Sebastian Chuwa:2759	|	NHT:collector:Sebastian Chuwa:2759 <isotype>	|	type material	|
+3092759	|	Eremophila sp. BMR06436	|		|	scientific name	|
+3102759	|	Acarospora succedens H. Magn., 1929	|		|	authority	|
+3102759	|	Acarospora succedens	|		|	scientific name	|
+3116655	|	KIZ 042759	|	KIZ 042759 <type material>	|	type material	|
+3116655	|	KIZ-042759	|	KIZ-042759 <type material>	|	type material	|
+3116655	|	KIZ:042759	|	KIZ:042759 <type material>	|	type material	|
+3116655	|	KIZ042759	|	KIZ042759 <type material>	|	type material	|
+3122759	|	Neurolaena sp.	|		|	scientific name	|
+3132759	|	Eilicrinia trinotata (Metzner, 1845)	|		|	authority	|
+3132759	|	Eilicrinia trinotata	|		|	scientific name	|
+3132759	|	Geometra trinotata Metzner, 1845	|		|	authority	|
+3132759	|	Geometra trinotata	|		|	synonym	|
+3142759	|	Lachnospiraceae bacterium 48-42	|		|	scientific name	|
+3242759	|	Myriopathes cf. ulex	|		|	scientific name	|
+3252759	|	Ceratostomella sp. MR-2024b	|		|	scientific name	|
+129875	|	HAdV-A	|		|	acronym	|
+129875	|	Human adenovirus A	|		|	equivalent name	|
+129875	|	Human mastadenovirus A	|		|	scientific name	|
+1129875	|	Rotavirus A RVA/pig-wt/JPN/pig9_42d/2002/G5P[13]/[22]	|		|	equivalent name	|
+1129875	|	Rotavirus A RVA/pig-wt/JPN/pig9-42d/2002/G5P[13]	|		|	scientific name	|
+2129875	|	Cecidomyiidae sp. BIOUG20148-G08	|		|	scientific name	|
+3076525	|	HKAS 129875	|	HKAS 129875 <holotype>	|	type material	|
+3076525	|	HKAS-129875	|	HKAS-129875 <holotype>	|	type material	|
+3076525	|	HKAS:129875	|	HKAS:129875 <holotype>	|	type material	|
+3076525	|	HKAS129875	|	HKAS129875 <holotype>	|	type material	|
+3129875	|	Chronakynd virus	|		|	scientific name	|
+232094	|	Human adenovirus H03-2B-1	|		|	scientific name	|
+1232094	|	Sphingomonadaceae bacterium MS41b	|		|	scientific name	|
+2232094	|	Runchomyia sp. RU1	|		|	scientific name	|
+131567	|	biota	|		|	synonym	|
+131567	|	cellular organisms	|		|	scientific name	|
+1131567	|	BCRC 80404	|	BCRC 80404 <type strain>	|	type material	|
+1131567	|	KCTC 23917	|	KCTC 23917 <type strain>	|	type material	|
+1131567	|	LMG 26892	|	LMG 26892 <type strain>	|	type material	|
+1131567	|	LMG:26892	|	LMG:26892 <type strain>	|	type material	|
+1131567	|	strain CMJ-15	|	strain CMJ-15 <type strain>	|	type material	|
+1131567	|	Undibacterium sp. CMJ-15	|		|	includes	|
+1131567	|	Undibacterium squillarum	|		|	scientific name	|
+1131567	|	Undibacterium squillarum Sheu et al. 2014	|		|	authority	|
+2131567	|	Cecidomyiidae sp. BIOUG19716-A01	|		|	scientific name	|
+3131567	|	Sonahal virus	|		|	scientific name	|
+377627	|	unclassified Human adenovirus A	|		|	scientific name	|
+1377627	|	Trychnocrana abditiva	|		|	scientific name	|
+2377627	|	Megaselia sp. BIOUG24286-B04	|		|	scientific name	|
+232100	|	Human adenovirus A02-2B-2	|		|	scientific name	|
+1232100	|	Cortinarius cascadensis Ammirati & A. H. Sm., 1978	|		|	authority	|
+1232100	|	Cortinarius cascadensis	|		|	scientific name	|
+1232100	|	JFA6156	|	JFA6156 <holotype>	|	type material	|
+1232100	|	MICH 10330	|	MICH 10330 <holotype>	|	type material	|
+1232100	|	MICH JFA6156	|	MICH JFA6156 <type material>	|	type material	|

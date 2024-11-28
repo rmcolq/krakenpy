@@ -74,6 +74,7 @@ class Taxonomy:
             taxonomy_dir (str): The unzipped directory downloaded from NCBI taxonomy.
         """
         taxonomy = os.path.join(taxonomy_dir, "nodes.dmp")
+
         try:
             with open(taxonomy, "r") as f:
                 for line in f:

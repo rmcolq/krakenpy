@@ -279,7 +279,7 @@ def test_krakenassignments_get_read_map():
     read_map = output.get_read_map(taxon_ids)
     assert (len(read_map) == 0)
 
-    loaded_taxonomy = Taxonomy("/Users/rmcolq/Work/git/scylla/store_dir/taxonomy_dir", taxon_ids)
+    loaded_taxonomy = Taxonomy("tests/data/taxonomy", taxon_ids)
     read_map = output.get_read_map(taxon_ids, loaded_taxonomy.parents)
     print(read_map)
     assert (len(read_map) == 6)
