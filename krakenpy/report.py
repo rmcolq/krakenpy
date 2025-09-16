@@ -394,7 +394,7 @@ class KrakenReport:
         percentage = float(count) / float(total) * 100
         # print(f"{count}/{total} = {percentage:.2f}")
         return percentage
-    
+
     def add_sorted_descendants(self, taxon_id, sorted_list):
         """
         Add all descendants of taxon_id to sorted_list in order of count (highest first).
@@ -413,14 +413,14 @@ class KrakenReport:
         """
         Sort the entries dictionary so that parent/child relationships preserved.
         """
-        
+
         sorted_list = []
-        
+
         if "0" in self.entries:
             sorted_list.append("0")
         if "1" in self.entries:
             self.add_sorted_descendants("1", sorted_list)
-        
+
         self.entries = dict([(key,self.entries[key]) for key in sorted_list])
 
     def to_source_target_df(
