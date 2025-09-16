@@ -310,6 +310,7 @@ def test_krakenreport_to_source_target_df_domain():
     expected_csv = f"{input_prefix}/expected_PlusPF-8.source_target.domain.csv"
     assert (filecmp.cmp(out_csv, expected_csv, shallow=False))
     os.unlink(out_csv)
+
 def test_krakenreport_get_percentage():
     """Test KrakenReport."""
     input_prefix = "tests/data/taxid_630"
@@ -323,6 +324,28 @@ def test_krakenreport_get_percentage():
     assert (percentage == float(6)/8*100)
     percentage = output.get_percentage("9606", "Opisthokonta")
     assert (percentage == 0.0)
+
+def test_krakenreport_add_sorted_descendant():
+    """Test KrakenReport."""
+    input_prefix = "tests/data/taxid_630"
+    input_report = f"{input_prefix}/PlusPF-8.kraken_report.txt"
+    report = KrakenReport(input_report)
+
+    sorted_list = []
+    report.add_sorted_descendants("0", sorted_list)
+    assert(sorted_list == ["0"])
+
+    sorted_list = []
+    report.add_sorted_descendants("629", sorted_list)
+    assert(sorted_list == ["629","630"])
+
+    sorted_list = []
+    report.add_sorted_descendants("2", sorted_list)
+    assert(sorted_list == ["2","1224","1236","91347","1903411","629","630"])
+
+    sorted_list = []
+    report.add_sorted_descendants("1", sorted_list)
+    assert(sorted_list == ["1","131567","2","1224","1236","91347","1903411","629","630","2759","33154","33208","6072","33213","33511","7711","89593","7742","7776","117570","117571","8287","1338369","32523","32524","40674","32525","9347","1437010","314146","9443","376913","314293","9526","314295","9604","207598","9605","9606"])
 
 def test_krakenreport_to_df():
     """Test KrakenReport."""
