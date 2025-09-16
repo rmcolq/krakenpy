@@ -135,3 +135,47 @@ def test_merge_second_more_precise_inverted():
 
     os.unlink(out_assignment)
     os.unlink(out_report)
+
+def test_merge_convert_from_bacteria_to_virus():
+    """Test merge when second file reclassifies previous bacterial reads as viral (has to handle root counts correctly)."""
+    input_prefix = "tests/data/reclassify_everything"
+    input_assignment1 = f"{input_prefix}/PlusPF-8.kraken_assignments.tsv"
+    input_assignment2 = f"{input_prefix}/Viral.kraken_assignments.tsv"
+    input_report1 = f"{input_prefix}/PlusPF-8.kraken_report.txt"
+    input_report2 = f"{input_prefix}/Viral.kraken_report.txt"
+
+    expected_report = f"{input_prefix}/expected.kraken_report.txt"
+    expected_assignment = f"{input_prefix}/expected.kraken_assignments.tsv"
+
+    output_prefix = f"{input_prefix}/merged"
+    out_assignment = f"{output_prefix}.kraken_assignments.tsv"
+    out_report = f"{output_prefix}.kraken_report.txt"
+    merge([input_assignment1, input_assignment2], [input_report1, input_report2], output_prefix)
+
+    assert (filecmp.cmp(out_assignment, expected_assignment, shallow=False))
+    assert (filecmp.cmp(out_report, expected_report, shallow=False))
+
+    os.unlink(out_assignment)
+    os.unlink(out_report)
+
+def test_merge_convert_from_bacteria_to_virus_reversed():
+    """Test merge when second file reclassifies previous bacterial reads as viral (has to handle root counts correctly)."""
+    input_prefix = "tests/data/reclassify_everything"
+    input_assignment1 = f"{input_prefix}/PlusPF-8.kraken_assignments.tsv"
+    input_assignment2 = f"{input_prefix}/Viral.kraken_assignments.tsv"
+    input_report1 = f"{input_prefix}/PlusPF-8.kraken_report.txt"
+    input_report2 = f"{input_prefix}/Viral.kraken_report.txt"
+
+    expected_report = f"{input_prefix}/expected_reversed.kraken_report.txt"
+    expected_assignment = f"{input_prefix}/expected_reversed.kraken_assignments.tsv"
+
+    output_prefix = f"{input_prefix}/merged_reversed"
+    out_assignment = f"{output_prefix}.kraken_assignments.tsv"
+    out_report = f"{output_prefix}.kraken_report.txt"
+    merge([input_assignment2, input_assignment1], [input_report2, input_report1], output_prefix)
+
+    assert (filecmp.cmp(out_assignment, expected_assignment, shallow=False))
+    assert (filecmp.cmp(out_report, expected_report, shallow=False))
+
+    os.unlink(out_assignment)
+    os.unlink(out_report)
