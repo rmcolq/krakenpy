@@ -400,7 +400,7 @@ class KrakenReport:
         Add all descendants of taxon_id to sorted_list in order of count (highest first).
 
         Parameters:
-            taxon_id (str): a taxon ID  
+            taxon_id (str): a taxon ID
             sorted_list (list): list of taxon_ids to be appended to
         """
         children = list(self.entries[taxon_id].children)
